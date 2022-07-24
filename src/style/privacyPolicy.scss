@@ -1,0 +1,143 @@
+.privacyPolicy {
+  background-color: #154547;
+  padding-top: 120px;
+  padding-bottom: 100px;
+  .textArea {
+    margin-top: 80px;
+    .title {
+      font-size: 2.25rem;
+      font-weight: bold;
+      color: white;
+    }
+    .content {
+      margin-top: 50px;
+      li {
+        font-family: futura;
+        font-weight: bold;
+        font-size: 2rem;
+        color: #00d07f;
+        margin-bottom: 50px;
+        .description {
+          margin-top: 30px;
+          li {
+            font-weight: normal;
+            font-size: 1.5rem;
+            color: white;
+            margin-bottom: 20px;
+            font-family: HelveticaNeue;
+            .bold {
+              font-weight: bold;
+              font-family: futura;
+              text-decoration: underline;
+            }
+            ul {
+              margin-top: 15px;
+              list-style: disc;
+              li {
+                font-size: 1.5rem;
+              }
+            }
+            p {
+              margin-top: 15px;
+              font-size: 1.5rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1600px) {
+  .privacyPolicy {
+    .textArea {
+      margin-top: 80px;
+      .title {
+        font-size: 1.75rem;
+      }
+      .content {
+        margin-top: 30px;
+        li {
+          font-size: 1.5rem;
+          margin-bottom: 30px;
+          .description {
+            margin-top: 30px;
+            li {
+              font-size: 1.25rem;
+              margin-bottom: 20px;
+              ul {
+                margin-top: 15px;
+                li {
+                  font-size: 1.25rem;
+                }
+              }
+              p {
+                margin-top: 15px;
+                font-size: 1.25rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1024px) {
+  .privacyPolicy {
+    .textArea {
+      margin-top: 60px;
+      .title {
+        font-size: 1.5rem;
+      }
+      .content {
+        li {
+          font-size: 1.25rem;
+          margin-bottom: 20px;
+          .description {
+            margin-top: 20px;
+            li {
+              font-size: 1rem;
+              margin-bottom: 20px;
+              ul {
+                li {
+                  font-size: 1rem;
+                }
+              }
+              p {
+                font-size: 1rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 767px) {
+  .privacyPolicy {
+    .textArea {
+      .title {
+        font-size: 1.25rem;
+      }
+      .content {
+        li {
+          font-size: 1rem;
+          .description {
+            li {
+              font-size: 0.875rem;
+              ul {
+                li {
+                  font-size: 0.875rem;
+                }
+              }
+              p {
+                font-size: 0.875rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 575px) {
+}

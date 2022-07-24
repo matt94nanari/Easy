@@ -1,0 +1,764 @@
+.qualityAssuranceSection1 {
+  background-color: #154547;
+  padding: 140px 70px;
+  position: relative;
+  overflow: hidden;
+  .content {
+    position: relative;
+    .box,
+    .box2,
+    .box3 {
+      padding: 0 5px;
+      font-family: futura;
+      font-size: 1.5rem;
+      text-align: center;
+      border: 2px solid #000;
+      background-color: white;
+      border-radius: 20px;
+      margin-bottom: 60px;
+      max-width: 350px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+    .box {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      display: block;
+      color: #154547;
+      transition: all 0.5s ease;
+      &:hover {
+        color: #44b477;
+        transition: all 0.5s ease;
+      }
+    }
+    .box2 {
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+    .title {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      h1 {
+        font-family: futura;
+        font-weight: 800;
+        .lightGreen {
+          color: #44b477;
+        }
+      }
+    }
+    .one,
+    .two,
+    .three {
+      position: relative;
+      &::after {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid transparent;
+        border-left: 30px solid #44b477;
+        top: 20%;
+        left: 105%;
+      }
+    }
+    .one {
+      &::before {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        border-bottom: 30px solid #44b477;
+        top: 72.5%;
+        left: 100px;
+      }
+    }
+    .two,
+    .three {
+      svg {
+        animation: changeColor 1s ease infinite;
+      }
+      &:hover {
+        svg {
+          animation: none;
+        }
+      }
+    }
+    .thridteen,
+    .fourteen,
+    .fifteen {
+      position: relative;
+      &::after {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid transparent;
+        border-right: 30px solid #44b477;
+        top: 20%;
+        left: 105%;
+      }
+    }
+    .four,
+    .eight,
+    .twelve {
+      position: relative;
+      &::after {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        border-top: 30px solid #44b477;
+        top: 72.5%;
+        left: 100px;
+      }
+    }
+    .five,
+    .nine {
+      position: relative;
+      &::after {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        border-bottom: 30px solid #44b477;
+        top: 72.5%;
+        left: 100px;
+      }
+    }
+  }
+}
+.qualityAssuranceSection2 {
+  padding: 120px 30px;
+  background-color: #f7f7f7;
+  position: relative;
+  .img-thumbnail {
+    box-shadow: none;
+  }
+  .title {
+    position: absolute;
+    top: 110px;
+    right: 15%;
+    font-family: futura;
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #154547;
+    .lightGreen {
+      color: #44b477;
+    }
+  }
+  .photo {
+    margin-top: 70px;
+    > div {
+      position: relative;
+      border: 1px solid #9e9e9e;
+      .carousel {
+        .carousel-indicators {
+          bottom: -15%;
+          button {
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            margin: 0 20px;
+            background-color: #154547;
+          }
+        }
+      }
+      .text {
+        z-index: 5;
+        position: absolute;
+        bottom: 0%;
+        right: -50px;
+        font-family: futura;
+        font-weight: 800;
+        background-color: #154547;
+        color: white;
+        padding: 10px;
+        box-shadow: 5px 5px 2px 2px #154547c0;
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
+@media (max-width: 1600px) {
+  .qualityAssuranceSection1 {
+    .content {
+      .box,
+      .box2,
+      .box3 {
+        font-size: 1rem;
+        border-radius: 20px;
+        margin-bottom: 30px;
+        max-width: 250px;
+      }
+      .title {
+        h1 {
+          font-size: 2rem;
+        }
+      }
+      .one,
+      .two,
+      .three {
+        position: relative;
+        &::after {
+          content: '';
+          position: absolute;
+          width: 0;
+          height: 0;
+          border-top: 10px solid transparent;
+          border-bottom: 10px solid transparent;
+          border-left: 20px solid #44b477;
+          top: 30%;
+          left: 120%;
+        }
+      }
+      .one {
+        &::before {
+          content: '';
+          position: absolute;
+          width: 0;
+          height: 0;
+          border-left: 10px solid transparent;
+          border-right: 10px solid transparent;
+          border-bottom: 20px solid #44b477;
+          top: 81%;
+          left: 45%;
+        }
+      }
+      .two,
+      .three {
+        svg {
+          animation: changeColor 1s ease infinite;
+        }
+        &:hover {
+          svg {
+            animation: none;
+          }
+        }
+      }
+      .thridteen,
+      .fourteen,
+      .fifteen {
+        position: relative;
+        &::after {
+          content: '';
+          position: absolute;
+          width: 0;
+          height: 0;
+          border-top: 10px solid transparent;
+          border-bottom: 10px solid transparent;
+          border-right: 20px solid #44b477;
+          top: 30%;
+          left: 120%;
+        }
+      }
+      .four,
+      .eight,
+      .twelve {
+        position: relative;
+        &::after {
+          content: '';
+          position: absolute;
+          width: 0;
+          height: 0;
+          border-left: 10px solid transparent;
+          border-right: 10px solid transparent;
+          border-top: 20px solid #44b477;
+          top: 81%;
+          left: 45%;
+        }
+      }
+      .five,
+      .nine {
+        position: relative;
+        &::after {
+          content: '';
+          position: absolute;
+          width: 0;
+          height: 0;
+          border-left: 10px solid transparent;
+          border-right: 10px solid transparent;
+          border-bottom: 20px solid #44b477;
+          top: 81%;
+          left: 45%;
+        }
+      }
+    }
+  }
+  .qualityAssuranceSection2 {
+    .title {
+      font-size: 2rem;
+    }
+    .photo {
+      margin-top: 60px;
+      > div {
+        .carousel {
+          .carousel-indicators {
+            bottom: -15%;
+            button {
+              width: 10px;
+              height: 10px;
+              margin: 0 10px;
+            }
+          }
+        }
+        .text {
+          font-size: 1.25rem;
+          font-weight: 800;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1200px) {
+  .qualityAssuranceSection2 {
+    .photo {
+      > div {
+        .text {
+          font-size: 1rem;
+          font-weight: 800;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1024px) {
+  .qualityAssuranceSection1 {
+    padding: 120px 10px;
+    .content {
+      .box,
+      .box2,
+      .box3 {
+        font-size: 1rem;
+      }
+      .box {
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+      .box2 {
+        padding-top: 25px;
+        padding-bottom: 25px;
+      }
+      .title {
+        h1 {
+          font-size: 1.25rem;
+        }
+      }
+      .one,
+      .two,
+      .three {
+        position: relative;
+        &::after {
+          content: '';
+          position: absolute;
+          width: 0;
+          height: 0;
+          border-top: 7px solid transparent;
+          border-bottom: 7px solid transparent;
+          border-left: 14px solid #44b477;
+          top: 30%;
+          left: 120%;
+        }
+      }
+      .one {
+        &::before {
+          content: '';
+          position: absolute;
+          width: 0;
+          height: 0;
+          border-left: 7px solid transparent;
+          border-right: 7px solid transparent;
+          border-bottom: 14px solid #44b477;
+          top: 81%;
+          left: 45%;
+        }
+      }
+      .thridteen,
+      .fourteen,
+      .fifteen {
+        position: relative;
+        &::after {
+          content: '';
+          position: absolute;
+          width: 0;
+          height: 0;
+          border-top: 7px solid transparent;
+          border-bottom: 7px solid transparent;
+          border-right: 14px solid #44b477;
+          top: 30%;
+          left: 120%;
+        }
+      }
+      .four,
+      .eight,
+      .twelve {
+        position: relative;
+        &::after {
+          content: '';
+          position: absolute;
+          width: 0;
+          height: 0;
+          border-left: 7px solid transparent;
+          border-right: 7px solid transparent;
+          border-top: 14px solid #44b477;
+          top: 81%;
+          left: 45%;
+        }
+      }
+      .five,
+      .nine {
+        position: relative;
+        &::after {
+          content: '';
+          position: absolute;
+          width: 0;
+          height: 0;
+          border-left: 7px solid transparent;
+          border-right: 7px solid transparent;
+          border-bottom: 14px solid #44b477;
+          top: 81%;
+          left: 45%;
+        }
+      }
+    }
+  }
+  .qualityAssuranceSection2 {
+    .title {
+      font-size: 1.5rem;
+    }
+    .photo {
+      display: none !important;
+    }
+    .photo-mobile {
+      margin-top: 90px;
+      display: block !important;
+      .carousel {
+        .carousel-item {
+          div {
+            margin: 0 auto;
+            border: 1px solid #9e9e9e;
+            position: relative;
+            img {
+              cursor: pointer;
+              transition: all 1.25s ease;
+            }
+            .text {
+              position: absolute;
+              bottom: 0%;
+              right: -5%;
+              font-family: futura;
+              font-weight: 800;
+              background-color: #154547;
+              color: white;
+              padding: 10px;
+              box-shadow: 5px 5px 2px 2px #154547c0;
+              font-size: 1rem;
+              z-index: 5;
+            }
+          }
+        }
+        .carousel-indicators {
+          bottom: -15%;
+          button {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            margin: 0 10px;
+            background-color: #154547;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 767px) {
+  .qualityAssuranceSection1 {
+    padding-left: 30px;
+    padding-right: 30px;
+    .content {
+      display: none;
+    }
+    .content-mobile {
+      display: block !important;
+      margin-top: 60px;
+      position: relative;
+      .title {
+        position: absolute;
+        top: -60px;
+        left: 5%;
+        color: white;
+        h1 {
+          font-family: futura;
+          font-weight: 800;
+          font-size: 1.5rem;
+          .lightGreen {
+            color: #44b477;
+          }
+        }
+      }
+      .one,
+      .two,
+      .three,
+      .four,
+      .five {
+        position: relative;
+        &::after {
+          content: '';
+          position: absolute;
+          width: 0;
+          height: 0;
+          border-left: 7px solid transparent;
+          border-right: 7px solid transparent;
+          border-top: 14px solid #44b477;
+          top: 205px;
+          left: 43%;
+        }
+        a {
+          display: inline-block;
+          svg {
+            animation: changeColor 1s ease infinite;
+          }
+          &:hover {
+            svg {
+              animation: none;
+            }
+          }
+        }
+      }
+      .seven,
+      .eight,
+      .nine,
+      .ten,
+      .eleven {
+        position: relative;
+        &::before {
+          content: '';
+          position: absolute;
+          width: 0;
+          height: 0;
+          border-left: 7px solid transparent;
+          border-right: 7px solid transparent;
+          border-bottom: 14px solid #44b477;
+          top: 2px;
+          left: 43%;
+        }
+      }
+      .one {
+        &::before {
+          content: '';
+          position: absolute;
+          width: 0;
+          height: 0;
+          border-left: 7px solid transparent;
+          border-right: 7px solid transparent;
+          border-top: 14px solid #44b477;
+          top: 10px;
+          left: 43%;
+        }
+      }
+      .six {
+        &::after {
+          content: '';
+          position: absolute;
+          width: 0;
+          height: 0;
+          border-top: 7px solid transparent;
+          border-bottom: 7px solid transparent;
+          border-left: 14px solid #44b477;
+          bottom: 7%;
+          left: 100%;
+        }
+      }
+      .twelve {
+        &::after {
+          content: '';
+          position: absolute;
+          width: 0;
+          height: 0;
+          border-top: 7px solid transparent;
+          border-bottom: 7px solid transparent;
+          border-right: 14px solid #44b477;
+          top: 8%;
+          left: -2%;
+        }
+      }
+      .box {
+        text-align: center !important;
+        color: #154547;
+        margin-top: 70px;
+        margin-bottom: 50px;
+        transition: all 0.5s ease;
+        font-family: futura;
+        position: relative;
+        height: 85px;
+        font-size: 1rem;
+        z-index: 2;
+        &::after {
+          position: absolute;
+          z-index: -1;
+          content: '';
+          width: 150px;
+          height: 150px;
+          border-radius: 50%;
+          background-color: white;
+          border: 1px solid white;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+        &:hover {
+          color: #44b477;
+          transition: all 0.5s ease;
+        }
+      }
+    }
+  }
+  .qualityAssuranceSection2 {
+    padding-left: 30px;
+    padding-right: 30px;
+    .photo-mobile {
+      .carousel-control-prev,
+      .carousel-control-next {
+        display: none;
+      }
+      .carousel {
+        .carousel-item {
+          div {
+            .text {
+              font-size: 0.875rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 575px) {
+  .qualityAssuranceSection1 {
+    padding-left: 10px;
+    padding-right: 10px;
+    .content-mobile {
+      .title {
+        h1 {
+          font-family: futura;
+          font-size: 1.25rem;
+          .lightGreen {
+            color: #44b477;
+          }
+        }
+      }
+      .one,
+      .two,
+      .three,
+      .four,
+      .five {
+        position: relative;
+        &::after {
+          content: '';
+          position: absolute;
+          width: 0;
+          height: 0;
+          border-left: 7px solid transparent;
+          border-right: 7px solid transparent;
+          border-top: 14px solid #44b477;
+          top: 170px;
+          left: 43%;
+        }
+        a {
+          display: inline-block;
+          svg {
+            animation: changeColor 1s ease infinite;
+          }
+          &:hover {
+            svg {
+              animation: none;
+            }
+          }
+        }
+      }
+      .seven,
+      .eight,
+      .nine,
+      .ten,
+      .eleven {
+        position: relative;
+        &::before {
+          content: '';
+          position: absolute;
+          width: 0;
+          height: 0;
+          border-left: 7px solid transparent;
+          border-right: 7px solid transparent;
+          border-bottom: 14px solid #44b477;
+          top: 12px;
+          left: 43%;
+        }
+      }
+      .six {
+        &::after {
+          content: '';
+          position: absolute;
+          width: 0;
+          height: 0;
+          border-top: 7px solid transparent;
+          border-bottom: 7px solid transparent;
+          border-left: 14px solid #44b477;
+          bottom: 5%;
+        }
+      }
+      .twelve {
+        &::after {
+          content: '';
+          position: absolute;
+          width: 0;
+          height: 0;
+          border-top: 7px solid transparent;
+          border-bottom: 7px solid transparent;
+          border-right: 14px solid #44b477;
+          top: 10%;
+        }
+      }
+      .box {
+        margin-top: 70px;
+        margin-bottom: 30px;
+        height: 60px;
+        font-size: 0.875rem;
+        &::after {
+          width: 120px;
+          height: 120px;
+        }
+      }
+    }
+  }
+  .qualityAssuranceSection2 {
+    padding-left: 10px;
+    padding-right: 10px;
+    .title {
+      top: 170px;
+    }
+    .photo-mobile {
+      padding-top: 30px;
+    }
+  }
+}
+@keyframes changeColor {
+  0% {
+    color: #44b477;
+  }
+  50% {
+    color: #154547;
+  }
+  100% {
+    color: #44b477;
+  }
+}

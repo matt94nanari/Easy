@@ -1,0 +1,548 @@
+{
+  "Home": {
+    "HTMLTitle": "易连工业股份有限公司",
+    "HTMLDescription": "Easylink is a professional fastener manufacturer for Automotive, Electronic ,Furniture components in Taiwan.",
+    "Found": "Since 1992",
+    "TaiwanFactory": "Taiwan Factory",
+    "VietnamFactory": "Vietnam Factory",
+    "USOffice": "US Office",
+    "MexicoOffice": "Mexico Office",
+    "ChinaOffice": "China Office",
+    "BeingEstablished": "Being Established",
+    "FactortArea": {
+      "ForgingArea-1B2C": "冷锻车间-单冲程",
+      "ForgingArea-MSF": "冷锻车间-多冲程",
+      "Threading&TappingArea": "辗牙＆攻牙车间",
+      "Stamping&SecondaryOperationArea": "冲压＆二次加工车间",
+      "AssemblingArea": "自动组装车间",
+      "ToolingASRSSystem": "模具自动仓储",
+      "SortingArea": "筛选车间",
+      "Lab": "品保实验室",
+      "PackingArea": "包装车间",
+      "ASRS": "物料＆成品自动仓储"
+    },
+    "Description": "易连#专心致力于使用#新科技来改善#生产製程。",
+    "Description2": "以下为#持续改善的方法：",
+    "List1": "取得IATF、VDA6.3，以及 ISO/IEC 7025/2017的程序认证。",
+    "List2": "生产过程採取可行性研究，以APQP及PPAP的科学程序方式来确保生产的能力与品质的控制。",
+    "List3": "藉由QR CODE扫描， 可以完整快速地扫描以追踪每个生产程序(提供可追溯性)。",
+    "List4": "现场的原料与成品自动于生产机器及6,000个自动仓储库位之间输送及储存。",
+    "List5": "模具自製，便于控制模具品质及交期。",
+    "List6": "现场生产製程的同步检验，经由IoT以及SPC品质的控制，能够有效快速地检验以及控制品质。",
+    "List7": "运用IoT转换的战情中心，让生产的效率与品质更加快速有效。",
+    "List8": "透过奖励表现优秀的同仁，让整体的制度有效地运作。"
+  },
+  "HeaderNavbar": {
+    "AboutEasylink": {
+      "Title": "关于我们",
+      "Title2": "关于我们",
+      "Certificate": "认证",
+      "News&Events": "最新消息",
+      "TechnicalCorner": "技术分享",
+      "History": "公司历史",
+      "Philosophy": "公司理念"
+    },
+    "Facility": {
+      "Title": "设备",
+      "Forging-1B2C": "冷锻车间-单冲程",
+      "Forging-MSF": "冷锻车间-多冲程",
+      "Threading": "辗牙车间",
+      "Tapping": "攻牙车间",
+      "Assembling": "自动组装车间",
+      "SecondaryOperation": "二次加工车间",
+      "Stamping": "冲压车间"
+    },
+    "Products": {
+      "Title": "产品",
+      "AutoParts": "汽配紧扣件",
+      "Electronics&ApplianceScrews": "家电＆电器紧扣件",
+      "StampingParts&SpecialNuts": "冲压件&特殊螺帽",
+      "FurnitureScrews": "家俱类紧扣件"
+    },
+    "LabTest": {
+      "Title": "品保实验室 & 检测",
+      "Lab": "品保 - 实验室",
+      "LabCertificate": "证书",
+      "Test": "检测",
+      "Calibration": "校正"
+    },
+    "Testimonial": {
+      "Title": "客户评价",
+      "Email": "邮件",
+      "ScoreCard": "评分卡",
+      "Audit": "稽核"
+    },
+    "ProductionControlManagement": {
+      "Title": "生产控制 & 管理",
+      "Title2": "生产控制 & 管理",
+      "Management": "生产管理",
+      "ProductionProcedure": "生产流程",
+      "APQP": "APQP",
+      "PPAP": "PPAP",
+      "RiskManagement": "风险管理"
+    },
+    "Tooling": {
+      "Title": "模具",
+      "ToolingManufacture": "模具製造",
+      "ToolingManagement": "模具管理"
+    },
+    "OpticalRobotSorting": {
+      "Title": "光学＆机械手臂筛选",
+      "SortingFactory": "筛选车间",
+      "OpticalSorting": "光学筛选机",
+      "RobotSorting": "机械手臂筛选"
+    },
+    "OnlineService": {
+      "Title": "线上服务"
+    },
+    "PackingStorage": {
+      "Title": "包装＆仓储",
+      "Packing": "包装车间",
+      "ASRS": "自动仓储"
+    },
+    "ContactUs": {
+      "Title": "联络我们",
+      "Phone": "886- 7- 7251034",
+      "Email": "sales@easylink.com.tw"
+    }
+  },
+  "AboutEasylink": {
+    "Certificate": {
+      "Title": "认证",
+      "IATF": "IATF 16949",
+      "ISO": "ISO 14001",
+      "TTQS": "TTQS"
+    },
+    "News&Events": {
+      "Title": "最新消息",
+      "News1": {
+        "Date": "March 2020",
+        "Content": "2020 Hall 11.2 Booth O051"
+      },
+      "News2": {
+        "Date": "June 2019",
+        "Content": "2019 Fastener Fair, Mexico City"
+      },
+      "News3": {
+        "Date": "May 2019",
+        "Content": "2019 Expo Manufactura, Monterrey"
+      },
+      "News4": {
+        "Date": "May 2019",
+        "Content": "2019 Fastener Fair, Detroit"
+      },
+      "News5": {
+        "Date": "May 2019",
+        "Content": "2019 Global Automotive Componets and Suppliers"
+      }
+    },
+    "TechnicalCorner": {
+      "Title": "技术分享",
+      "Corner1": {
+        "Title": "工厂安全工作守则",
+        "Content": "访客参观工厂时必须配戴保护装置，如手套、耳塞以及护目镜，并依照厂区标示的黄色线区行走以确保安全。",
+        "Content2": "不管对本司的同仁或是访客，持续地保持工作安全是我们坚持的原则。排除不安全的环境及状况，零工安缺失是每一天工作的日常工作基础。",
+        "Content3": "",
+        "Rule1": "",
+        "Rule2": "",
+        "Rule3": "",
+        "Rule4": "",
+        "Content4": "",
+        "Content5": ""
+      },
+      "Corner2": {
+        "Title": "#Online Technical Consulting Service (TCS)",
+        "Content": "Easylink is glad to announce its new on-line TCS (Technical Consulting Service) to our customers. As experts on the fastener production and design in many industries, our dedicated team provides full support on new design fasteners and best solution to solve your current assembly issue.",
+        "Content2": "To reserve consulting hours is very simple, simply send us an email sales@easylink.com.tw with subject “Request TCS” and state the issue or provide the relevant data you would like to discuss about before every Friday. We will arrange technical consulting net-meeting on the following weekday or arrange a convenient day to suit both parties ASAP.",
+        "Content3": "Our #technical consultant #group included:",
+        "List1": "Fasteners quality certified engineers",
+        "List2": "Fasteners production specialists",
+        "List3": "Industrial communication specialists",
+        "List4": "Quality managers and inspectors",
+        "List5": "Application engineers",
+        "List6": "Metallurgists",
+        "Content4": "Our technical consultant group consists of fastener production engineers and technical experts who possess years of experience and capability to offer proposals to optimize fastener design in shape, material and finish.",
+        "Content5": "In addition to maintain original product concept, it maintains or even enhances its ability of performance and yet lower its cost. The TCS will be free of charge and expect to be launched in July 2022. We hope this new service will be a useful tool for you and looking forward to have the opportunity to serve and solve your problem."
+      },
+      "Corner3": {
+        "Title": "#Blind #Rivet setting Tool"
+      },
+      "Corner4": {
+        "Title": "#订单查询系统 (24/7)",
+        "Content": "The Order Tracking System has been upgraded to provide improved quicker response and easier access.",
+        "Content2": "You can check current order status 24/7 utilizing our easy web access.",
+        "List1": "Browser speed has been improved for significantly quicker response.",
+        "List2": "With the added ETD query, Customers no longer need to wait over night for an e-mail reply, no more time difference.",
+        "List3": " Show more specific order details in quick view.",
+        "Content3": "如何使用查询系统？",
+        "Content4": "点击最上层选单的「线上服务」，然后点击「生产进度」的按钮。",
+        "Content5": "输入您的ID以及密码登入系统。"
+      },
+      "Corner5": {
+        "Title": "#可生产小包装、桶装以及盒装的新包装机台",
+        "Content": "易连越南厂小包装设备提供有效快速的包装方式。",
+        "Content2": "适用种类：",
+        "Content3": "纸盒、塑胶桶。",
+        "Content4": "效能：每小时600~840包。",
+        "Content5": "重量：每包5KGS。",
+        "Content6": "Please contact your sales representative for detail. We will continue to provide new progress on automation packaging capability in 3 months."
+      },
+      "Corner6": {
+        "Title": "#Shear #Bolt Discountinuity Acceptance Criteria Test",
+        "Content": "Typically used on applications that require the highest level of security, these premium security bolts feature a hexagonal part attached to the top of the head of the bolt that is fastened using a standard spanner or socket: they don't require any special tools.",
+        "Content2": "As the name suggests, once the bolt is tightened passed its maxinum torque limit, the hexagonal section snaps off leaving a smooth, tamper proof head.",
+        "Content3": "Security Shear Bolts are suitable for high torque applications and are most often used within the construction, aerospace and automotive industries sectors.",
+        "Content4": "They are ideal for use with their matching Shear Nuts while fasteneing. Should there be any issue with the shear bolt requirement of 'fine' thread, which in some cases can cause some proportion threads damage during the process.",
+        "Content5": "We review the thread damage, by applying ",
+        "Standard": "ASTM F788/F788M ",
+        "Content6": "discontinued Torque test to see if thread position is acceptable and ",
+        "Content7": "no impact to functional use.",
+        "Content8": "According to ",
+        "Content9": "specifications of discontinuity acceptance criteria on M8-1.25 6h requires 0.5N-m Max torque force. Hereunder are the check-step we proceed to check on threads.",
+        "List1": "Use adjustable GO/NO gage to check on the threads situation.",
+        "List2": "Use VICE to hold shear bolt tied gently then apply digi-electronical wrench to check on the torque value.",
+        "List3": "With M8-1.25 6h accepts 0.5N-m as the max. Torque and the value we check is within the discountinuity acceptance criteria."
+      },
+      "Corner7": {
+        "Title": "#MIS #MATCHED THREADS & #BLANK THREADS",
+        "Title2": "MIS-MATCHED THREADS",
+        "Content": "When operating thread rolling process for machine screw, there is small chance of mis-matched threads will occur; however once it happen, no sorting equipment can detect this problem. One mis-matched threads screw used in automatic assembly line will lead the whole assembly line to shut-down and cause great loss!",
+        "Content2": "FEW FACTS OF ",
+        "List1": "Mis-matched threads appear to be vertical on a portion of threads, thus it's obscure to be detected.",
+        "List2": "Optical sorting machine can't detect the partial abnormal threads.",
+        "List3": "Screw with mis-matched threads is not functional in practice.",
+        "Content3": "HOW DOES ",
+        "Content4": "OR BLANK THREADS TAKE PLACE?",
+        "List4": "When burrs or tiny debris stuck in the middle of thread rolling die, the die surface become slippery.",
+        "List5": "Abnormal thread rolling process.",
+        "List6": "Other unknown factors.",
+        "Content5": "Above conditions caused the screw rolling move upward or downward on the die and created mis-matched threads or blank threads.",
+        "Content6": "SOLUTION",
+        "Content7": "As seen on right-side photo",
+        "List7": "The blue area code C,D are thread rolling dies.",
+        "List8": "Code A is the upper electrical conductive board.",
+        "List9": "Code B is the lower electrical conductive board.",
+        "List10": "Code E is the groove.",
+        "List11": "Red arrow shown where the screw been pushed forward.",
+        "List12": "Green arrow is where screw been rolled up or down.",
+        "Content8": "During thread rolling process, screws will move forward to the red arrow direction; when previously described conditions occur, screw been pushed upward or downward will touch the conductive boards A or B,",
+        "Content9": "the operation will stopped automatically and red light be on, the operator must remove the bad threads screw in order to re-start rolling process.",
+        "Content10": "THE ADVANTAGES",
+        "List13": "With our new device installed on rolling machine, there will be 100% Free of Mis-matched threads problem.",
+        "List14": "The upper conductive board can control no blank threads occur.",
+        "Content11": "CONCLUSION",
+        "List15": "This new device prevents screws from having blank threads or mis-matched threads.",
+        "List16": "Also prevent any form of bad threads.",
+        "List17": "Your auto-assembly line is assured to run more efficiently, save cost by decreasing machine down time."
+      }
+    },
+    "History": {
+      "Title": "公司历史",
+      "Hint": "点击向下",
+      "1992": "公司成立 #QS9000认证 #实验室成立",
+      "2005": "汽配紧扣件生产工厂成立 #越南厂设立(生产规格品) #C-TPAT认证",
+      "2010": "TS 16949 #ISO 14001 #VDA 6.3认证 #模具室成立 #产能扩充 #机械手臂应用 #冲压与自动组装设备厂区扩建",
+      "2019": "IATF 16949认证 #全面使用QR CODE追踪生产状况 #ERP系统整合 #自动化新厂落成 #越南厂扩建 #模具製程改善 #QC数位化及无线检验",
+      "2021": "製造IoT战情中心设置 #自动检测 #光学筛选设备性能提升(接近0ppm) #产能扩充及新增模具自动仓储管理"
+    },
+    "Philosophy": {
+      "Title": "公司理念",
+      "PhilosophySlogan": "The Most Satisfaction -To Our #Customers, #Employees, #Share #Holders, #Society, and #the #Environment.",
+      "PhilosophySlogan2": "Since its inception, -Easylink has been committed to -these principles and philosophies.",
+      "PhilosophySubject": {
+        "Customers": "对客户：",
+        "Employees": "对员工：",
+        "Share Holders": "对股东：",
+        "Society": "对社会：",
+        "Enviroment": "对环境："
+      },
+      "PhilosophyContent": {
+        "Customers": "优良品质，快速交期与竞争价格。",
+        "Employees": "安全乾淨舒适的工作场合以及多样性的福利。",
+        "Share Holders": "提升投资报酬率。",
+        "Society": "取之于社会用之于社会。",
+        "Enviroment": "绿色环保再生,为未来的下一代维护环境。"
+      }
+    }
+  },
+  "Facility": {
+    "Title": "设备",
+    "Forging-1B2C": {
+      "Title": "冷锻区 - 单冲程",
+      "Content": "#- 工令单  #- 检验报告 #- SPC数据 #- 入料进度 #- 模具寿命 #- 生产效率 ",
+      "Content2": "藉由ERP系统与IoT，生产技师与管理者同步分享即时资讯， 例如："
+    },
+    "Forging-MSF": {
+      "Title": "冷锻区 - 多冲程",
+      "Content": "#螺栓成型机 #螺帽成型机 #零件成型机 #合模成型机"
+    },
+    "Threading": {
+      "Title": "辗牙区",
+      "Content": "透过IoT PAD指令操作，送料系统自动从库位运送至辗牙机台，操作技术人员工作轻松，生产有效率。"
+    },
+    "Tapping": {
+      "Title": "攻牙区",
+      "Content": "内牙攻牙机"
+    },
+    "Assembling": {
+      "Title": "自动组装机",
+      "Content": "提供客户在组装上的需求。"
+    },
+    "SecondaryOperation": {
+      "Title": "二次加工机台",
+      "Content": "二次加工生产控制稳定品质，快速交期。"
+    },
+    "Stamping": {
+      "Title": "冲压区",
+      "Content": "自动进料冲压生产系统。"
+    }
+  },
+  "Products": {
+    "Title": "Products",
+    "AutoParts": {
+      "Title": "Auto Parts",
+      "Content": "Easylink manufactures various products in house including -screws, bolts, nuts, stamping products, component assembly."
+    },
+    "Electronics&ApplianceScrews": {
+      "Title": "Electronics & Appliance Screws"
+    },
+    "PressingParts&SpecialNuts": {
+      "Title": "Pressing Parts & Special Nuts"
+    },
+    "FurnitureScrews": {
+      "Title": "Furniture Screws",
+      "Content": "(Made in Vietnam Factory)"
+    }
+  },
+  "ProductionControlManagement": {
+    "Title": "生产控制与管理",
+    "Content": "全製程的查询追踪系统 - 每一製程透过QR CODE扫描纪录完成系统追踪。 #自动化：自动仓储存放原料、模具、半品及成品，透过系统原料自动送到生产设备上。 #模具生产：CNC及机械手臂应用协助生产。 #无线化、连网化、自动化、生产数据收集以及品质检测管理，透过IoT进行数位分析。 #战情中心：即时显示每车间生产状况的最新进度回报，提供管理者运用。 #奖励製度：透过奖励员工，让整体的制度有效地运作。",
+    "PhotoDescription": {
+      "QRCodeScanning": "QR CODE 扫描系统",
+      "IoTSystem": "IoT系统",
+      "KanBanSystem": "看板系统",
+      "SituationInformation": "战情中心",
+      "RealTimeSPC": "SPC 即时检验"
+    },
+    "ProductionProcedurePPAPParts": {
+      "Title": "Production -Procedure -For -PPAP -Parts",
+      "Hint": "(click here)",
+      "CustomerRequirement": "Customer -Requirement",
+      "Order": "Order",
+      "ShipmentReceivedbyCustomer": "Shipment -Received -by Customer",
+      "ContractReview": "Contract -Review",
+      "ShippingAssessment": "Shipping -Assessment",
+      "Production": "Production",
+      "Shipment": "Shipment",
+      "PackageTransportStorage": "Package -Transport -Storage",
+      "FinalQualityControl": "Final -Quality -Control",
+      "InProcessQualityControl": "In Process -Quality -Control"
+    },
+    "RiskManagement": {
+      "Title": "保险",
+      "Title2": "风险管理",
+      "ProductLiability": "Product Liability",
+      "RecallInsurance": "Recall Insurance"
+    }
+  },
+  "APQP": {
+    "Title": "APQP先期产品品质规划",
+    "Content": "产品通过核心团队评估，建立品质计划来开发产品，满足客户的要求，及时完成任务。",
+    "APQPSchdule": "先期产品品质规划计画",
+    "APQPStepsSpreadOut": "先期产品品质规划步骤展开",
+    "MeetingRecord": "会议记录",
+    "VerifiedToolingDrawing": "模具製造图暨检验单",
+    "PackagingProposalSheet": "包装计画表",
+    "Diagram": "生产流程图",
+    "FailureModuleEffectsAnalysis": "失效模式与影响分析",
+    "ControlPlan": "管制计画 ",
+    "CapacityEvaluation": "能力评估",
+    "APQPChecklist": "先期产品品质规划确认清单",
+    "ProductQualityPlanning": "产品品质计画",
+    "EngineeringChangeNotices": "设计变更",
+    "FeasibilityAssessment": "可行性评估",
+    "APQPHandover": "先期产品品质规划移转"
+  },
+  "PPAP": {
+    "Title": "PPAP生产件批准程序",
+    "Content": "用于汽车供应链，以建立对供应商及其生产过程的信心。实际测量取自生产的零件，用于完成 PPAP 的各种测试表。",
+    "Diagram": "生产流程图",
+    "FailureModuleEffectsAnalysis": "失效模式与影响分析",
+    "ControlPlan": "管制计画 ",
+    "Checklist": "文件确认清单",
+    "GageR&R": "评估量测系统变异",
+    "SPC": "统计製程管控"
+  },
+  "Tooling": {
+    "Title": "模具",
+    "ToolingManufacture": {
+      "Title": "#模具室",
+      "Title2": "模具製造",
+      "Content": "成立厂内模具室以维持稳定的模具品质，提升生产率进而缩短交期。",
+      "MainPurposes": {
+        "Title": "",
+        "Content": "#稳定品质 #提升生产率 #缩短交期"
+      },
+      "ToolingDrawing": {
+        "Title": "模具成型图案例",
+        "Hint": "(点击观看)",
+        "ToolingStepFormingDrawing": "毛胚成型图",
+        "VerifiedToolingDrawing": "模具製造图暨检验单"
+      }
+    },
+    "ToolingManagement": {
+      "Title": "模具自动仓储",
+      "Content": "运用二座德国製的模具自动仓储，以管理模具并且提升管理效率。"
+    }
+  },
+  "LabTest": {
+    "Title": "品保实验室",
+    "Description": "易连品保实验室成立于西元1999年，并取得TAF认证。",
+    "LabCertificate": {
+      "Title": "实验室认证",
+      "TAF": "TAF"
+    },
+    "Test": {
+      "Title": "品保实验室 - 尺寸检验 & 机械性质测试",
+      "Projector": "投影机",
+      "Caliper": "卡尺",
+      "Micrometer": "分釐卡",
+      "StraightnessGage": "笔直度量测仪",
+      "HeightGage": "高度规",
+      "RingGage": "环规",
+      "Hardness": "微小硬度机",
+      "Metallurgy": "金相显微镜",
+      "Torque": "扭力板手",
+      "HydrogenEmbrittlementTest": "氢脆测试仪器",
+      "Camout": "针型扭力测试仪器",
+      "Tensile": "拉力机",
+      "X-Ray": "膜厚机",
+      "SaltSpray": "盐雾测试机",
+      "Drill-DriveTestMachine": "攻速机"
+    },
+    "SpotInspection": {
+      "Title": "检验站",
+      "Description": "数位检验资料无线传输到品保检验中心，搭配IoT来协助作业人员及现场技师维持稳定的品质製程。"
+    },
+    "Calibration": {
+      "Title": "校正 - 检验设备和设施管理",
+      "Description": "仪器校正使用 ERP 系统自动化管理。",
+      "Step": "步骤 "
+    }
+  },
+  "OpticalRobotSorting": {
+    "Title": "光学&机器手臂筛选",
+    "SortingFactory": {
+      "Title": "筛选车间",
+      "Content": "光学筛选机 -机器手臂筛选"
+    },
+    "OpticalSorting": {
+      "Title": "光学筛选机",
+      "Content": "头径 -头厚 -狗尾长 -束尾径"
+    },
+    "RobotSorting": {
+      "Title": "机器手臂筛选",
+      "Content": "针型尺寸 -针深"
+    }
+  },
+  "PackingStorage": {
+    "Title": "包装＆仓储",
+    "Hint": "",
+    "Packing": {
+      "Title": "包装",
+      "Content": "与自动仓储连结，透过自动送料、贴标、封口转盘进行包装。"
+    },
+    "Storage": {
+      "Title": "自动仓储",
+      "Content": "配备6,000个储位，与QR CODE自动扫描系统及ERP系统连结，车间运作自动化。"
+    }
+  },
+  "Testimonial": {
+    "Title": "客户评价",
+    "Email": "邮件",
+    "ScoreCard": "评分卡",
+    "Audit": "稽核"
+  },
+  "OnlineService": {
+    "Title": "线上服务",
+    "Title2": "请选择您要查询的类别",
+    "Inventory": "库存状况",
+    "LogisticSystem": "Logistic -System",
+    "ProductionStatus": "生产进度",
+    "OrderTracking": "Order -Tracking",
+    "Samples&Document": "样品＆文件寄送追踪"
+  },
+  "EmployeeGarden": {
+    "Title": "员工园地",
+    "Content": "员工旅游 "
+  },
+  "CSR": {
+    "Title": "企业社会责任"
+  },
+  "Footer": {
+    "ContactUs": "联络我们",
+    "AboutEasylink": "关于易连",
+    "PrivatePolicy": "隐私条款",
+    "CopyRight": "Copyright © 2022 Easylink Industrial CO.,LTD.",
+    "CSR": "企业社会责任",
+    "EmployeeGarden": "员工园地",
+    "ContactInfo": {
+      "Title": "联络资讯：",
+      "Phone": "886- 7- 7251034",
+      "Email": "sales@easylink.com.tw",
+      "Address": "高雄市冈山区本工环东路1号"
+    },
+    "Testimonial": {
+      "Title": "客户评价",
+      "Email": "邮件",
+      "ScoreCard": "评分卡",
+      "Audit": "稽核"
+    },
+    "Navigation": {
+      "AreaNavigation": {
+        "Title": "厂区导引",
+        "Facility": "设备",
+        "Tooling": "模具",
+        "Optical&RobotSorting": "光学＆机械手臂筛选",
+        "Packing&Storage": "包装＆仓储"
+      },
+      "Products&Quality": {
+        "Title": "产品与品质",
+        "Products": "产品",
+        "ProductionControl&ManageMent": "生产控制 & 管理",
+        "Lab": "品保实验室"
+      }
+    }
+  },
+  "404": {
+    "title": "Page Not Found",
+    "content": "找不到网页",
+    "homePage": "返回首页"
+  },
+  "PrivacyPolicy": {
+    "Title": "隐私条款",
+    "Content": "谢谢您参访本公司的网站，基于尊重及保护访客隐私，请参阅以下的资讯：",
+    "Content2": "隐私权保护政策的适用范围 - -隐私权保护政策内容，包括本网站如何处理在您使用网站服务时收集到的个人识别资料。隐私权保护政策不适用于本网站以外的相关连结网站，也不适用于非本网站所委託或参与管理的人员。",
+    "Content3": "个人资料的蒐集、处理及利用方式 - -当您造访本网站或使用本网站所提供之功能服务时，我们将视该服务功能性质，请您提供必要的个人资料，并在该特定目的范围内处理及利用您的个人资料；非经您书面同意，本网站不会将个人资料用于其他用途。 -本网站在您使用服务信箱、问卷调查等互动性功能时，会保留您所提供的姓名、电子邮件地址、联络方式及使用时间等。 -于一般浏览时，伺服器会自行记录相关行径，包括您使用连线设备的 IP 位址、使用时间、使用的浏览器、浏览及点选资料记录等，做为我们增进网站服务的参考依据，此记录为内部应用，决不对外公佈。",
+    "Content4": " -为提供精确的服务，我们会将收集的问卷调查内容进行统计与分析，分析结果之统计数据或说明文字呈现，除供内部研究外，我们会视需要公佈统计数据及说明文字，但不涉及特定个人之资料。",
+    "Content5": "",
+    "Content6": "",
+    "Content7": "资料之保护 -本网站主机均设有防火牆、防毒系统等相关的各项资讯安全设备及必要的安全防护措施，加以保护网站及您的个人资料採用严格的保护措施，只由经过授权的人员才能接触您的个人资料，相关处理人员皆签有保密合约，如有违反保密义务者，将会受到相关的法律处分。 -如因业务需要有必要委託其他单位提供服务时，本网站亦会严格要求其遵守保密义务，并且採取必要检查程序以确定其将确实遵守。",
+    "Content8": "网站对外的相关连结 -本网站的网页提供其他网站的网路连结，您也可经由本网站所提供的连结，点选进入其他网站。但该连结网站不适用本网站的隐私权保护政策，您必须参考该连结网站中的隐私权保护政策。",
+    "Content9": "与第三人共用个人资料之政策 -本网站绝不会提供、交换、出租或出售任何您的个人资料给其他个人、团体、私人企业或公务机关，但有法律依据或合约义务者，不在此限。前项但书之情形包括不限于：  - 经由您书面同意。 -法律明文规定。 -为免除您生命、身体、自由或财产上之危险。 -与公务机关或学术研究机构合作，基于公共利益为统计或学术研究而有必要，且资料经过提供者处理或蒐集者依其揭露方式无从识别特定之当事人。 -当您在网站的行为，违反服务条款或可能损害或妨碍网站与其他使用者权益或导致任何人遭受损害时，经网站管理单位研析揭露您的个人资料是为了辨识、联络或採取法律行动所必要者。 -有利于您的权益。 -本网站委託厂商协助蒐集、处理或利用您的个人资料时，将对委外厂商或个人善尽监督管理之责。",
+    "Content10": "谘询 -若您对于本网站的隐私条款有任何的疑问或评论，请透过电话或邮件联络我们。",
+    "Content11": "隐私权保护政策之修正 -本网站隐私权保护政策将因应需求随时进行修正，修正后的条款将刊登于网站上。"
+  },
+  "PrivacyPolicyButton": {
+    "Content1":"本网站使用cookies以提昇您的使用体验及统计网路流量相关资料。继续使用本网站表示您同意我们使用cookies。 ",
+    "Content2":"我们的隐私及Cookie政策",
+    "Content3":" 提供更多关于cookies使用及停用的相关资讯。",
+    "Agree": "我接受"
+  },
+  "ReadMore": "Read More",
+  "ShowLess": "Show Less",
+  "Previous": "Previous",
+  "Next": "Next",
+  "Warning": "此为最新消息。",
+  "Warning2": "此为最后一则消息。"
+}

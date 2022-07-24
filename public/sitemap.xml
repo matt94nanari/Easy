@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url> <loc>http://www.easylink.com.tw/</loc> </url>
+<url> <loc>http://www.easylink.com.tw/</loc> </url>
+<url> <loc>http://www.easylink.com.tw/news/:newsPages</loc> </url>
+<url> <loc>http://www.easylink.com.tw/technical-corner/:technicalCornerPages</loc> </url>
+<url> <loc>http://www.easylink.com.tw/privacy-policy</loc> </url>
+<url> <loc>http://www.easylink.com.tw/csr</loc> </url>
+<url> <loc>http://www.easylink.com.tw/employee-garden</loc> </url>
+<url> <loc>http://www.easylink.com.tw/facility</loc> </url>
+<url> <loc>http://www.easylink.com.tw/production-control-management</loc> </url>
+<url> <loc>http://www.easylink.com.tw/optical-robot-sorting</loc> </url>
+<url> <loc>http://www.easylink.com.tw/packing-storage</loc> </url>
+<url> <loc>http://www.easylink.com.tw/lab-test</loc> </url>
+<url> <loc>http://www.easylink.com.tw/production-control-management/ppap</loc> </url>
+<url> <loc>http://www.easylink.com.tw/production-control-management/apqp</loc> </url>
+<url> <loc>http://www.easylink.com.tw/products</loc> </url>
+<url> <loc>http://www.easylink.com.tw/about-easylink</loc> </url>
+<url> <loc>http://www.easylink.com.tw/tooling</loc> </url>
+<url> <loc>http://www.easylink.com.tw/online-service</loc> </url>
+<url> <loc>http://www.easylink.com.tw/testimonial</loc> </url>
+<url> <loc>http://www.easylink.com.tw/</loc> </url>
+</urlset>

@@ -1,0 +1,548 @@
+{
+  "Home": {
+    "HTMLTitle": "Easylink Industrial CO.,LTD.",
+    "HTMLDescription": "Easylink is a professional fastener manufacturer for Automotive, Electronic ,Furniture components in Taiwan.",
+    "Found": "Since 1992",
+    "TaiwanFactory": "Taiwan Factory",
+    "VietnamFactory": "Vietnam Factory",
+    "USOffice": "US Office",
+    "MexicoOffice": "Mexico Office",
+    "ChinaOffice": "China Office",
+    "BeingEstablished": "Being Established",
+    "FactortArea": {
+      "ForgingArea-1B2C": "Forging Area-1B2C",
+      "ForgingArea-MSF": "Forging Area-MSF",
+      "Threading&TappingArea": "Threading & Tapping Area",
+      "Stamping&SecondaryOperationArea": "Stamping & Secondary Operation Area",
+      "AssemblingArea": "Assembling Area",
+      "ToolingASRSSystem": "Tooling ASRS System",
+      "SortingArea": "Sorting Area",
+      "Lab": "Lab",
+      "PackingArea": "Packing Area",
+      "ASRS": "ASRS"
+    },
+    "Description": "Easylink #is committed to using #state-of-the-art technology #throughout our #manufacturing processes.",
+    "Description2": "Here are some of the processes that we employ to drive #continuous improvements:",
+    "List1": "Our facilities are IATF 16949, VDA 6.3 and ISO/IEC 7025/2017 certified.",
+    "List2": "We employ feasibility studies, APQP and PPAP techniques to ensure process capabilities before starting production.",
+    "List3": "We utilize QR code scanning at each process step to provide full process traceability for all shipments.",
+    "List4": "Raw material and finished product is automatically conveyed between production machines and our 6000 units automatic warehousing system.",
+    "List5": "We use automated in-house CNC tooling production to control tooling quality and operating life.",
+    "List6": "We leverage the Industrial Internet for real-time monitoring of tooling cycles, SPC Quality measurements, machine efficiencies and material movements.",
+    "List7": "Situation rooms for each department are used to monitor quality and efficiencies.",
+    "List8": "We award performance to foster quality motivated employees."
+  },
+  "HeaderNavbar": {
+    "AboutEasylink": {
+      "Title": "About Easylink",
+      "Title2": "About Us",
+      "Certificate": "Certificate",
+      "News&Events": "News & Events",
+      "TechnicalCorner": "Technical Corner",
+      "History": "History",
+      "Philosophy": "Philosophy"
+    },
+    "Facility": {
+      "Title": "Facility",
+      "Forging-1B2C": "Forging-1B2C",
+      "Forging-MSF": "Forging-MSF",
+      "Threading": "Threading",
+      "Tapping": "Tapping",
+      "Assembling": "Assembling",
+      "SecondaryOperation": "Secondary Operation",
+      "Stamping": "Stamping"
+    },
+    "Products": {
+      "Title": "Products",
+      "AutoParts": "Auto Parts",
+      "Electronics&ApplianceScrews": "Electronics & Appliance Screws",
+      "StampingParts&SpecialNuts": "Stamping Parts & Special Nuts",
+      "FurnitureScrews": "Furniture Screws"
+    },
+    "LabTest": {
+      "Title": "Lab & Test",
+      "Lab": "Lab",
+      "LabCertificate": "Lab Certificate",
+      "Test": "Test",
+      "Calibration": "Calibration"
+    },
+    "Testimonial": {
+      "Title": "Testimonial",
+      "Email": "Email",
+      "ScoreCard": "Score Card",
+      "Audit": "Audit"
+    },
+    "ProductionControlManagement": {
+      "Title": "Production Control & Management",
+      "Title2": "Production Control",
+      "Management": "Management",
+      "ProductionProcedure": "Production Procedure",
+      "APQP": "APQP",
+      "PPAP": "PPAP",
+      "RiskManagement": "Risk Management"
+    },
+    "Tooling": {
+      "Title": "Tooling",
+      "ToolingManufacture": "Tooling Manufacture",
+      "ToolingManagement": "Tooling Management"
+    },
+    "OpticalRobotSorting": {
+      "Title": "Optical & Robot Sorting",
+      "SortingFactory": "Sorting Factory",
+      "OpticalSorting": "Optical Sorting",
+      "RobotSorting": "Robot Sorting"
+    },
+    "OnlineService": {
+      "Title": "Online Service"
+    },
+    "PackingStorage": {
+      "Title": "Packing & Storage",
+      "Packing": "Packing",
+      "ASRS": "ASRS"
+    },
+    "ContactUs": {
+      "Title": "Contact Us",
+      "Phone": "886- 7- 7251034",
+      "Email": "sales@easylink.com.tw"
+    }
+  },
+  "AboutEasylink": {
+    "Certificate": {
+      "Title": "Certificate",
+      "IATF": "IATF 16949",
+      "ISO": "ISO 14001",
+      "TTQS": "TTQS"
+    },
+    "News&Events": {
+      "Title": "News & Events",
+      "News1": {
+        "Date": "March 2020",
+        "Content": "2020 Hall 11.2 Booth O051"
+      },
+      "News2": {
+        "Date": "June 2019",
+        "Content": "2019 Fastener Fair, Mexico City"
+      },
+      "News3": {
+        "Date": "May 2019",
+        "Content": "2019 Expo Manufactura, Monterrey"
+      },
+      "News4": {
+        "Date": "May 2019",
+        "Content": "2019 Fastener Fair, Detroit"
+      },
+      "News5": {
+        "Date": "May 2019",
+        "Content": "2019 Global Automotive Componets and Suppliers"
+      }
+    },
+    "TechnicalCorner": {
+      "Title": "Technical Corner",
+      "Corner1": {
+        "Title": "#Safety at #Easylink Workplace",
+        "Content": "Every visitor is required to use “protection kits” like gloves, ear plugs and safety glasses while in our production areas. Each area is painted with “yellow” lines to indicate safe walking areas.",
+        "Content2": "At Easylink on-site workplace safety is extremely important to us. We place a great deal of importance on the safety of our employees and visitors. We are committed to maintaining a safe environment for our workers. Together, we can eliminate unsafe situations and strive for an accident-free workplace on a daily basis.",
+        "Content3": "Everyone -who has agreed to work for Easylink -implicitly agrees to:",
+        "Rule1": "Follow safety rules and procedures exactly, and ask questions if job is not understood.",
+        "Rule2": "Be responsible for his/her own safety and the safety of other employees.",
+        "Rule3": "Report all injures/incidents to the supervisor or safety with in 24 hours no matter how minor.",
+        "Rule4": " Regard safety as an important part of getting your job done.",
+        "Content4": "Since 2010, we have increased our Safety staff from one to three people. Our safety professionals are prepared to continuously improve and advance our efforts and dedication to safety.",
+        "Content5": "At Easylink, management ensures that all employees are reminded often of the high value that we place on workplace safety and their responsibility of contributing to the success of safety in our company."
+      },
+      "Corner2": {
+        "Title": "#Online Technical Consulting Service (TCS)",
+        "Content": "Easylink is glad to announce its new on-line TCS (Technical Consulting Service) to our customers. As experts on the fastener production and design in many industries, our dedicated team provides full support on new design fasteners and best solution to solve your current assembly issue.",
+        "Content2": "To reserve consulting hours is very simple, simply send us an email sales@easylink.com.tw with subject “Request TCS” and state the issue or provide the relevant data you would like to discuss about before every Friday. We will arrange technical consulting net-meeting on the following weekday or arrange a convenient day to suit both parties ASAP.",
+        "Content3": "Our #technical consultant #group included:",
+        "List1": "Fasteners quality certified engineers",
+        "List2": "Fasteners production specialists",
+        "List3": "Industrial communication specialists",
+        "List4": "Quality managers and inspectors",
+        "List5": "Application engineers",
+        "List6": "Metallurgists",
+        "Content4": "Our technical consultant group consists of fastener production engineers and technical experts who possess years of experience and capability to offer proposals to optimize fastener design in shape, material and finish.",
+        "Content5": "In addition to maintain original product concept, it maintains or even enhances its ability of performance and yet lower its cost. The TCS will be free of charge and expect to be launched in July 2022. We hope this new service will be a useful tool for you and looking forward to have the opportunity to serve and solve your problem."
+      },
+      "Corner3": {
+        "Title": "#Blind #Rivet setting Tool"
+      },
+      "Corner4": {
+        "Title": "#Upgraded Order Tracking System",
+        "Content": "The Order Tracking System has been upgraded to provide improved quicker response and easier access.",
+        "Content2": "You can check current order status 24/7 utilizing our easy web access.",
+        "List1": "Browser speed has been improved for significantly quicker response.",
+        "List2": "With the added ETD query, Customers no longer need to wait over night for an e-mail reply, no more time difference.",
+        "List3": " Show more specific order details in quick view.",
+        "Content3": "How to Use the Order Tracking System?",
+        "Content4": "Click 'Online Service' in the navbar, and then click the 'Production Status' button.",
+        "Content5": "Key in Your ID & password to login."
+      },
+      "Corner5": {
+        "Title": "#New Packing machine for #small #package box, bucket",
+        "Content": "To support increasing small packaging requirements, Easylink (Vietnam) has invested in auto packaging to improve efficiencies and reduce packing time.",
+        "Content2": "Applied Type: ",
+        "Content3": "Paper box, Plastic bucket.",
+        "Content4": "Efficiency: 600~840 packets / hour",
+        "Content5": "Weight: ~ 5 kg / packet",
+        "Content6": "Please contact your sales representative for detail. We will continue to provide new progress on automation packaging capability in 3 months."
+      },
+      "Corner6": {
+        "Title": "#Shear #Bolt Discountinuity Acceptance Criteria Test",
+        "Content": "Typically used on applications that require the highest level of security, these premium security bolts feature a hexagonal part attached to the top of the head of the bolt that is fastened using a standard spanner or socket: they don't require any special tools.",
+        "Content2": "As the name suggests, once the bolt is tightened passed its maxinum torque limit, the hexagonal section snaps off leaving a smooth, tamper proof head.",
+        "Content3": "Security Shear Bolts are suitable for high torque applications and are most often used within the construction, aerospace and automotive industries sectors.",
+        "Content4": "They are ideal for use with their matching Shear Nuts while fasteneing. Should there be any issue with the shear bolt requirement of 'fine' thread, which in some cases can cause some proportion threads damage during the process.",
+        "Content5": "We review the thread damage, by applying ",
+        "Standard": "ASTM F788/F788M ",
+        "Content6": "discontinued Torque test to see if thread position is acceptable and ",
+        "Content7": "no impact to functional use.",
+        "Content8": "According to ",
+        "Content9": "specifications of discontinuity acceptance criteria on M8-1.25 6h requires 0.5N-m Max torque force. Hereunder are the check-step we proceed to check on threads.",
+        "List1": "Use adjustable GO/NO gage to check on the threads situation.",
+        "List2": "Use VICE to hold shear bolt tied gently then apply digi-electronical wrench to check on the torque value.",
+        "List3": "With M8-1.25 6h accepts 0.5N-m as the max. Torque and the value we check is within the discountinuity acceptance criteria."
+      },
+      "Corner7": {
+        "Title": "#MIS #MATCHED THREADS & #BLANK THREADS",
+        "Title2": "MIS-MATCHED THREADS",
+        "Content": "When operating thread rolling process for machine screw, there is small chance of mis-matched threads will occur; however once it happen, no sorting equipment can detect this problem. One mis-matched threads screw used in automatic assembly line will lead the whole assembly line to shut-down and cause great loss!",
+        "Content2": "FEW FACTS OF ",
+        "List1": "Mis-matched threads appear to be vertical on a portion of threads, thus it's obscure to be detected.",
+        "List2": "Optical sorting machine can't detect the partial abnormal threads.",
+        "List3": "Screw with mis-matched threads is not functional in practice.",
+        "Content3": "HOW DOES ",
+        "Content4": "OR BLANK THREADS TAKE PLACE?",
+        "List4": "When burrs or tiny debris stuck in the middle of thread rolling die, the die surface become slippery.",
+        "List5": "Abnormal thread rolling process.",
+        "List6": "Other unknown factors.",
+        "Content5": "Above conditions caused the screw rolling move upward or downward on the die and created mis-matched threads or blank threads.",
+        "Content6": "SOLUTION",
+        "Content7": "As seen on right-side photo",
+        "List7": "The blue area code C,D are thread rolling dies.",
+        "List8": "Code A is the upper electrical conductive board.",
+        "List9": "Code B is the lower electrical conductive board.",
+        "List10": "Code E is the groove.",
+        "List11": "Red arrow shown where the screw been pushed forward.",
+        "List12": "Green arrow is where screw been rolled up or down.",
+        "Content8": "During thread rolling process, screws will move forward to the red arrow direction; when previously described conditions occur, screw been pushed upward or downward will touch the conductive boards A or B,",
+        "Content9": "the operation will stopped automatically and red light be on, the operator must remove the bad threads screw in order to re-start rolling process.",
+        "Content10": "THE ADVANTAGES",
+        "List13": "With our new device installed on rolling machine, there will be 100% Free of Mis-matched threads problem.",
+        "List14": "The upper conductive board can control no blank threads occur.",
+        "Content11": "CONCLUSION",
+        "List15": "This new device prevents screws from having blank threads or mis-matched threads.",
+        "List16": "Also prevent any form of bad threads.",
+        "List17": "Your auto-assembly line is assured to run more efficiently, save cost by decreasing machine down time."
+      }
+    },
+    "History": {
+      "Title": "History",
+      "Hint": "Click to Scroll Down.",
+      "1992": "Company Built #Awarded QS9000 #Established Laboratory",
+      "2005": "World Class Manufacturing of automotive fasteners #Oversea plant set up in Vietnam for standard fastener #C-TPAT compliant",
+      "2010": "TS 16949, ISO 14001, VDA 6.3 #In-House Tool Shop#Multiple production bases and capacity increased #Robot Application #Stamping & Assembly #Factory 2 and Factory 3 expanding",
+      "2019": "IATF 16949 #QR CODE System Established #ERP System Consolidation #New Plant Automation #VN Plant Expanding #Tooling Process Improvement #QC Spot Inspection #Digitalization & Automation",
+      "2021": "Manufacturing IoT & Situation room established #Automatic Inspection #More advanced sorting equipment ( 0 ppm approaching ) #Increase production capacity #AS/RS for Tooling management"
+    },
+    "Philosophy": {
+      "Title": "Philosophy",
+      "PhilosophySlogan": "The Most Satisfaction -To Our #Customers, #Employees, #Share #Holders, #Society, and #the #Environment.",
+      "PhilosophySlogan2": "Since its inception, -Easylink has been committed to -these principles and philosophies.",
+      "PhilosophySubject": {
+        "Customers": "To Our Customers:",
+        "Employees": "To Our Employees:",
+        "Share Holders": "To Share Holders:",
+        "Society": "To Society:",
+        "Enviroment": "To the Enviroment:"
+      },
+      "PhilosophyContent": {
+        "Customers": "To provide exceptional quality, delivery, and price.",
+        "Employees": "Easylink promotes a safe, clean and comfortable working environment, providing employee security with comprehensive benefits.",
+        "Share Holders": "To maximize return on their investment.",
+        "Society": "To benefit the community through philanthropic contributions.",
+        "Enviroment": "To promote environmental awareness by following GREEN practices, ensuring a safe environment for the next generation."
+      }
+    }
+  },
+  "Facility": {
+    "Title": "Facility",
+    "Forging-1B2C": {
+      "Title": "1B2C - Header",
+      "Content": "#- Worksheets #- Inspection Reports #- SPC data #- Raw material status #- Tooling cycles #- Running rates",
+      "Content2": "By utilizing IoT and ERP system connections our Operators and Management have immediate access to key product process controls such as:"
+    },
+    "Forging-MSF": {
+      "Title": "Multi-Stage Forming",
+      "Content": "#Bolt Former #Nut Former #Parts Former #Double Header"
+    },
+    "Threading": {
+      "Title": "Thread Rolling",
+      "Content": "Automatic Transition System sending material from warehouse to Rolling Machines which makes operators job easy and efficient. Touching IoT pad to gets what you need delivered."
+    },
+    "Tapping": {
+      "Title": "Thread Tapping",
+      "Content": "Internal Thread Tapping"
+    },
+    "Assembling": {
+      "Title": "Auto Assembling",
+      "Content": "Easylink can provide custom assembly operations to meet customer needs."
+    },
+    "SecondaryOperation": {
+      "Title": "Secondary Operation",
+      "Content": "Secondary Operation in House to keep consistent Quality and Better Lead Time."
+    },
+    "Stamping": {
+      "Title": "Stamping Process",
+      "Content": "Progressive Dies Stamping Machine with Auto-Feeding System."
+    }
+  },
+  "Products": {
+    "Title": "Products",
+    "AutoParts": {
+      "Title": "Auto Parts",
+      "Content": "Easylink manufactures various products in house including -screws, bolts, nuts, stamping products, component assembly."
+    },
+    "Electronics&ApplianceScrews": {
+      "Title": "Electronics & Appliance Screws"
+    },
+    "PressingParts&SpecialNuts": {
+      "Title": "Pressing Parts & Special Nuts"
+    },
+    "FurnitureScrews": {
+      "Title": "Furniture Screws",
+      "Content": "(Made in Vietnam Factory)"
+    }
+  },
+  "ProductionControlManagement": {
+    "Title": "Production Control & Management",
+    "Content": "Full Process Traceability – QR Code Scanning at Each Process step. #Automation: ASRS (Automated Warehouse) for Raw Material, Tooling, Semi-Finished and Finished Products. Material is automatically delivered to and from production machines by the ASRS System. #CNC & Robot Application for Tooling and Production. #IoT for automatic, wireless collection of production data and quality measurements. #Situation Room: For each Department or Key Person to monitor production efficiencies. #Award Policy: To maintain a quality focused workforce.",
+    "PhotoDescription": {
+      "QRCodeScanning": "QR Code Scanning",
+      "IoTSystem": "IoT System",
+      "KanBanSystem": "KanBan System",
+      "SituationInformation": "Situation Information",
+      "RealTimeSPC": "Real Time SPC"
+    },
+    "ProductionProcedurePPAPParts": {
+      "Title": "Production -Procedure -For -PPAP -Parts",
+      "Hint": "(click here)",
+      "CustomerRequirement": "Customer -Requirement",
+      "Order": "Order",
+      "ShipmentReceivedbyCustomer": "Shipment -Received -by Customer",
+      "ContractReview": "Contract -Review",
+      "ShippingAssessment": "Shipping -Assessment",
+      "Production": "Production",
+      "Shipment": "Shipment",
+      "PackageTransportStorage": "Package -Transport -Storage",
+      "FinalQualityControl": "Final -Quality -Control",
+      "InProcessQualityControl": "In Process -Quality -Control"
+    },
+    "RiskManagement": {
+      "Title": "Insurance",
+      "Title2": "Risk #Management",
+      "ProductLiability": "Product Liability",
+      "RecallInsurance": "Recall Insurance"
+    }
+  },
+  "APQP": {
+    "Title": "#A%dvanced #P%roduct #Q%uality #P%lanning",
+    "Content": "The accomplishment of the product is to satisfy the requirements of the Client and complete the mission in time through setting up a core team and establishing a quality program to develop the product.",
+    "APQPSchdule": "APQP Schdule",
+    "APQPStepsSpreadOut": "APQP Steps SpreadOut",
+    "MeetingRecord": "Meeting Record",
+    "VerifiedToolingDrawing": "Verified Tooling Drawing",
+    "PackagingProposalSheet": "Packaging Proposal Sheet",
+    "Diagram": "Diagram",
+    "FailureModuleEffectsAnalysis": "Failure Module Effects Analysis",
+    "ControlPlan": "Control Plan",
+    "CapacityEvaluation": "Capacity Evaluation",
+    "APQPChecklist": "APQP Checklist",
+    "ProductQualityPlanning": "Product Quality Planning",
+    "EngineeringChangeNotices": "Engineering Change Notices",
+    "FeasibilityAssessment": "Feasibility Assessment",
+    "APQPHandover": "APQP Handover"
+  },
+  "PPAP": {
+    "Title": "#P%roduction #P%arts #A%pproval #P%rocess",
+    "Content": "It is used in the automotive supply chain for establishing confidence in suppliers and their production processes. Actual measurements are taken from the parts produced and are used to complete the various test sheets of PPAP.",
+    "Diagram": "Diagram",
+    "FailureModuleEffectsAnalysis": "Failure Module Effects Analysis",
+    "ControlPlan": "Control Plan",
+    "Checklist": "Checklist",
+    "GageR&R": "Gage R&R",
+    "SPC": "SPC"
+  },
+  "Tooling": {
+    "Title": "Tooling",
+    "ToolingManufacture": {
+      "Title": "#In #House -Tooling Department",
+      "Title2": "Tooling Manufacture",
+      "Content": "To Control a Consistant Quality, -Easylink Makes its own Tooling In House",
+      "MainPurposes": {
+        "Title": "Main -Purposes",
+        "Content": "#Stabilize the quality in-house #Increase running rate #Shorten lead time"
+      },
+      "ToolingDrawing": {
+        "Title": "Tooling Drawing",
+        "Hint": "(click to see)",
+        "ToolingStepFormingDrawing": "Tooling Step Forming Drawing",
+        "VerifiedToolingDrawing": "Verified Tooling Drawing"
+      }
+    },
+    "ToolingManagement": {
+      "Title": "Tooling ASRS",
+      "Content": "Easylink owns Two sets Germany made ASRS which imporve our Efficiency in Tooling Managmet"
+    }
+  },
+  "LabTest": {
+    "Title": "Lab",
+    "Description": "Easylink has operated its own TAF Compliant Quality Control Lab since 1999.",
+    "LabCertificate": {
+      "Title": "Lab Certificate",
+      "TAF": "TAF"
+    },
+    "Test": {
+      "Title": "Lab - Dimension Measuring & Mechanical Testing",
+      "Projector": "Projector",
+      "Caliper": "Caliper",
+      "Micrometer": "Micrometer",
+      "StraightnessGage": "Straightness Gage",
+      "HeightGage": "Height Gage",
+      "RingGage": "Ring Gage",
+      "Hardness": "Hardness",
+      "Metallurgy": "Metallurgy",
+      "Torque": "Torque",
+      "HydrogenEmbrittlementTest": "Hydrogen Embrittlement Test",
+      "Camout": "Camout",
+      "Tensile": "Tensile",
+      "X-Ray": "X-Ray",
+      "SaltSpray": "Salt Spray",
+      "Drill-DriveTestMachine": "Drill-Drive Test Machine"
+    },
+    "SpotInspection": {
+      "Title": "Spot - Inspection",
+      "Description": "Digital inspection data is wirelessly transmitted to QC Center and IOT Pad which helps operators and engineers maintain stable quality processes."
+    },
+    "Calibration": {
+      "Title": "Calibration - Inspection Device and Facility Management",
+      "Description": "Instruments are automatically flagged by the ERP system for calibration.",
+      "Step": "Step "
+    }
+  },
+  "OpticalRobotSorting": {
+    "Title": "Optical & Robot Sorting",
+    "SortingFactory": {
+      "Title": "Sorting Factory",
+      "Content": "Optical Sorting -Robot Sorting"
+    },
+    "OpticalSorting": {
+      "Title": "Optical Sorting",
+      "Content": "Head Dia. -Head Height Length -Dog Point Length -Point Dia."
+    },
+    "RobotSorting": {
+      "Title": "Robot Sorting",
+      "Content": "Recess Size -Recess Depth"
+    }
+  },
+  "PackingStorage": {
+    "Title": "Packing & Storage",
+    "Hint": "Connected With:",
+    "Packing": {
+      "Title": "Packing",
+      "Content": "Auto Feeding -Labeling -Sealing Wrapping -Palletization -ASRS System"
+    },
+    "Storage": {
+      "Title": "ASRS",
+      "Content": "QR Code Auto Scanning System -ERP System -Near 6,000 cells"
+    }
+  },
+  "Testimonial": {
+    "Title": "Testimonial",
+    "Email": "Email",
+    "ScoreCard": "Score Card",
+    "Audit": "Audit"
+  },
+  "OnlineService": {
+    "Title": "Online Service",
+    "Title2": "#Please #Choose -What You would like to Check",
+    "Inventory": "Inventory",
+    "LogisticSystem": "Logistic -System",
+    "ProductionStatus": "Production Status",
+    "OrderTracking": "Order -Tracking",
+    "Samples&Document": "Samples & Document"
+  },
+  "EmployeeGarden": {
+    "Title": "Employee Garden",
+    "Content": "Company Trip "
+  },
+  "CSR": {
+    "Title": "Corporate Social Responsibility"
+  },
+  "Footer": {
+    "ContactUs": "Contact Us",
+    "AboutEasylink": "About Easylink",
+    "PrivatePolicy": "Private Policy",
+    "CopyRight": "Copyright © 2022 Easylink Industrial CO.,LTD.",
+    "CSR": "CSR",
+    "EmployeeGarden": "Employee Garden",
+    "ContactInfo": {
+      "Title": "Contact Info :",
+      "Phone": "886- 7- 7251034",
+      "Email": "sales@easylink.com.tw",
+      "Address": "No.1, Bengonghuan E. Rd., Gangshan Dist., Kaohsiung City 820110, Taiwan"
+    },
+    "Testimonial": {
+      "Title": "Testimonial",
+      "Email": "Email",
+      "ScoreCard": "Score Card",
+      "Audit": "Audit"
+    },
+    "Navigation": {
+      "AreaNavigation": {
+        "Title": "Area Navigation",
+        "Facility": "Facility",
+        "Tooling": "Tooling",
+        "Optical&RobotSorting": "Optical & Robot Sorting",
+        "Packing&Storage": "Packing & Storage"
+      },
+      "Products&Quality": {
+        "Title": "Products & Quality",
+        "Products": "Products",
+        "ProductionControl&ManageMent": "Production Control & #ManageMent",
+        "Lab": "Lab"
+      }
+    }
+  },
+  "404": {
+    "title": "Page Not Found",
+    "content": "Page Not Found",
+    "homePage": "Home"
+  },
+  "PrivacyPolicy": {
+    "Title": "Privacy Policy",
+    "Content": "Thank you for visiting our website. -Your personal privacy is absolutely respected and protected by the website. -To help you understand how the website collects, uses and protects your personal information, be sure to read the website 'Privacy Policy'.",
+    "Content2": "Scope of Application -Applicable: -website or its related activities involving personal information collecting, using, and protecting. -Not Applicable: -an independent management and operation third party website linked thru the website. Each website has own unique privacy policy, so the liability is separated. When users make an inquiry on these websites, be sure to follow the particular website's privacy policy for all personal information.",
+    "Content3": "Policy Content -Collect Information: -For the simple the website browsing and file downloading, users will not be collected for any personal information. -The website will record user IP address, time of Internet access, and the number of information search. -When using various services on the website, such as quote inquiry, we will ask users to provide the full name, phone, fax, email and the respective authorities.",
+    "Content4": "Use Information: -Due to website internal management, by user's website access information, website traffic and online behavior can be processed as a 'total analysis' for the important reference to enhance service quality, and this analysis will not apply to any 'individual user'.",
+    "Content5": "Information Sharing: -Unless your agreement or special law regulations, the website will never sell, exchange, or rent any of your personal information to other groups, individuals or private companies However, except for the following circumstances: - Cooperate with the lawful administration of justice if needed. -Cooperate with the related authorities in accordance with operational needs for investigation or use. - Disclosure is required by law, or for maintenance, improvement and management of the website service.",
+    "Content6": "Cookies on Your Browser File: -To provide a better, a more personalized service, and to facilitate your participation in activities, cookies changes as your personal activities on the website change. -In order to count the number of visitors and analyze browsing patterns to understand the state of web browsing, the website will hold on the principle of privacy protection to write and read cookies in your browser. -If you do not wish to accept cookies, you can set the privacy level in the browser functions you use to High, you can refuse the writing of cookies, but may lead to some functions of the website not working properly.",
+    "Content7": "The Protection of Data -Website hosts are equipped with firewalls, antivirus systems and other related information security devices and necessary security measures to protect the site and your personal data using strict protection measures, only authorized personnel can access your personal information. All relevant processing personnels are required to sign confidentiality contracts. Any person who violates confidentiality obligations will be subject to relevant legal sanctions. -If it is necessary to entrust the relevant units of this website to provide services due to business needs, this site will also strictly require that it abide by the confidentiality obligations, and take the necessary inspection procedures to determine that it will actually comply.",
+    "Content8": "The Website Related Links -The webpages of this website provides internet links of other websites. You can also click to enter other websites through the links provided on this website. However, this linked website does not apply to the privacy protection policy of this website. You must refer to the privacy protection policy in this linked website.",
+    "Content9": "Policy for Sharing Personal Data with Third Parties -This website will never provide, exchange, rent or sell any of your personal data to other individuals, groups, private companies or public agencies, except those with legal basis or contractual obligations. The circumstances of the foregoing proviso include, but are not limited to: -With your written consent. -The law expressly provides. -To eliminate dangers in your life, body, freedom or property. -It is necessary to collaborate with a public agency or an academic research institution for statistical or academic research based on public interest, and the way the data is processed or exposed does not identify a particular party. -When you act on the website, violate the terms of service, or may damage or obstruct the rights of the website and other users or cause harm to any person, the website management determines that the disclosure of your personal data is to identify, contact or take legal action by necessary. -It is in your interest. -When this website asks helpers to assist in the collection, processing or use of your personal data, it will be responsible for the supervision and management of the outsourcing vendors or individuals.",
+    "Content10": "Consultation -   If you have any questions or comments regarding the privacy policy on this website, please email or call to contact us.",
+    "Content11": "Revision of Privacy Policy - Privacy Policy of this website will be revised at any time in response to demand. As revision takes place, the new terms will be published on the website."
+  },
+  "PrivacyPolicyButton": {
+    "Content1":"We use cookies to improve your user experience and for web traffic statistics purposes. By continuing to use this website, you agree to our use of cookies. ",
+    "Content2":"Our Privacy & Cookie Policy",
+    "Content3":" contains more information on such use and explains how to disable cookies.",
+    "Agree": "I Agree."
+  },
+  "ReadMore": "Read More",
+  "ShowLess": "Show Less",
+  "Previous": "Previous",
+  "Next": "Next",
+  "Warning": "This is the latest news.",
+  "Warning2": "Sorry, but there is no more."
+}

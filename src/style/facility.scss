@@ -1,0 +1,31 @@
+.facilitesSection1.section-left {
+  padding: 140px 70px;
+  .textArea {
+    margin-top: 100px;
+  }
+}
+@media (max-width: 1600px) {
+  .facilitesSection1.section-left {
+    .textArea {
+      margin-top: 80px;
+    }
+  }
+}
+@media (max-width: 1024px) {
+  .facilitesSection1.section-left {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+@media (max-width: 767px) {
+  .facilitesSection1.section-left {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+@media (max-width: 575px) {
+  .facilitesSection1.section-left {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}

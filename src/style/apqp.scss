@@ -1,0 +1,329 @@
+.apqpSection1 {
+  background-color: #f7f7f7;
+  padding-top: 140px;
+  height: 100vh;
+  .textArea {
+    margin-top: 80px;
+    .title {
+      font-size: 3rem;
+      font-family: futura;
+      white-space: nowrap;
+      .lightGreen {
+        color: #44b477;
+      }
+    }
+    .content {
+      margin: 50px auto;
+      .description {
+        font-family: futura;
+        margin: 0 auto;
+        font-size: 2rem;
+      }
+    }
+  }
+}
+.apqpSection2 {
+  padding: 120px 0;
+  .content {
+    .carousel {
+      section {
+        .photo {
+          display: block;
+          margin: 20px auto;
+          text-align: center;
+          background-color: white;
+          .img-thumbnail {
+            border: 2px solid #707070;
+            padding: 15px;
+            background-color: white !important;
+            border-radius: 0px;
+            box-shadow: 5px 5px 5px 5px #707070;
+            height: 800px;
+            max-height: 800px;
+            cursor: pointer;
+          }
+          .placeholder {
+            height: 800px;
+            max-height: 800px;
+            min-height: auto;
+            min-width: auto;
+          }
+        }
+      }
+    }
+    .status-bar {
+      margin-top: 20px;
+      background-color: #707070;
+      height: 40px;
+      border-radius: 20px;
+      position: relative;
+      font-family: futura;
+      font-size: 1.25rem;
+      z-index: 2;
+      color: white;
+      &::before {
+        z-index: -1;
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 40px;
+        width: 40px;
+        border-radius: 20px;
+        background: #00d07f;
+        transition: 2s all ease;
+      }
+    }
+    .status-bar.steps1 {
+      &::before {
+        width: 30px;
+      }
+    }
+    .status-bar.steps2 {
+      &::before {
+        width: 7.5%;
+      }
+    }
+    .status-bar.steps3 {
+      &::before {
+        width: 15%;
+      }
+    }
+    .status-bar.steps4 {
+      &::before {
+        width: 22.5%;
+      }
+    }
+    .status-bar.steps5 {
+      &::before {
+        width: 30%;
+      }
+    }
+    .status-bar.steps6 {
+      &::before {
+        width: 37.5%;
+      }
+    }
+    .status-bar.steps7 {
+      &::before {
+        width: 45%;
+      }
+    }
+    .status-bar.steps8 {
+      &::before {
+        width: 52.5%;
+      }
+    }
+    .status-bar.steps9 {
+      &::before {
+        width: 60%;
+      }
+    }
+    .status-bar.steps10 {
+      &::before {
+        width: 67.5%;
+      }
+    }
+    .status-bar.steps11 {
+      &::before {
+        width: 75%;
+      }
+    }
+    .status-bar.steps12 {
+      &::before {
+        width: 82.5%;
+      }
+    }
+    .status-bar.steps13 {
+      &::before {
+        width: 90%;
+      }
+    }
+    .status-bar.steps14 {
+      &::before {
+        width: 100%;
+        transition: 1.5s all ease;
+      }
+    }
+    input[type='range'] {
+      -webkit-appearance: none;
+      appearance: none;
+      background: transparent;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    //firefox input style
+    input[type='range']::-moz-range-thumb {
+      z-index: 1;
+      height: 0px;
+      width: 0px;
+      opacity: 0;
+      background: transparent;
+      margin-top: 0px;
+    }
+    input[type='range']::-moz-range-track {
+      z-index: 1;
+      height: 40px;
+      background: transparent;
+      border: none;
+    }
+    //
+    input[type='range']::-webkit-slider-thumb {
+      z-index: 1;
+      height: 0px;
+      width: 0px;
+      opacity: 0;
+      background: transparent;
+      margin-top: 0px;
+    }
+    input[type='range']::-webkit-slider-runnable-track {
+      z-index: 1;
+      height: 40px;
+      background: transparent;
+      border: none;
+    }
+  }
+}
+@media (max-width: 1600px) {
+  .apqpSection1 {
+    .textArea {
+      .title {
+        font-size: 2.5rem;
+      }
+      .content {
+        margin: 30px auto;
+        .description {
+          font-size: 1.25rem;
+        }
+      }
+    }
+  }
+  .apqpSection2 {
+    .content {
+      .status-bar {
+        height: 30px;
+        &::before {
+          height: 30px;
+          width: 30px;
+        }
+      }
+      input[type='range']::-moz-range-track {
+        z-index: 1;
+        height: 30px;
+      }
+      input[type='range']::-webkit-slider-runnable-track {
+        height: 30px;
+      }
+      .carousel {
+        section {
+          .photo {
+            .img-thumbnail,
+            .placeholder {
+              height: 500px;
+              max-height: 500px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1024px) {
+  .apqpSection1 {
+    padding-top: 120px;
+    padding-left: 20px;
+    .textArea {
+      margin-top: 60px;
+      .title {
+        font-size: 2rem;
+      }
+      .content {
+        .description {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+  .apqpSection2 {
+    padding: 80px 0;
+    .content {
+      .carousel {
+        section {
+          .photo {
+            .img-thumbnail,
+            .placeholder {
+              height: 400px;
+              max-height: 400px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 767px) {
+  .apqpSection1 {
+    .textArea {
+      .title {
+        font-size: 1.5rem;
+      }
+      .content {
+        .description {
+          font-size: 0.875rem;
+        }
+      }
+    }
+  }
+  .apqpSection2 {
+    .content {
+      .carousel-control-prev,
+      .carousel-control-next {
+        display: none;
+      }
+    }
+  }
+}
+@media (max-width: 575px) {
+  .apqpSection1 {
+    .textArea {
+      .title {
+        justify-content: flex-start !important;
+        font-size: 1.25rem;
+        white-space: normal;
+      }
+    }
+  }
+  .apqpSection2 {
+    .content {
+      .carousel {
+        section {
+          .photo {
+            .img-thumbnail,
+            .placeholder {
+              height: 340px;
+              max-height: 340px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 350px) {
+  .apqpSection2 {
+    .content {
+      .carousel {
+        section {
+          .photo {
+            .img-thumbnail,
+            .placeholder {
+              height: 280px;
+              max-height: 200px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

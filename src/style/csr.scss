@@ -1,0 +1,35 @@
+.csrSection1 {
+  padding: 140px 70px;
+  .img-thumbnail {
+    border-radius: 0px;
+    box-shadow: none;
+  }
+  .photo {
+    margin-top: 65px;
+    .card {
+      border: none;
+      .card-img-top {
+        box-shadow: 5px 5px 5px 5px #707070b4;
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .csrSection1 {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+@media (max-width: 767px) {
+  .csrSection1 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+@media (max-width: 575px) {
+  .csrSection1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}

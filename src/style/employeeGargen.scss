@@ -1,0 +1,95 @@
+.employeeGardenSection1 {
+  padding: 140px 70px;
+  position: relative;
+  .img-thumbnail {
+    box-shadow: none;
+    border-radius: 0;
+  }
+  .placeholder {
+    min-height: 1em;
+    border-radius: 0;
+  }
+  .photo {
+    .card-body {
+      flex: 0 0 auto;
+    }
+    .card-title {
+      font-family: futura;
+      font-weight: bold;
+      font-size: 1.25rem;
+    }
+    .card-img {
+      cursor: pointer;
+    }
+  }
+  .button-list {
+    z-index: 2;
+    text-align: end;
+    button {
+      font-family: futura;
+      color: white;
+      background-color: #154745;
+      border: none;
+      padding: 5px 20px;
+      border-radius: 30px;
+      transition: all 0.5s ease;
+      &:hover {
+        transform: scale(0.9);
+        background-color: #44b477;
+      }
+    }
+  }
+}
+@media (max-width: 1600px) {
+  .employeeGardenSection1 {
+    .photo {
+      .card-title {
+        font-size: 1rem;
+      }
+    }
+    .carousel-indicators {
+      button {
+        width: 10px;
+        height: 10px;
+        margin: 0 15px;
+      }
+    }
+  }
+}
+@media (max-width: 1024px) {
+  .employeeGardenSection1 {
+    padding: 120px 50px;
+    .button-list {
+      margin-top: 40px;
+      button {
+        padding: 2.5px 20px;
+      }
+    }
+  }
+}
+@media (max-width: 767px) {
+  .employeeGardenSection1 {
+    padding-left: 30px;
+    padding-right: 30px;
+    .photo {
+      .card-title {
+        font-size: 0.875rem;
+      }
+    }
+    .button-list {
+      padding-left: 0;
+    }
+  }
+}
+@media (max-width: 575px) {
+  .employeeGardenSection1 {
+    padding-left: 10px;
+    padding-right: 10px;
+    .button-list {
+      button {
+        font-size: 0.875rem;
+        padding: 2.5px 12px;
+      }
+    }
+  }
+}

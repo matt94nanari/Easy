@@ -1,0 +1,180 @@
+.testimonialSection1 {
+  padding: 140px 50px;
+  background-color: #f7f7f7;
+  position: relative;
+  overflow: hidden;
+  .title {
+    margin-top: 60px;
+    font-family: futura;
+    font-size: 3.25rem;
+    color: #154745;
+    padding-left: 70px;
+    .lightGreen {
+      color: #44b477;
+    }
+  }
+  .file-list {
+    .card {
+      margin-left: 7%;
+      border: none;
+      padding: 30px;
+      border-radius: 30px;
+      background-color: #ececec;
+      .card-body {
+        flex: 0 0 auto;
+        padding: 0.5rem;
+        .card-title {
+          color: #154745;
+          font-family: futura;
+          font-weight: bold;
+          font-size: 1.5rem;
+          position: relative;
+          z-index: 2;
+        }
+      }
+      .card-img {
+        box-shadow: 2px 2px 1.5px 1.5px #707070b4;
+        border-radius: 0;
+        cursor: pointer;
+      }
+    }
+  }
+  .button-list {
+    z-index: 2;
+    text-align: center;
+    margin-top: 60px;
+    padding-left: 20px;
+    button {
+      font-family: futura;
+      color: white;
+      background-color: #154745;
+      border: none;
+      padding: 5px 20px;
+      border-radius: 30px;
+      transition: all 0.5s ease;
+      &:hover {
+        transform: scale(0.9);
+        background-color: #44b477;
+      }
+    }
+  }
+  .mascot,
+  .mascot2 {
+    position: absolute;
+    background-color: transparent;
+    box-shadow: none;
+  }
+  .mascot {
+    width: 12%;
+    top: 50%;
+    left: -1%;
+  }
+  .mascot2 {
+    width: 15%;
+    bottom: -50px;
+    right: 1%;
+  }
+}
+@media (max-width: 1600px) {
+  .testimonialSection1 {
+    .title {
+      font-size: 2.75rem;
+    }
+    .file-list {
+      .card {
+        .card-body {
+          .card-title {
+            font-size: 1.25rem;
+          }
+        }
+      }
+    }
+    .mascot {
+      width: 15%;
+    }
+    .mascot2 {
+      width: 20%;
+      bottom: -25px;
+    }
+  }
+}
+@media (max-width: 1024px) {
+  .testimonialSection1 {
+    padding: 120px 50px;
+    .title {
+      font-size: 2.5rem;
+      margin-top: 50px;
+    }
+    .file-list {
+      .card {
+        width: 40%;
+        margin-left: 5%;
+        .card-body {
+          .card-title {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+    .button-list {
+      padding-left: 0px;
+      button {
+        padding: 2.5px 20px;
+        white-space: nowrap;
+      }
+    }
+    .mascot {
+      top: 25%;
+      left: 82%;
+      width: 20%;
+    }
+    .mascot2 {
+      width: 25%;
+      bottom: -40px;
+    }
+  }
+}
+@media (max-width: 767px) {
+  .testimonialSection1 {
+    padding-left: 0px;
+    padding-right: 0px;
+    .title {
+      font-size: 2.25rem;
+    }
+    .file-list {
+      .card {
+        width: 60%;
+        margin: 0 auto;
+      }
+    }
+    .button-list {
+      padding-left: 20px;
+    }
+    .mascot,
+    .mascot2 {
+      display: none;
+    }
+  }
+}
+@media (max-width: 575px) {
+  .testimonialSection1 {
+    .title {
+      justify-content: flex-start !important;
+      font-size: 1.5rem;
+      padding-left: 30px;
+    }
+    .file-list {
+      .card {
+        width: 70%;
+        margin: 0 auto;
+      }
+    }
+    .button-list {
+      padding-left: 10px;
+      button {
+        font-size: 0.875rem;
+        padding: 2.5px 12px;
+      }
+    }
+  }
+}

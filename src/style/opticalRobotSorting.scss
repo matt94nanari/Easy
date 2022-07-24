@@ -1,0 +1,13 @@
+.opticalSortingSection1 {
+  padding-top: 140px !important;
+  .textArea {
+    margin-top: 100px !important;
+  }
+}
+@media (max-width: 1600px) {
+  .opticalSortingSection1 {
+    .textArea {
+      margin-top: 80px !important;
+    }
+  }
+}

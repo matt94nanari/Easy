@@ -1,0 +1,215 @@
+.toolingSection1 {
+  padding: 140px 70px;
+  background-color: #f7f7f7;
+  position: relative;
+  .img-thumbnail {
+    cursor: pointer;
+  }
+  .textArea {
+    .title {
+      margin-top: 60px;
+      font-size: 2.5rem;
+      font-family: futura;
+      .lightGreen {
+        color: #44b477;
+      }
+    }
+    .content {
+      margin-top: 30px;
+      p {
+        line-height: 40px;
+        font-size: 1.25rem;
+      }
+      h2 {
+        font-family: futura;
+        margin-bottom: 30px;
+        font-weight: 800;
+        margin-top: 30px;
+        font-size: 2.5rem;
+        .lightGreen {
+          color: #44b477;
+        }
+      }
+      ol {
+        li {
+          font-size: 1.25rem;
+        }
+      }
+    }
+    .file {
+      h2 {
+        font-size: 2.5rem;
+        font-weight: 800;
+        span {
+          font-size: 1.25rem;
+        }
+      }
+      img {
+        height: 60px;
+        display: inline-block;
+        margin-top: 5px;
+      }
+      a {
+        color: #154547;
+        transition: all 0.5s ease;
+        font-size: 1.5rem;
+        &:hover {
+          color: #44b477;
+          transition: all 0.5s ease;
+        }
+      }
+    }
+  }
+  .carousel {
+    .carousel-inner {
+      overflow: visible;
+    }
+    .carousel-control-prev {
+      left: -12.5%;
+    }
+    .carousel-control-next {
+      right: -12.5%;
+    }
+    .carousel-indicators {
+      bottom: -65px;
+      button {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        margin: 0 10px;
+        background-color: #154547;
+      }
+    }
+  }
+}
+@media (max-width: 1600px) {
+  .toolingSection1 {
+    .textArea {
+      .title {
+        font-size: 2rem;
+      }
+      .content {
+        margin-top: 10px;
+        p {
+          font-size: 1rem;
+          line-height: 30px;
+        }
+        h2 {
+          margin-bottom: 10px;
+          margin-top: 10px;
+          font-size: 2rem;
+        }
+        ol {
+          padding-left: 1rem;
+          li {
+            font-size: 1rem;
+          }
+        }
+      }
+      .file {
+        h2 {
+          font-size: 2rem;
+          span {
+            font-size: 1rem;
+          }
+        }
+        img {
+          height: 40px;
+        }
+        a {
+          color: #154547;
+          transition: all 0.5s ease;
+          font-size: 0.875rem;
+          &:hover {
+            color: #44b477;
+            transition: all 0.5s ease;
+          }
+        }
+      }
+    }
+    .carousel {
+      .carousel-indicators {
+        button {
+          width: 10px;
+          height: 10px;
+          margin: 0 10px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1024px) {
+  .toolingSection1 {
+    padding-left: 50px;
+    padding-right: 50px;
+    .textArea {
+      width: 100%;
+      .title {
+        font-size: 1.5rem;
+      }
+      .content {
+        h2 {
+          font-size: 1.5rem;
+        }
+        p {
+          font-size: 0.875rem;
+        }
+        ol {
+          padding-left: 1rem;
+          li {
+            font-size: 0.875rem;
+          }
+        }
+      }
+      .file {
+        h2 {
+          font-size: 1.5rem;
+          span {
+            font-size: 0.875rem;
+          }
+        }
+      }
+    }
+    .photo {
+      margin-top: 30px;
+      width: 80%;
+    }
+  }
+}
+@media (max-width: 767px) {
+  .toolingSection1 {
+    padding-right: 30px;
+    padding-left: 30px;
+    .carousel-control-prev,
+    .carousel-control-next {
+      display: none;
+    }
+  }
+}
+@media (max-width: 575px) {
+  .toolingSection1 {
+    padding-right: 0px;
+    padding-left: 0px;
+    .img-thumbnail {
+      border-radius: 0;
+      box-shadow: none;
+    }
+    .textArea {
+      padding-right: 20px;
+      padding-left: 20px;
+    }
+    .photo {
+      width: 100%;
+      .carousel {
+        .carousel-item {
+          > div {
+            padding: 0 !important;
+          }
+        }
+        .carousel-indicators {
+          bottom: -30%;
+        }
+      }
+    }
+  }
+}

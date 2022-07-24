@@ -1,0 +1,548 @@
+{
+  "Home": {
+    "HTMLTitle": "Easylink Industrial CO.,LTD.",
+    "HTMLDescription": "Easylink is a professional fastener manufacturer for Automotive, Electronic ,Furniture components in Taiwan.",
+    "Found": "Desde 1992",
+    "TaiwanFactory": "Taiwan Fábrica",
+    "VietnamFactory": "Vietnam Fábrica",
+    "USOffice": "US Oficina",
+    "MexicoOffice": "Mexico Oficina",
+    "ChinaOffice": "China Oficina",
+    "BeingEstablished": "Being Established",
+    "FactortArea": {
+      "ForgingArea-1B2C": "Área de Forja 1B2C",
+      "ForgingArea-MSF": "Área de Forja MSF",
+      "Threading&TappingArea": "Área de Roscado de Tornillos y Roscado de Tuercas",
+      "Stamping&SecondaryOperationArea": "Área de Estampado y Operaciones Secundarias",
+      "AssemblingArea": "Área de Montaje",
+      "ToolingASRSSystem": "Sistema ASRM en Taller de Herramentales",
+      "SortingArea": "Área de Sorteo por CCD",
+      "Lab": "Laboratorio",
+      "PackingArea": "Área de Empaque y Almacenamiento",
+      "ASRS": "Almacén ASRS"
+    },
+    "Description": "Easylink #se compromete a utilizar tecnología de vanguardia en todos nuestros procesos de fabricación.",
+    "Description2": "Estos son algunos de los procesos que empleamos para impulsar mejoras continuas:",
+    "List1": "Nuestras instalaciones cuentan con certificación IATF 16949, VDA 6.3 e ISO/IEC 7025/2017.",
+    "List2": "Empleamos estudios de viabilidad, técnicas APQP y PPAP para garantizar las capacidades del proceso antes de comenzar la producción.",
+    "List3": "Utilizamos el escaneo de códigos QR en cada paso del proceso para proporcionar una trazabilidad completa del proceso para todos los envíos.",
+    "List4": "La materia prima y el producto terminado se transportan automáticamente entre las máquinas de producción y nuestro sistema de almacén automático de cinco pisos.",
+    "List5": "Utilizamos la producción interna automatizada de herramientas CNC para controlar la calidad de nuestros herramentales y la vida útil de los mismos.",
+    "List6": "Aprovechamos el Internet industrial para el monitoreo en tiempo real de los ciclos de herramientas, las mediciones de calidad SPC, la eficiencia de la maquina y los movimientos de materiales.",
+    "List7": "Las Salas de estrategia para cada departamento se utilizan para monitorear la calidad y la eficiencia.",
+    "List8": "Premiamos el desempeño para fomentar la calidad de los empleados motivados."
+  },
+  "HeaderNavbar": {
+    "AboutEasylink": {
+      "Title": "Sobre Nosotros",
+      "Title2": "Sobre Nosotros",
+      "Certificate": "Certificados",
+      "News&Events": "Noticias y Eventos",
+      "TechnicalCorner": "Rincón Técnico",
+      "History": "Historia",
+      "Philosophy": "Filosofía"
+    },
+    "Facility": {
+      "Title": "Instalaciones",
+      "Forging-1B2C": "Forja-1B2C",
+      "Forging-MSF": "Forja-MSF",
+      "Threading": "Roscado de Tornillos",
+      "Tapping": "Roscado de Tuercas",
+      "Assembling": "Auto Ensambles",
+      "SecondaryOperation": "Operaciones Secundarias",
+      "Stamping": "Estampado"
+    },
+    "Products": {
+      "Title": "Productos",
+      "AutoParts": "Autopartes",
+      "Electronics&ApplianceScrews": "Electrónica y tornillos de Electrodomésticos",
+      "StampingParts&SpecialNuts": "Piezas de Estampado y Tuercas Especiales",
+      "FurnitureScrews": "Tornillos para Muebles"
+    },
+    "LabTest": {
+      "Title": "Laboratorio",
+      "Lab": "Laboratorio",
+      "LabCertificate": "Certificado de Laboratorio",
+      "Test": "Prueba",
+      "Calibration": "Calibración"
+    },
+    "Testimonial": {
+      "Title": "Opinión de nuestros clientes",
+      "Email": "Correo electrónico",
+      "ScoreCard": "Tarjeta de puntuación",
+      "Audit": "Auditoria"
+    },
+    "ProductionControlManagement": {
+      "Title": "Control de Producción",
+      "Title2": "Control de producción",
+      "Management": "Administración",
+      "ProductionProcedure": "Procedimiento de Producción",
+      "APQP": "APQP",
+      "PPAP": "PPAP",
+      "RiskManagement": "Gestión de Riesgos"
+    },
+    "Tooling": {
+      "Title": "Taller de Maquinados",
+      "ToolingManufacture": "Fabricación de herramientas",
+      "ToolingManagement": "Gestión de herramientas"
+    },
+    "OpticalRobotSorting": {
+      "Title": "Sorteo por CCD y Robótico",
+      "SortingFactory": "Planta de Sorteo",
+      "OpticalSorting": "Sorteo por CCD",
+      "RobotSorting": "Sorteo Robótico"
+    },
+    "OnlineService": {
+      "Title": "Servicios en línea"
+    },
+    "PackingStorage": {
+      "Title": "Empaque y Almacenamiento",
+      "Packing": "Empaque",
+      "ASRS": "ASRS"
+    },
+    "ContactUs": {
+      "Title": "Contáctanos",
+      "Phone": "886- 7- 7251034",
+      "Email": "sales@easylink.com.tw"
+    }
+  },
+  "AboutEasylink": {
+    "Certificate": {
+      "Title": "Certificado",
+      "IATF": "IATF 16949",
+      "ISO": "ISO 14001",
+      "TTQS": "TTQS"
+    },
+    "News&Events": {
+      "Title": "Noticias y Eventos",
+      "News1": {
+        "Date": "Marzo 2020",
+        "Content": "Pabellón 11.2.2020 Stand O051"
+      },
+      "News2": {
+        "Date": "Junio 2019",
+        "Content": "Feria de Sujetadores 2019, Ciudad de México"
+      },
+      "News3": {
+        "Date": "Mayo 2019",
+        "Content": "2019 Expo Manufactura, Monterrey"
+      },
+      "News4": {
+        "Date": "Mayo 2019",
+        "Content": "Feria de Sujetadores 2019, Detroit"
+      },
+      "News5": {
+        "Date": "Mayo 2019",
+        "Content": "Compuestos y proveedores automotrices globales 2019"
+      }
+    },
+    "TechnicalCorner": {
+      "Title": "Rincón Técnico",
+      "Corner1": {
+        "Title": "#Seguridad en #Easylink Workplace",
+        "Content": "Cada visitante debe usar 'kits de protección' come guantes, tapones para los oídos y gafas de seguridad mientras se encuentro en nuestras áreas de producción. Cada área está pintada con 'amarillas' para indicar áreas seguras para caminar.",
+        "Content2": "En Easylink, la seguridad en el lugar de trabajo in situ es extremadamente importante para nosotros. Damos mucha importancia a la seguridad de nuestros. Estamos comprometidos en mantener un ambiente seguro para nuestros trabajadores. Juntos, podemos eliminar situaciones inseguras y esforzarnos por un lugar de trabajo libre de accidentes a diario.",
+        "Content3": "Todos -los que han aceptado trabajar para Easylink -aceptan implícitamente:",
+        "Rule1": "Siga exactamente las reglas y procedimientos de seguridad y haga preguntas si no se entiende el trabajo.",
+        "Rule2": "Ser responsable de su propia seguridad y de la seguridad de otros empleados.",
+        "Rule3": "Informe todas las lesiones / incidentes al supervisor a la seguridad en 24 horas, sin importar cuan leves sean.",
+        "Rule4": " Considere la seguridad como una parte importante de hacer su trabajo.",
+        "Content4": "Desde 2010, hemos aumentado nuestro personal de seguridad de una a tres personas. Nuestros profesionales de seguridad están preparados para mejorar continuamente y avanzar en nuestros esfuerzos y dedicación a la seguridad.",
+        "Content5": "En Easylink, la gerencia se aseguró de que a todos los empleados se les recuerde a menudo el alto valor que otorgamos a la seguridad en el lugar de trabajo y su responsabilidad de contribuir al éxito de la seguridad en nuestra empresa."
+      },
+      "Corner2": {
+        "Title": "#Servicio de Consultoría Técnica Online (TCS)",
+        "Content": "Easylink se complace en anunciar su nuevo TCS (Technical Consulting Service) en línea a nuestros clientes. Como expertos en la producción y el diseño de sujetadores en muchas industrias, nuestro equipo dedicado brinda soporte completo en nuevos sujetadores de diseño y la mejor solución para resolver su problema de ensamblaje actual.",
+        "Content2": "Reservar horas de consulta es muy sencillo, simplemente envíenos un correo electrónico sales@easylink.com.tw con al asunto 'Solicitar TCS' e indique el problema y los datos relevantes que le gustaría discutir antes de cada viernes. Organizaremos una reunión de consultoría técnica en el siguiente día de la semana u organizaremos un día conveniente para adaptarse a ambas partes lo antes posible.",
+        "Content3": "Nuestro grupo de #consultores técnicos #incluyo:",
+        "List1": "Ingenieros certificados de calidad de sujetadores",
+        "List2": "Especialistas en producción de sujetadores",
+        "List3": "Especialistas en comunicación industrial",
+        "List4": "Gerentes e inspectores de calidad",
+        "List5": "Ingenieros de aplicaciones",
+        "List6": "Metalúrgicos",
+        "Content4": "Nuestro grupo de consultores técnicos está formado por ingenieros de producción de sujetadores y expertos técnicos que poseen años de experiencia y capacidad para ofrecer propuestas para optimizar el diseño de sujetadores en forma, material y acabado.",
+        "Content5": "Además de mantener el concepto original del producto, mantiene o incluso mejora su capacidad de rendimiento y, sin embargo, reduce su costo. EI TCS será gratuito use espera que se lance en julio de 2022. Esperamos que este nuevo servicio sea una herramienta útil para usted y esperamos tener la oportunidad de servir y resolver su problema."
+      },
+      "Corner3": {
+        "Title": "Herramienta de colocación de #remaches #ciegos"
+      },
+      "Corner4": {
+        "Title": "Sistema de seguimiento de pedidos #actualizado",
+        "Content": "El sistema de seguimiento de pedidos se ha actualizado para proporcionar una respuesta mejorada más rápida y un acceso más fácil.",
+        "Content2": "Puede verificar el estado actual del pedido las 24 horas del día, los 7 días de la semana, utilizando nuestro fácil acceso a la web.",
+        "List1": "La velocidad del navegador se ha mejorado para una respuesta significativamente más rápida.",
+        "List2": "Con la consulta ETD agregada, los clientes ya no necesitan esperar durante la noche para obtener una respuesta por correo electrónico, no más.",
+        "List3": "Mostrar detalles de pedido mas específicos en vista rapida.",
+        "Content3": "¿Como utilizar el sistema de seguimiento de pedidos?",
+        "Content4": "Haga clic en 'Servicio en línea' en la barra de navegación y, a continuación, haga clic en el botón 'Estado de producción'(Seguimiento de pedidos).",
+        "Content5": "Ingrese su ID y contraseña para iniciar sesión."
+      },
+      "Corner5": {
+        "Title": "#Nueva máquina de embalaje para caja de #paquetes #pequeños, cubo",
+        "Content": "Para apoyar el aumento de los requisitos de embalaje pequeño, Easylink (Vietnam) ha invertido en auto embalaje para mejorar la eficiencia y reducir el tiempo de embalaje.",
+        "Content2": "Tipo aplicado: ",
+        "Content3": "Caja de papel, Cubo de plástico.",
+        "Content4": "Eficiencia 600~840 paquetes/hora",
+        "Content5": "Peso: ~ 5 kg/paquete",
+        "Content6": "Póngase en contacto con su representante de ventas para obtener mas detalles. Continuaremos proporcionando nuevos avances en la capacidad de empaquetado de automatización en 3 meses."
+      },
+      "Corner6": {
+        "Title": "Prueba de criterios de aceptación de discontinuidad de #perno #de #corte",
+        "Content": "Normalmente utilizados en aplicaciones que requieren el más alto nivel de seguridad, estos pernos de seguridad premium cuentan con una parte hexagonal unida a la parte superior de la cabeza del perno que se sujeta con una llave o zócalo estándar: no requieren ninguna herramienta especial.",
+        "Content2": "Como su nombre indica, una vez que el perno se aprieta pasado su límite de par máximo , la sección hexagonal se rompe dejando un cabezal liso y a prueba de manipulaciones.",
+        "Content3": "Los pernos de corte de seguridad son adecuados para aplicaciones de alto par y se utilizan con mayor frecuencia en los sectores de la construcción, la industria aeroespacial y automotriz.",
+        "Content4": "Son ideales para usar con sus tuercas de corte a juego durante el cierre. Si hay algún problema con el requisito del perno de corte de rosca 'fina', que en algunos casos puede causar algún daño proporcional de las roscas durante el proceso.",
+        "Content5": "Revisamos el daño de la rosca, aplicando la prueba de torque descontinuada ",
+        "Standard": "ASTM F788/F788M ",
+        "Content6": "para ver si la posición de la rosca es aceptable y no afecta el uso funcional. ",
+        "Content7": "",
+        "Content8": "De acuerdo con las especificaciones ",
+        "Content9": "de los criterios de aceptación de discontinuidad en M8-1.25 6h requiere una fuerza de par máximo de 0.5N-m. A continuación se muestran los pasos de verificación que procedemos a verificar en los hilos.",
+        "List1": "Utilice el medidor GO/NO ajustable para comprobar la situación de los hilos.",
+        "List2": "Use VICE para mantener el perno de corte atado suavemente y luego aplique la llave digital-electrónica para verificar el valor de torque.",
+        "List3": "Con M8-1.25 6h acepta 0.5N-m como máximo. El par y el valor que comprobamos están dentro de los criterios de aceptación de discontinuidad."
+      },
+      "Corner7": {
+        "Title": "#HILOS #MAL #EMPAREJADOS E #HILOS #EN #BLANCO",
+        "Title2": "HILOS NO COINCIDENTES",
+        "Content": "Al operar el proceso de laminación de roscas para el tornillo de la máquina, existe una pequeña posibilidad de que se produzcan roscas no coincidentes; sin embargo, una vez que sucede, ningún equipo de clasificación puede detectar este problema. iUn tornillo de roscas mal emparejado utilizado en la línea de ensamblaje automático llevara a toda la línea de ensamblaje a apagarse y causar una gran pérdida!",
+        "Content2": "ALGUNOS FACTORES DE  ",
+        "List1": "Los hilos que no coinciden parecen ser verticales en una parte de los hilos, por lo que es oscuro detectarlo.",
+        "List2": "La máquina de clasificación óptica no puede detectar los hilos anormales parciales.",
+        "List3": "El tornillo con roscas mal emparejadas no es funcional en la práctica.",
+        "Content3": "¿COMO SE ",
+        "Content4": "PRODUCEN LOS HILOSNO COINCIDENTES O LOS HILOS EN BLANCO?",
+        "List4": "Cuando las rebabas o los pequeños escombros atascados en el medio del hilo que ruedan mueren, la superficie del troquel se vuelve resbaladiza.",
+        "List5": "Proceso de laminación de roscas anormal.",
+        "List6": "Otros factores desconocidos.",
+        "Content5": "Las condiciones anteriores causaron que el rodillo del tornillo se moviera hacia arriba o hacia abajo en el troquel y crearon roscas o roscas en blanco que no coincidían.",
+        "Content6": "SOLUCION",
+        "Content7": "Como se ve en la foto del lado derecho",
+        "List7": "El código de área azul C, D son troqueles rodantes de hilo.",
+        "List8": "El código A es el tablero conductor eléctrico superior.",
+        "List9": "El código B es la placa conductora eléctrica inferior.",
+        "List10": "El código E es la ranura.",
+        "List11": "Flecha roja que se muestra donde se empujó el tornillo hacia adelante.",
+        "List12": "La flecha verde es donde el tornillo se ha enrollado hacia arriba o hacia abajo.",
+        "Content8": "Durante el proceso de laminación de la rosca, los tornillos se moverán hacia adelante en la dirección de la flecha roja; cuando se producen las condiciones descritas anteriormente, el tornillo empujado hacia arriba o hacia abajo tocara las tablas conductoras A o B, ",
+        "Content9": "a operación se detendrá automáticamente y la luz roja estará encendida, el operador debe quitar el tornillo de roscas defectuosas para reiniciar el proceso de laminación.",
+        "Content10": "LAS VENTAJAS",
+        "List13": "Con nuestro nuevo dispositivo instalado en la maquina rodante, habrá un problema 100% libre de hilos no coincidentes.",
+        "List14": "La placa conductora superior puede controlar que no se produzcan roscas en blanco.",
+        "Content11": "CONCLUSION",
+        "List15": "Este nuevo dispositivo evita que los tornillos tengan roscas en blanco o roscas mal emparejadas.",
+        "List16": "También evite cualquier forma de hilos defectuosos.",
+        "List17": "Su línea de ensamblaje automático tiene la seguridad de funcionario manera más eficiente, ahorre costos al disminuir el tiempo de inactividad de la maquina."
+      }
+    },
+    "History": {
+      "Title": "Historia",
+      "Hint": "Click para seguir leyendo",
+      "1992": "Fundacion de la Empresa  #Establece el Laboratorio #se obtiene la Certificación QS 9000",
+      "2005": "Fabricacion de tornillos automotrices de clase mundial #Se establece la planta de Vietnam parala fabricacion de tornillos estandar #Cumple con C-TPAT",
+      "2010": "Se obtienen las certificaciones TS16949, ISO14001, VDA6.3 #Se establece el taller de herramental interno #Se implementan diferentes bases de produccion #Se Incrementa la Capacidad #Aplicaciones Roboticas, Estampado & Ensamble #Ampliación de la Fábrica 2 y la Fábrica 3",
+      "2019": "IATF 16949 #Se establece el sistema de CÓDIGO #Se consolida el sistema ERP #Nueva automatización de las plantas, #la expansión de la planta de Vietnam # Mejora del proceso de herramientales #puntos de inspección QC #Digitalización y Automatización",
+      "2021": "mplementación IoT #se establecen sala de estrategia #Inspección automática #Equipo de clasificación más avanzada (se acerca a 0 ppm) #Aumentar capacidad de producción #AS/RS en el manejo del herramental"
+    },
+    "Philosophy": {
+      "Title": "Filosofía",
+      "PhilosophySlogan": "La mayor satisfacción A -#nuestros #clientes, #empleados, #accionistas, #sociedad, y #medioambiente.",
+      "PhilosophySlogan2": "Desde sus inicios, -Easylink ha estado comprometido -con estos principios -y filosofías",
+      "PhilosophySubject": {
+        "Customers": "A nuestros clientes:",
+        "Employees": "A nuestros empleados:",
+        "Share Holders": "A los accionistas:",
+        "Society": "A la sociedad:",
+        "Enviroment": "Al medio ambiente:"
+      },
+      "PhilosophyContent": {
+        "Customers": "Proporcionar calidad, entrega y precios excepcionales.",
+        "Employees": "Easylink promueve un entorno de trabajo seguro, limpio y cómodo, proporcionando a los empleados beneficios integrales.",
+        "Share Holders": "Maximizar el retorno de su inversión.",
+        "Society": "Beneficiar a la comunidad a través de contribuciones filantrópicas.",
+        "Enviroment": "Promover la conciencia ambiental siguiendo las prácticas VERDES, asegurando un entorno seguro para la próxima generación."
+      }
+    }
+  },
+  "Facility": {
+    "Title": "Instalaciones",
+    "Forging-1B2C": {
+      "Title": "Formación de la cabeza",
+      "Content": "#- Hojas de trabajo #- Informes de inspección #- Datos SPC #- Estado de la materia prima #- Ciclos de herramientas  #- Tasas de funcionamiento",
+      "Content2": "Al utilizar las conexiones de sistemas IoT y EPR, nuestros operadores y gerentes tienen acceso inmediato a los controles clave del proceso de producto, tales como:"
+    },
+    "Forging-MSF": {
+      "Title": "Formado Multietapa",
+      "Content": "#Formado del perno #Formado de tuerca #Formado de partes  #Doble cabezal"
+    },
+    "Threading": {
+      "Title": "Roscado del Tornillo",
+      "Content": "El sistema de transición automática que envía material desde el almacén a las maquinas de laminación, lo que hace que el trabajo de los operadores sea fácil y eficiente. Usando el pad de IoT para obtener los materiales que necesita."
+    },
+    "Tapping": {
+      "Title": "Roscado de Tuercas",
+      "Content": "Roscado interno de tuercas."
+    },
+    "Assembling": {
+      "Title": "Auto Ensambles",
+      "Content": "Easylink puede proporcionar opciones de ensamble personalizadas para satisfacer las necesidades del cliente."
+    },
+    "SecondaryOperation": {
+      "Title": "Operaciones Secundarias",
+      "Content": "Con las Operaciones secundarias en la planta mantenemos una calidad constante y podemos mejorar los tiempos de entrega."
+    },
+    "Stamping": {
+      "Title": "Proceso de Estampado",
+      "Content": "Nuestras maquinas de estampado progresivo con sistema de autoalimentación."
+    }
+  },
+  "Products": {
+    "Title": "Productos",
+    "AutoParts": {
+      "Title": "Auto Partes",
+      "Content": "Easylink fabrica varios productos en nuestra planta, incluyendo tornillos, pernos, tuercas, productos estampados y componentes de ensamble."
+    },
+    "Electronics&ApplianceScrews": {
+      "Title": "Electrónica y tornillos de Electrodomésticos"
+    },
+    "PressingParts&SpecialNuts": {
+      "Title": "Piezas de prensado & Tuercas especiales"
+    },
+    "FurnitureScrews": {
+      "Title": "Tornillos para Muebles",
+      "Content": "(Hecho en Vietnam)"
+    }
+  },
+  "ProductionControlManagement": {
+    "Title": "Control y gestión de la producción",
+    "Content": "Trazabilidad completa del proceso: escaneo de código QR en cada paso del proceso. #Automatización: ASRS (Almacén Automatizado) para Materia Prima, Herramental, Productos Semielaborados y Terminados. El material se entrega automáticamente desde y hacia las máquinas de producción por el sistema ASRS. #Aplicación CNC y robot para herramientas y producción. #loT para la recopilación automática e inalámbrica de datos de producción y mediciones de calidad. #Sala de situación: Para cada departamento o persona clave para monitorear las eficiencias de producción. #Política de premios: Mantener una fuerza laboral enfocada en la calidad.",
+    "PhotoDescription": {
+      "QRCodeScanning": "Escaneo de Códigos QR",
+      "IoTSystem": "Sistema IoT",
+      "KanBanSystem": "Sistema KanBan",
+      "SituationInformation": "Información de la Situación",
+      "RealTimeSPC": "SPC en tiempo real"
+    },
+    "ProductionProcedurePPAPParts": {
+      "Title": "Procedimiento de producción -para -piezas -que -requieran PPAP",
+      "Hint": "(haga clic aquí)",
+      "CustomerRequirement": "Requisitos -del cliente",
+      "Order": "Orden",
+      "ShipmentReceivedbyCustomer": "Envió recibido -por el cliente",
+      "ContractReview": "Revisión del -contrato",
+      "ShippingAssessment": "Evaluación -de envió",
+      "Production": "Producción",
+      "Shipment": "Envió",
+      "PackageTransportStorage": "Almacenamiento -de transporte -de paquetes",
+      "FinalQualityControl": "Control de -calidad -final",
+      "InProcessQualityControl": "Control -de calidad -en proceso"
+    },
+    "RiskManagement": {
+      "Title": "Seguro",
+      "Title2": "Gestión de #Riesgos",
+      "ProductLiability": "Responsabilidad del producto",
+      "RecallInsurance": "Seguro para Recall"
+    }
+  },
+  "APQP": {
+    "Title": "Planificación #Avanzada de la Calidad del #Producto",
+    "Content": "La finalidad de esta metodología producto es satisfacer los requisitos de el Cliente y completar la misión a tiempo mediante la creación de un equipo de trabajo y establecer un programa de calidad para desarrollar el producto.",
+    "APQPSchdule": "APQP Programacion",
+    "APQPStepsSpreadOut": "Pasos APQP repartidos",
+    "MeetingRecord": "Registro de la reunión",
+    "VerifiedToolingDrawing": "Dibujo de herramientas verificado",
+    "PackagingProposalSheet": "Hoja de propuesta de embalaje",
+    "Diagram": "Diagrama",
+    "FailureModuleEffectsAnalysis": "Analisis de efectos de modulo de fallas",
+    "ControlPlan": "Plan de control",
+    "CapacityEvaluation": "Evaluacion de capacidad",
+    "APQPChecklist": "Lista de verificación APQP",
+    "ProductQualityPlanning": "Planificacion de la calidad del producto",
+    "EngineeringChangeNotices": "Avisos de cambio de ingeniería",
+    "FeasibilityAssessment": "Evaluacion de factibilidad",
+    "APQPHandover": "Entrega APQP"
+  },
+  "PPAP": {
+    "Title": "Proceso de #Aprobación de Piezas de #Producción",
+    "Content": "Se utiliza en la cadena de suministro automotriz para establecer confianza. en los proveedores y sus procesos de producción. Las mediciones reales se toman de las piezas producidas y se utilizan para completar las diversas hojas de prueba de PPAP.",
+    "Diagram": "Diagrama",
+    "FailureModuleEffectsAnalysis": "FMEA",
+    "ControlPlan": "Plan de Control",
+    "Checklist": "Lista de Verificación",
+    "GageR&R": "Pruebas de R&R",
+    "SPC": "SPC"
+  },
+  "Tooling": {
+    "Title": "Herramental",
+    "ToolingManufacture": {
+      "Title": "#En #Casa Departamento de Herramental",
+      "Title2": "Tooling Manufacture",
+      "Content": "Para controlar una calidad constante, -Easylink fabrica sus propias herramientas Internamente.",
+      "MainPurposes": {
+        "Title": "Principal -Propósito",
+        "Content": "#Estabilizar la calidad interna #Aumentar la velocidad de funcionamiento #Reducir los tiempos de entrega"
+      },
+      "ToolingDrawing": {
+        "Title": "Dibujos del Herramental",
+        "Hint": " (clic)",
+        "ToolingStepFormingDrawing": "Paso de herramientas formación de dibujo",
+        "VerifiedToolingDrawing": "Dibujo de herramientas verificado"
+      }
+    },
+    "ToolingManagement": {
+      "Title": "ASRS de Herramentales",
+      "Content": "Easylink tiene un par de almacenes verticales automatizados fabricados en Alemania que mejoran nuestra eficiencia en el manejo de nuestros herramentales."
+    }
+  },
+  "LabTest": {
+    "Title": "Laboratorio",
+    "Description": "Easylink opera con su propio Laboratorio de Control de Calidad Certificado TAF desde 1999.",
+    "LabCertificate": {
+      "Title": "Certificaciones del Laboratorio",
+      "TAF": "TAF"
+    },
+    "Test": {
+      "Title": "Laboratorio - Medición de dimensiones y pruebas mecánicas",
+      "Projector": "Proyector",
+      "Caliper": "Vernier",
+      "Micrometer": "Micrómetro",
+      "StraightnessGage": "Medidor de rectitud",
+      "HeightGage": "Medidor de altura",
+      "RingGage": "Medidor de anillo",
+      "Hardness": "Dureza",
+      "Metallurgy": "Metalurgia",
+      "Torque": "Torque",
+      "HydrogenEmbrittlementTest": "Prueba de fragilidad por hidrogeno",
+      "Camout": "Camout",
+      "Tensile": "Prueba de tensión ",
+      "X-Ray": "Rayos - X",
+      "SaltSpray": "Cámara de salinidad",
+      "Drill-DriveTestMachine": "Máquina de prueba Drill-Drive"
+    },
+    "SpotInspection": {
+      "Title": "Zona de Inspección",
+      "Description": "Los datos de inspección digital se transmiten de forma inalámbrica al Centro de Control de Calidad y al pad de IoT , lo que ayuda a los operadores e ingenieros a mantener procesos de calidad estables."
+    },
+    "Calibration": {
+      "Title": "Calibración - Dispositivos de inspección y su Manejo en planta",
+      "Description": "Los instrumentos son marcados automáticamente por el sistema EPR para su calibración.",
+      "Step": "Pasos "
+    }
+  },
+  "OpticalRobotSorting": {
+    "Title": "Sorteo por CCD y Robotico",
+    "SortingFactory": {
+      "Title": "Planta de Sorteo",
+      "Content": "Sorteo por CCD  -Sorteo Robotico"
+    },
+    "OpticalSorting": {
+      "Title": "Sorteo por CCD",
+      "Content": "Diametro de la cabeza -Altura de la cabeza longitud -Longitud de la punta(Dog Point) -Diametro de la punta"
+    },
+    "RobotSorting": {
+      "Title": "Sorteo Robotico",
+      "Content": "Tamaño o diametro de la ranura o hueco en la cabeza del tornillo -Profundidad de la ranura o hueco en la cabeza del tornillo"
+    }
+  },
+  "PackingStorage": {
+    "Title": "Empaque y almacenamiento",
+    "Hint": "Conectado con:",
+    "Packing": {
+      "Title": "EMPAQUE",
+      "Content": "Alimentacion automática -Etiquetado -Emplayado -Montaje en palets -Sistema ASRS"
+    },
+    "Storage": {
+      "Title": "ASRS",
+      "Content": "Sistema de escaneo automaticode Codigo QR -Sistema ERP -Cerca de 6,000 celdas de almacenaje"
+    }
+  },
+  "Testimonial": {
+    "Title": "Opinión de nuestros clientes",
+    "Email": "Correo electrónico",
+    "ScoreCard": "Tarjeta de puntuación",
+    "Audit": "Auditoría"
+  },
+  "OnlineService": {
+    "Title": "Servicio en línea",
+    "Title2": "#Por #favor, #elija -Lo que le gustaría comprobar.",
+    "Inventory": "Inventario",
+    "LogisticSystem": "Logistic -System",
+    "ProductionStatus": "Estado de producción",
+    "OrderTracking": "Order -Tracking",
+    "Samples&Document": "Muestras y documentos"
+  },
+  "EmployeeGarden": {
+    "Title": "Convivios de empleados",
+    "Content": "Viaje de la empresa "
+  },
+  "CSR": {
+    "Title": "Empresa Socialmente Responsable"
+  },
+  "Footer": {
+    "ContactUs": "Contactenos",
+    "AboutEasylink": "Acerca de Easylink",
+    "PrivatePolicy": "Política de Privacidad",
+    "CopyRight": "Derechos de autor © 2022 Easylink Industrial CO.,LTD.",
+    "CSR": "RSE",
+    "EmployeeGarden": "Convivios de empleados",
+    "ContactInfo": {
+      "Title": "Información de contacto:",
+      "Phone": "886- 7- 7251034",
+      "Email": "sales@easylink.com.tw",
+      "Address": "No.1, Bengonghuan E. Rd., Gangshan Dist., Kaohsiung City 820110, Taiwan (R.O.C.)"
+    },
+    "Testimonial": {
+      "Title": "Opinión de nuestros clientes",
+      "Email": "Correo electrónico",
+      "ScoreCard": "Tarjeta de puntuación",
+      "Audit": "Auditoría"
+    },
+    "Navigation": {
+      "AreaNavigation": {
+        "Title": "Navegacion por area",
+        "Facility": "Instalaciones",
+        "Tooling": "Taller de Maquinados",
+        "Optical&RobotSorting": "Sorteo por CCD y Robotico",
+        "Packing&Storage": "Empaque y almacenamiento"
+      },
+      "Products&Quality": {
+        "Title": "Productos y Calidad",
+        "Products": "Productos",
+        "ProductionControl&ManageMent": "Control de producción",
+        "Lab": "Laboratorio"
+      }
+    }
+  },
+  "404": {
+    "title": "Pagina no encontrada",
+    "content": "Pagina no encontrada",
+    "homePage": "Inicio"
+  },
+  "PrivacyPolicy": {
+    "Title": "Política de Privacidad",
+    "Content": "Gracias por visitar nuestro sitio web. -Su privacidad personal es absolutamente respetada y protegida por el sitio web. -Para ayudarlo a comprender como el sitio web recopila, usa y protege su información personal, asegúrese de leer la 'Política de privacidad' del sitio web.",
+    "Content2": "Ámbito de aplicación -Aplicable: -sitio web o sus actividades relacionadas que involucran la recopilación, el uso y la protección de información personal. -No aplicable: -una gestión y operación independiente del sitio web de terceros vinculado a través del sitio web. Cada sitio web tiene su propia política de privacidad única, por lo que la responsabilidad está separada. Cuando los usuarios realicen una consulta en este web, asegúrese de seguir la política de privacidad del sitio web en particular para toda la información personal.",
+    "Content3": "Contenido de la política -Recopilar información: -Para la simple navegación por el sitio web y la descarga de archivos, los usuarios no serán recopilados para ninguna información personal. -El sitio web registrara la dirección IP del usuario, la hora de acceso a Internet y el número de búsqueda de información. -Al utilizar varios servicios en el sitio web, como la consulta de cotizaciones, pediremos a los usuarios que proporcionen el nombre completo, el teléfono, el fax, el correo electrónico y las autoridades respectivas.",
+    "Content4": "Información de uso: -Debido a la gestión interna del sitio web, la información de acceso al sitio web del usuario, el tráfico del sitio web y el comportamiento en línea pueden procesarse como un 'análisis total' para la referencia importante para mejorar la calidad del servicio, y este análisis no se aplicará a ningún 'usuario individual'.",
+    "Content5": "Intercambio de información: -A menos que su acuerdo o regulaciones de leyes especiales, el sitio web nunca venderá, intercambiará o alquilara su información personal a otros grupos, individuos o empresas privadas. Sin embargo, excepto por las siguientes circunstancias: -Cooperar con la administración legal de justicia si es necesario. -Cooperar con las autoridades relacionadas de acuerdo con las necesidades operativas de investigación o uso. - La divulgación es requerida por la ley, o para el mantenimiento, mejora y gestión del servicio del sitio web.",
+    "Content6": "Cookies en el archivo de su navegador: -Para proporcionar un servicio mejor y más personalizado, y para facilitar su participación en actividades, las cookies cambian a medida que cambian sus actividades personales en el sitio web. - Con el fin de contar el número de visitantes y analizar los patrones de navegación para comprender el estado de la navegación web, el sitio web se basará en el principio de protección de la privacidad para escribir y leer cookies en su navegador. -Si no desea aceptar cookies, puede establecer el nivel de privacidad en las funciones del navegador que utiliza en Alto, puede rechazar la escritura de cookies, pero puede provocar que algunas funciones del sitio web no funcionen correctamente.",
+    "Content7": "La protección de datos -Los anfitriones del sitio web están equipados con firewalls, sistemas antivirus y otros dispositivos de seguridad de la información relacionados y las medidas de seguridad necesarias para proteger el sitio y sus datos personales utilizando estrictas medidas de protección, solo el personal autorizado puede acceder a su información personal. Todo el personal de procesamiento relevante está obligado a firmar contratos de confidencialidad. Cualquier persona que viole las obligaciones de confidencialidad estará sujeta a las sanciones legales pertinentes. -Si es necesario confiar a las unidades relevantes de este sitio web para proporcionar servicios debido a las necesidades comerciales, este sitio también requerirá estrictamente que cumpla con las obligaciones de confidencialidad y tome los procedimientos de inspección necesarios para determinar que realmente cumplirá.",
+    "Content8": "Enlaces relacionados con el sitio web -Las páginas web de este sitio web proporcionaran enlaces de Internet de otros sitios web. También puede hacer clic para ingresar a otros sitios web a través de los enlaces proporcionados en este sitio web. Sin embargo, este sitio web vinculado no se aplica a la política de protección de privacidad de este sitio web. Debe consultar la política de protección de privacidad en este sitio web vinculado.",
+    "Content9": "Política para compartir datos personales con terceros -Este sitio web nunca proporcionará, intercambiará, alquilará o venderá ninguno de sus datos personales a otras personas, grupos, empresas privadas o agencies públicas, excepto aquellos con base legal u obligaciones contractuales. Las circunstancias de la condición anterior incluyen, pero no se limitan a: -Con su consentimiento por escrito. -La ley lo dispone expresamente. -Para eliminar los peligros en su vida, cuerpo, libertad o propiedad. -Es necesario colaborar con una agencia pública o una institución de investigación académica para la investigación estadística o académica basada en el interés público, y la forma en que se procesan o exponen los datos no identifica a una parte en particular. -Cuando actúa en el sitio web, viola los términos de servicio, o puede dañar u obstruir los derechos del sitio web y otros usuarios o causar daño a cualquier persona, la administración del sitio web determina que la divulgación de sus datos personales es para identificar, contactar o tomar las acciones legales necesarias. -Es de su interés. -Cuando este sitio web solicite a los ayudantes que ayuden en la recopilación, el procesamiento o el uso de sus datos personales, será responsable de la supervisión y gestión de los proveedores o individuos de outsourcing.",
+    "Content10": "Consulta - Si tiene alguna pregunta o comentario con respecto a la política de privacidad en este sitio web, envié un correo electrónico o llámenos para contactarnos.",
+    "Content11": "Revisión de la Política de Privacidad - La Política de Privacidad de este sitio web será revisada en cualquier momento en respuesta a la demanda. A medida que se realice la revisión, los nuevos términos se publicaran en el sitio web."
+  },
+  "PrivacyPolicyButton": {
+    "Content1":"Utilizamos cookies para mejorar su experiencia de usuario y para fines de estadísticas de tráfico web. Al continuar usando este sitio web, usted acepta nuestro uso de cookies. ",
+    "Content2":"Nuestra Política de Privacidad y Cookies",
+    "Content3":" contiene más información sobre dicho uso y explica cómo deshabilitar las cookies.",
+    "Agree": "Aceptar."
+  },
+  "ReadMore": "Mostrar más",
+  "ShowLess": "Mostrar menos",
+  "Previous": "Previo",
+  "Next": "Siguiente",
+  "Warning": "Esta es la ultima noticia.",
+  "Warning2": "Lo sentimos, no hay mas."
+}
