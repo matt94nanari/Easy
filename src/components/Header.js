@@ -140,9 +140,7 @@ const NavbarList = (props) => {
                                 id={`${v2.split(' ').join('')}-link`}
                                 to={`/production-control-management/${v2}`}
                               >
-                                {t(
-                                  `HeaderNavbar.${v.split(' ').join('')}.${v2}`
-                                )}
+                                {t(`HeaderNavbar.${optionTitle[i]}.${v2}`)}
                               </Nav.Link>
                             ) : v2 === 'PPAP' ? (
                               <Nav.Link
@@ -150,9 +148,7 @@ const NavbarList = (props) => {
                                 id={`${v2.split(' ').join('')}-link`}
                                 to={`/production-control-management/${v2}`}
                               >
-                                {t(
-                                  `HeaderNavbar.${v.split(' ').join('')}.${v2}`
-                                )}
+                                {t(`HeaderNavbar.${optionTitle[i]}.${v2}`)}
                               </Nav.Link>
                             ) : v2 === 'Email' ? (
                               <Nav.Link
@@ -647,8 +643,8 @@ function Header2(props) {
           }}
         >
           <picture>
-            <source media="(min-width: 1200px)" srcSet={logoText} />
-            <source media="(max-width: 1199px)" srcSet={logo} />
+            <source media="(min-width: 1250px)" srcSet={logoText} />
+            <source media="(max-width: 1249px)" srcSet={logo} />
             <Image src={logoText} alt="logo" />
           </picture>
         </Navbar.Brand>

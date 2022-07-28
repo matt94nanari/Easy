@@ -115,7 +115,7 @@
       .description {
         li {
           p {
-            width: 180px;
+            width: 200px;
             padding: 5px;
             font-size: 0.875rem;
           }
@@ -134,7 +134,7 @@
 }
 @media (max-width: 767px) {
   .onlineServiceSection1 {
-    padding-left: 30px;
+    padding-left: 3px;
     padding-right: 30px;
     .textArea {
       .title {
@@ -149,13 +149,33 @@
           text-align: center;
           margin-bottom: 100px !important;
           p {
-            margin-left:auto ;
+            margin-left: auto;
             margin-right: auto;
           }
         }
       }
       .iconsArea {
         text-align: left;
+      }
+    }
+  }
+}
+@media (max-width: 575px) {
+  .onlineServiceSection1 {
+    padding-left: 0px;
+    .textArea {
+      .title {
+        padding-left: 30px;
+      }
+      .description {
+        li {
+          margin-left: 0px !important;
+        }
+        li:nth-child(3) {
+          .iconsArea {
+            margin-left: 1rem;
+          }
+        }
       }
     }
   }
