@@ -381,8 +381,9 @@
           display: none;
         }
         .contact {
-          margin-top: 350px;
+          margin-top: 280px;
           margin-left: 20px;
+          margin-bottom: 50px;
           .title {
             p {
               color: #154547;
@@ -410,6 +411,9 @@
               border-left: 1px solid rgba(170, 170, 170, 0.2);
               border-right: 2px solid #154547;
               border-bottom: 2px solid #154547;
+              &:hover {
+                color: #00d07f;
+              }
             }
           }
           .mail {
@@ -533,6 +537,11 @@
             }
           }
           .phone {
+            transition: all 0.5s ease;
+            &:hover {
+              transform: scale(0.9);
+              transition: all 0.5s ease;
+            }
             p {
               transform: translateY(0px);
               opacity: 1;
