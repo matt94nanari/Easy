@@ -562,8 +562,6 @@
   .navbar {
     transition: all 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
     .navbar-brand {
-      position: absolute !important;
-      left: 50%;
       img {
         filter: drop-shadow(3px 6px 1px rgba(0, 0, 0, 0.9));
       }
