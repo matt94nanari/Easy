@@ -273,16 +273,18 @@ const Section3 = (props) => {
     t('AboutEasylink.History.2019'),
     t('AboutEasylink.History.2021'),
   ]
-
+  const [eventState, setEventState] = [event.length]
+  const height = eventState * 800
+  //內容以“#”分行
   const [page, setPage] = useState(1)
   const handleMoveParallax = () => {
     setPage(page + 1)
   }
   useEffect(() => {
-    if (page > 5) {
+    if (page > eventState) {
       setPage(1)
     }
-  }, [page])
+  }, [page, eventState])
   return (
     <section
       className="aboutEasylinkSection3"
@@ -299,7 +301,7 @@ const Section3 = (props) => {
         className="scroll-button"
         onClick={handleMoveParallax}
       ></button>
-      <div className="timeline">
+      <div className="timeline" style={{ height: `${height}px` }}>
         <span id="hint">{t('AboutEasylink.History.Hint')}</span>
         <div className={`parallax page${page}`} ref={ref}>
           {event.map((v, i) =>

@@ -20,25 +20,13 @@ function News(props) {
     t('AboutEasylink.News&Events.News4.Content'),
     t('AboutEasylink.News&Events.News5.Content'),
   ]
+  const urlAry = ['/news/1', '/news/2', '/news/3', '/news/4', '/news/5']
   const [image, setImage] = useState(null)
   const [title, setTitle] = useState(newsAry[0])
   const [linkPrevious, setLinkPrevious] = useState(`/news/1`)
   const [linkNext, setLinkNext] = useState(`/news/2`)
   const [warning, setWarning] = useState('')
   const { newsPages } = useParams()
-  const urlAry = ['/news/1', '/news/2', '/news/3', '/news/4', '/news/5']
-  useEffect(() => {
-    const imgAry = [news1, news2, news3, news4, news5]
-    const newsAry = [
-      t('AboutEasylink.News&Events.News1.Content'),
-      t('AboutEasylink.News&Events.News2.Content'),
-      t('AboutEasylink.News&Events.News3.Content'),
-      t('AboutEasylink.News&Events.News4.Content'),
-      t('AboutEasylink.News&Events.News5.Content'),
-    ]
-    setImage(imgAry[parseInt(newsPages) - 1])
-    setTitle(newsAry[parseInt(newsPages) - 1])
-  }, [t])
   useEffect(() => {
     props.setGreenHeaderStyle(true)
     const imgAry = [news1, news2, news3, news4, news5]
@@ -56,6 +44,8 @@ function News(props) {
       setLinkPrevious(`/news/${parseInt(newsPages) - 1}`)
       setLinkNext(`/news/${parseInt(newsPages) + 1}`)
     }
+    setImage(imgAry[parseInt(newsPages) - 1])
+    setTitle(newsAry[parseInt(newsPages) - 1])
   }, [props, newsPages, t])
 
   if (urlAry.indexOf(props.location.pathname) < 0) {
@@ -103,7 +93,7 @@ function News(props) {
               <Link
                 to={linkNext}
                 onClick={(e) => {
-                  if (props.location.pathname === '/news/5') {
+                  if (props.location.pathname === urlAry[urlAry.length - 1]) {
                     e.preventDefault()
                     setWarning(t('Warning2'))
                   }
