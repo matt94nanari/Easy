@@ -489,6 +489,7 @@ function Header2(props) {
       }
     })
   }
+  //使用者語言切換
   const languageAry = ['En', 'Es', '繁', '简']
   const languageCodeAry = ['en', 'es', 'zh-TW', 'zh']
   const handleLanguage = () => {
