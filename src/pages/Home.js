@@ -3,7 +3,7 @@ import { withRouter } from 'react-router-dom'
 import { Helmet } from 'react-helmet-async'
 import { useTranslation } from 'react-i18next'
 import BannerButton from '../components/BannerButton'
-import { Carousel, Modal, Form, Tooltip, OverlayTrigger } from 'react-bootstrap'
+import { Carousel, Modal, Form } from 'react-bootstrap'
 import { GoLinkExternal } from 'react-icons/go'
 import ReadMore from '../components/ReadMore'
 import BackgroundImageLoader from '../components/BackgroundImageLoader'
@@ -77,9 +77,6 @@ import areaTapping2Placeholder from '../images/facility/factoryArea-Tapping2-pla
 const Section1 = (props) => {
   const { t } = props
   const backgroundImage = BackgroundImageLoader(frontView)
-  const renderTooltip = (props) => (
-    <Tooltip {...props}>{t('Home.BeingEstablished')}</Tooltip>
-  )
   const ref = useRef(null)
   return (
     <section
@@ -138,15 +135,13 @@ const Section1 = (props) => {
             </a>
           </li>
           <li className="me-3">
-            <OverlayTrigger
-              placement="top"
-              delay={{ show: 250, hide: 400 }}
-              overlay={renderTooltip}
+            <a
+              href="http://www.easylink.com.tw/ningbo"
+              target="_blank"
+              rel="noreferrer"
             >
-              <p>
-                {t('Home.ChinaOffice')} <GoLinkExternal />
-              </p>
-            </OverlayTrigger>
+              {t('Home.ChinaOffice')} <GoLinkExternal />
+            </a>
           </li>
         </ul>
       </div>

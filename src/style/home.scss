@@ -116,21 +116,7 @@
       }
     }
   }
-}
-.tooltip {
-  .tooltip-arrow {
-    &::before {
-      border-bottom-color: #f7f7f7;
-    }
-  }
-  .tooltip-inner {
-    background-color: #f7f7f7;
-    color: #154547;
-    font-family: futura;
-    font-weight: bold;
-    font-size: 1.2rem;
-  }
-}
+} 
 .homeSection1.show {
   &::before {
     background-color: rgba(0, 0, 0, 0.4);
