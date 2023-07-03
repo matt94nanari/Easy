@@ -1,15 +1,27 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Easylink",
+  "name": "Easylink Co., ltd",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "src": "touch-icon128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "touch-icon192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "touch-icon512.png",
+      "sizes": "512x512",
+      "type": "image/png"
     }
   ],
-  "start_url": ".",
+  "lang": "en-US",
+  "start_url": "/?utm_source=homescreen",
   "display": "standalone",
-  "theme_color": "#000000",
+  "theme_color": "#1c2a38",
   "background_color": "#ffffff"
 }
