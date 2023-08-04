@@ -17,10 +17,12 @@ import SituationInformationPlaceholder from '../images/productionControl/situati
 import RealTimeSpc from '../images/productionControl/realTimeSpcWithTitle.webp'
 import RealTimeSpcPlaceholder from '../images/productionControl/realTimeSpcWithTitle-placeholder.webp'
 import productLiability from '../images/quality/productLiability.webp'
-import productLiability2 from '../images/quality/productLiability2.webp'
-import productLiability3 from '../images/quality/productLiability3.webp'
+// import productLiability2 from '../images/quality/productLiability2.webp'
+// import productLiability3 from '../images/quality/productLiability3.webp'
 import placeholder from '../images/other/placeholder2.webp'
 import recall from '../images/quality/recall.webp'
+import Recall from '../files/Risk/recall.pdf'
+import ProductLiability from '../files/Risk/productLiability.pdf'
 import { GoLinkExternal } from 'react-icons/go'
 const Section1 = (props) => {
   const { t } = props
@@ -594,7 +596,8 @@ const Section3 = (props) => {
 }
 const Section4 = (props) => {
   const { t } = props
-  const imgAry = [productLiability, productLiability2, productLiability3]
+  // const imgAry = [productLiability, productLiability2, productLiability3]
+  const imgAry = [productLiability]
   const [show, setShow] = useState(false)
   const handleClose = () => setShow(false)
   const handleShow = () => setShow(true)
@@ -620,7 +623,7 @@ const Section4 = (props) => {
       />
       <div className="photo d-flex justify-content-evenly flex-wrap">
         <div className="col-lg-3" data-aos="fade-right">
-          <Carousel
+          {/* <Carousel
             controls={false}
             variant="dark"
             interval={5000}
@@ -640,20 +643,34 @@ const Section4 = (props) => {
                 />
               </Carousel.Item>
             ))}
-          </Carousel>
+          </Carousel> */}
+          <a href={ProductLiability} target="_blank" rel="noreferrer noopener">
+            <ImageLoader
+              src={productLiability}
+              alt={`productLiability`}
+              placeholder={placeholder}
+            />
+          </a>
           <h3 className="text">
             {t('ProductionControlManagement.RiskManagement.ProductLiability')}
           </h3>
         </div>
         <div className="col-lg-3" data-aos="fade-left">
-          <ImageLoader
+          {/* <ImageLoader
             src={recall}
             alt={`recall`}
             placeholder={placeholder}
             onClick={() => {
               handleShow2()
             }}
-          />
+          /> */}
+          <a href={Recall} target="_blank" rel="noreferrer noopener">
+            <ImageLoader
+              src={recall}
+              alt={`recall`}
+              placeholder={placeholder}
+            />
+          </a>
           <h3 className="text">
             {t('ProductionControlManagement.RiskManagement.RecallInsurance')}
           </h3>
@@ -702,7 +719,17 @@ const Section4 = (props) => {
       </div>
       <Modal show={show} onHide={handleClose} size="md" centered>
         <Modal.Header closeButton closeVariant="white"></Modal.Header>
-        <Carousel
+        <ImageLoader
+          alt={`productLiability`}
+          src={productLiability}
+          placeholder={placeholder}
+        />
+        <div className="text">
+          <p>
+            {t('ProductionControlManagement.RiskManagement.ProductLiability')}
+          </p>
+        </div>
+        {/* <Carousel
           className="carousel-in-modal"
           indicators={false}
           activeIndex={index}
@@ -725,7 +752,7 @@ const Section4 = (props) => {
               </div>
             </Carousel.Item>
           ))}
-        </Carousel>
+        </Carousel> */}
       </Modal>
       <Modal show={show2} onHide={handleClose2} size="md" centered>
         <Modal.Header closeButton closeVariant="white"></Modal.Header>
