@@ -600,16 +600,16 @@ const Section4 = (props) => {
   const imgAry = [productLiability]
   const [show, setShow] = useState(false)
   const handleClose = () => setShow(false)
-  const handleShow = () => setShow(true)
+  // const handleShow = () => setShow(true)
 
   const [show2, setShow2] = useState(false)
   const handleClose2 = () => setShow2(false)
-  const handleShow2 = () => setShow2(true)
+  // const handleShow2 = () => setShow2(true)
 
   const [index, setIndex] = useState(0)
-  const handleSelect = (selectedIndex, e) => {
-    setIndex(selectedIndex)
-  }
+  // const handleSelect = (selectedIndex, e) => {
+  //   setIndex(selectedIndex)
+  // }
 
   return (
     <section className="qualityAssuranceSection2" id="RiskManagement">
@@ -681,7 +681,7 @@ const Section4 = (props) => {
           {imgAry.map((v, i) => (
             <Carousel.Item key={i}>
               <div className="col-md-5 col-sm-7 col-8">
-                <ImageLoader
+                {/* <ImageLoader
                   src={v}
                   alt={`productLiability${i + 1}`}
                   placeholder={placeholder}
@@ -689,7 +689,18 @@ const Section4 = (props) => {
                     handleShow()
                     handleSelect(i)
                   }}
-                />
+                /> */}
+                <a
+                  href={ProductLiability}
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  <ImageLoader
+                    src={productLiability}
+                    alt={`productLiability`}
+                    placeholder={placeholder}
+                  />
+                </a>
                 <h3 className="text">
                   {t(
                     'ProductionControlManagement.RiskManagement.ProductLiability'
@@ -700,14 +711,21 @@ const Section4 = (props) => {
           ))}
           <Carousel.Item>
             <div className="col-md-5 col-sm-7 col-8">
-              <ImageLoader
+              {/* <ImageLoader
                 src={recall}
                 alt={`recall`}
                 placeholder={placeholder}
                 onClick={() => {
                   handleShow2()
                 }}
-              />
+              /> */}
+              <a href={Recall} target="_blank" rel="noreferrer noopener">
+                <ImageLoader
+                  src={recall}
+                  alt={`recall`}
+                  placeholder={placeholder}
+                />
+              </a>
               <h3 className="text">
                 {t(
                   'ProductionControlManagement.RiskManagement.RecallInsurance'
