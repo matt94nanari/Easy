@@ -10,12 +10,18 @@ import Email3 from '../images/testimonial/Email3.webp'
 import Email4 from '../images/testimonial/Email4.webp'
 import Email5 from '../images/testimonial/Email5.webp'
 import Email6 from '../images/testimonial/Email6.webp'
+import Email7 from '../images/testimonial/Email7.webp'
+import Email8 from '../images/testimonial/Email8.webp'
+import Email9 from '../images/testimonial/Email9.webp'
 import ScoreCard1 from '../images/testimonial/Score Card1.webp'
 import ScoreCard2 from '../images/testimonial/Score Card2.webp'
 import ScoreCard3 from '../images/testimonial/Score Card3.webp'
 import ScoreCard4 from '../images/testimonial/Score Card4.webp'
 import ScoreCard5 from '../images/testimonial/Score Card5.webp'
 import ScoreCard6 from '../images/testimonial/Score Card6.webp'
+import ScoreCard7 from '../images/testimonial/Score Card7.webp'
+import ScoreCard8 from '../images/testimonial/Score Card8.webp'
+import ScoreCard9 from '../images/testimonial/Score Card9.webp'
 import Audit1 from '../images/testimonial/Audit1.webp'
 import Audit2 from '../images/testimonial/Audit2.webp'
 import Audit3 from '../images/testimonial/Audit3.webp'
@@ -25,6 +31,7 @@ import Audit6 from '../images/testimonial/Audit6.webp'
 import Audit7 from '../images/testimonial/Audit7.webp'
 import Audit8 from '../images/testimonial/Audit8.webp'
 import Audit9 from '../images/testimonial/Audit9.webp'
+import Audit10 from '../images/testimonial/Audit10.webp'
 import mascot from '../images/other/mascot.webp'
 import mascot2 from '../images/other/mascot2.webp'
 import email1 from '../files/testimonial/Email1.pdf'
@@ -33,12 +40,18 @@ import email3 from '../files/testimonial/Email3.pdf'
 import email4 from '../files/testimonial/Email4.pdf'
 import email5 from '../files/testimonial/Email5.pdf'
 import email6 from '../files/testimonial/Email6.pdf'
+import email7 from '../files/testimonial/Email7.pdf'
+import email8 from '../files/testimonial/Email8.pdf'
+import email9 from '../files/testimonial/Email9.pdf'
 import scoreCard1 from '../files/testimonial/Score Card1.pdf'
 import scoreCard2 from '../files/testimonial/Score Card2.pdf'
 import scoreCard3 from '../files/testimonial/Score Card3.pdf'
 import scoreCard4 from '../files/testimonial/Score Card4.pdf'
 import scoreCard5 from '../files/testimonial/Score Card5.pdf'
 import scoreCard6 from '../files/testimonial/Score Card6.pdf'
+import scoreCard7 from '../files/testimonial/Score Card7.pdf'
+import scoreCard8 from '../files/testimonial/Score Card8.pdf'
+import scoreCard9 from '../files/testimonial/Score Card9.pdf'
 import audit1 from '../files/testimonial/Audit1.pdf'
 import audit2 from '../files/testimonial/Audit2.pdf'
 import audit3 from '../files/testimonial/Audit3.pdf'
@@ -48,11 +61,22 @@ import audit6 from '../files/testimonial/Audit6.pdf'
 import audit7 from '../files/testimonial/Audit7.pdf'
 import audit8 from '../files/testimonial/Audit8.pdf'
 import audit9 from '../files/testimonial/Audit9.pdf'
+import audit10 from '../files/testimonial/Audit10.pdf'
 import placeholder from '../images/other/placeholder2.webp'
 import ImageLoader from '../components/ImageLoader'
 const Section1 = (props) => {
   const { t } = props
-  const emailAry = [Email1, Email2, Email3, Email4, Email5, Email6]
+  const emailAry = [
+    Email1,
+    Email2,
+    Email3,
+    Email4,
+    Email5,
+    Email6,
+    Email7,
+    Email8,
+    Email9,
+  ]
   const scoreCardAry = [
     ScoreCard1,
     ScoreCard2,
@@ -60,6 +84,9 @@ const Section1 = (props) => {
     ScoreCard4,
     ScoreCard5,
     ScoreCard6,
+    ScoreCard7,
+    ScoreCard8,
+    ScoreCard9,
   ]
   const auditAry = [
     Audit1,
@@ -71,6 +98,7 @@ const Section1 = (props) => {
     Audit7,
     Audit8,
     Audit9,
+    Audit10,
   ]
   const titleAry = [
     t('Testimonial.Email'),
@@ -79,9 +107,30 @@ const Section1 = (props) => {
   ]
   const imageAry = [emailAry, scoreCardAry, auditAry]
   const fileAry = [
-    [email1, email2, email3, email4, email5, email6],
-    [scoreCard1, scoreCard2, scoreCard3, scoreCard4, scoreCard5, scoreCard6],
-    [audit1, audit2, audit3, audit4, audit5, audit6, audit7, audit8, audit9],
+    [email1, email2, email3, email4, email5, email6, email7, email8, email9],
+    [
+      scoreCard1,
+      scoreCard2,
+      scoreCard3,
+      scoreCard4,
+      scoreCard5,
+      scoreCard6,
+      scoreCard7,
+      scoreCard8,
+      scoreCard9,
+    ],
+    [
+      audit1,
+      audit2,
+      audit3,
+      audit4,
+      audit5,
+      audit6,
+      audit7,
+      audit8,
+      audit9,
+      audit10,
+    ],
   ]
   const handleSlid = () => {
     window.scrollTo({
