@@ -404,6 +404,7 @@
     },
     "Test": {
       "Title": "品保实验室 - 尺寸检验 & 机械性质测试",
+      "ImageDimensionMeasurementSystem":"影像尺寸量测仪",
       "Projector": "投影机",
       "Caliper": "卡尺",
       "Micrometer": "分釐卡",

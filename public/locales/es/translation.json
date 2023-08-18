@@ -404,6 +404,7 @@
     },
     "Test": {
       "Title": "Laboratorio - Medición de dimensiones y pruebas mecánicas",
+      "ImageDimensionMeasurementSystem":"Sistema de medición de la dimensión de la imagen",
       "Projector": "Proyector",
       "Caliper": "Vernier",
       "Micrometer": "Micrómetro",

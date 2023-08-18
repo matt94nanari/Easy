@@ -19,6 +19,8 @@ import camoutPlaceholder from '../images/lab/camout-placeholder.webp'
 import heightGage from '../images/lab/heightGage.webp'
 import heightGagePlaceholder from '../images/lab/heightGage-placeholder.webp'
 import projector from '../images/lab/projector.webp'
+import ImageDimensionMeasurementSystem from '../images/lab/ImageDimensionMeasurementSystem.webp'
+import ImageDimensionMeasurementSystemPlaceholder from '../images/lab/ImageDimensionMeasurementSystem-placeholder.webp'
 import projectorPlaceholder from '../images/lab/projector-placeholder.webp'
 import saltSpray from '../images/lab/saltSpray.webp'
 import saltSprayPlaceholder from '../images/lab/saltSpray-placeholder.webp'
@@ -148,6 +150,7 @@ const Section3 = (props) => {
     }
   }, [width])
   const imgAry = [
+    ImageDimensionMeasurementSystem,
     projector,
     caliper,
     micrometer,
@@ -165,6 +168,7 @@ const Section3 = (props) => {
     drillDriveTestMachine,
   ]
   const placeholderAry = [
+    ImageDimensionMeasurementSystemPlaceholder,
     projectorPlaceholder,
     caliperPlaceholder,
     micrometerPlaceholder,
@@ -182,6 +186,7 @@ const Section3 = (props) => {
     drillDriveTestMachinePlaceholder,
   ]
   const nameAry = [
+    t('LabTest.Test.ImageDimensionMeasurementSystem'),
     t('LabTest.Test.Projector'),
     t('LabTest.Test.Caliper'),
     t('LabTest.Test.Micrometer'),
@@ -216,6 +221,7 @@ const Section3 = (props) => {
   }, [indexMobile])
   useEffect(() => {
     const nameAry = [
+      t('LabTest.Test.ImageDimensionMeasurementSystem'),
       t('LabTest.Test.Projector'),
       t('LabTest.Test.Caliper'),
       t('LabTest.Test.Micrometer'),
@@ -281,7 +287,9 @@ const Section3 = (props) => {
       case 15:
         setName(nameAry[15])
         break
-
+      case 16:
+        setName(nameAry[16])
+        break
       default:
         setName(nameAry[0])
         break
@@ -337,7 +345,7 @@ const Section3 = (props) => {
             </Carousel.Item>
           ))}
         </Carousel>
-        <div className="text-center my-4 col-md-9 col-sm-10 col-11 mx-auto">
+        <div className="text-center my-4 col-md-9 col-sm-10 col-12 mx-auto">
           <div className={`status-bar device${range + 1}`}>
             {nameAry[range] +
               ' ' +
@@ -346,7 +354,7 @@ const Section3 = (props) => {
               nameAry.length}
             <Form.Range
               min="0"
-              max="14"
+              max="15"
               steps="1"
               value={range}
               onChange={(e) => {
