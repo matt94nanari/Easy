@@ -404,7 +404,7 @@
     },
     "Test": {
       "Title": "Lab - Dimension Measuring & Mechanical Testing",
-      "ImageDimensionMeasurementSystem":"Image Dimension Measurement System",
+      "ImageDimensionMeasurementSystem":"Image Automatic Measurement System",
       "Projector": "Projector",
       "Caliper": "Caliper",
       "Micrometer": "Micrometer",

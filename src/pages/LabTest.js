@@ -345,7 +345,7 @@ const Section3 = (props) => {
             </Carousel.Item>
           ))}
         </Carousel>
-        <div className="text-center my-4 col-md-9 col-sm-10 col-12 mx-auto">
+        <div className="text-center my-4 col-md-9 col-sm-10 col-11 mx-auto">
           <div className={`status-bar device${range + 1}`}>
             {nameAry[range] +
               ' ' +
