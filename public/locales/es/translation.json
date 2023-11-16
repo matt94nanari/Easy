@@ -116,24 +116,24 @@
     "News&Events": {
       "Title": "Noticias y Eventos",
       "News1": {
-        "Date": "Marzo 2020",
-        "Content": "Pabellón 11.2.2020 Stand O051"
+        "Date": "",
+        "Content": "EASYLINK es un fabricante con licencia de MAThread® y MATpoint®"
       },
       "News2": {
-        "Date": "Junio 2019",
-        "Content": "Feria de Sujetadores 2019, Ciudad de México"
+        "Date": "2023",
+        "Content": "Sujetador Taiwán, Kaohsing"
       },
       "News3": {
-        "Date": "Mayo 2019",
-        "Content": "2019 Expo Manufactura, Monterrey"
+        "Date": "2023",
+        "Content": "Feria de sujetadores, Nashville"
       },
       "News4": {
         "Date": "Mayo 2019",
         "Content": "Feria de Sujetadores 2019, Detroit"
       },
       "News5": {
-        "Date": "Mayo 2019",
-        "Content": "Compuestos y proveedores automotrices globales 2019"
+        "Date": "2019",
+        "Content": "Feria de Fijaciones, México"
       }
     },
     "TechnicalCorner": {

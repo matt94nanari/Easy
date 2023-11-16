@@ -71,9 +71,13 @@ function News(props) {
           <BannerButton color={`darkGreen`} location={`left`}>
             {t('AboutEasylink.News&Events.Title')}
           </BannerButton>
-          <Title text={title} justifyContent={`justify-content-center`} />
+          <Title
+            text={title}
+            justifyContent={`justify-content-center`}
+            col={`col-lg-10`}
+          />
           <div className="photo d-flex flex-wrap justify-content-center">
-            <div className="col-md-6 col-sm-8 col-12 my-5 text-center">
+            <div className="col-md-6 col-sm-8 col-10 my-5 text-center">
               <ImageLoader src={image} alt={`news`} placeholder={placeholder} />
             </div>
           </div>

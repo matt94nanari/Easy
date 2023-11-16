@@ -116,24 +116,24 @@
     "News&Events": {
       "Title": "最新消息",
       "News1": {
-        "Date": "March 2020",
-        "Content": "2020 Hall 11.2 Booth O051"
+        "Date": "",
+        "Content": "EASYLINK is a licensed MAThread® and MATpoint® manufacturer"
       },
       "News2": {
-        "Date": "June 2019",
-        "Content": "2019 Fastener Fair, Mexico City"
+        "Date": "2023",
+        "Content": "Fastener Taiwan, Kaohsing "
       },
       "News3": {
-        "Date": "May 2019",
-        "Content": "2019 Expo Manufactura, Monterrey"
+        "Date": "2023",
+        "Content": "Fastener Fair, Nashville"
       },
       "News4": {
-        "Date": "May 2019",
-        "Content": "2019 Fastener Fair, Detroit"
+        "Date": "2022",
+        "Content": "Earthquake Drill"
       },
       "News5": {
-        "Date": "May 2019",
-        "Content": "2019 Global Automotive Componets and Suppliers"
+        "Date": "2019",
+        "Content": "Fastener Fair, Mexico"
       }
     },
     "TechnicalCorner": {
@@ -404,7 +404,7 @@
     },
     "Test": {
       "Title": "品保實驗室 - 尺寸檢驗 & 機械性質測試",
-      "ImageDimensionMeasurementSystem":"影像自動測量儀",
+      "ImageDimensionMeasurementSystem": "影像自動測量儀",
       "Projector": "投影機",
       "Caliper": "卡尺",
       "Micrometer": "分釐卡",
@@ -535,9 +535,9 @@
     "Content11": "隱私權保護政策之修正 -本網站隱私權保護政策將因應需求隨時進行修正，修正後的條款將刊登於網站上。"
   },
   "PrivacyPolicyButton": {
-    "Content1":"本網站使用cookies以提昇您的使用體驗及統計網路流量相關資料。繼續使用本網站表示您同意我們使用cookies。 ",
-    "Content2":"我們的隱私及Cookie政策",
-    "Content3":" 提供更多關於cookies使用及停用的相關資訊。",
+    "Content1": "本網站使用cookies以提昇您的使用體驗及統計網路流量相關資料。繼續使用本網站表示您同意我們使用cookies。 ",
+    "Content2": "我們的隱私及Cookie政策",
+    "Content3": " 提供更多關於cookies使用及停用的相關資訊。",
     "Agree": "我接受"
   },
   "ReadMore": "Read More",

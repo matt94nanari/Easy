@@ -116,24 +116,24 @@
     "News&Events": {
       "Title": "News & Events",
       "News1": {
-        "Date": "March 2020",
-        "Content": "2020 Hall 11.2 Booth O051"
+        "Date": "",
+        "Content": "EASYLINK is a licensed MAThread® and MATpoint® manufacturer"
       },
       "News2": {
-        "Date": "June 2019",
-        "Content": "2019 Fastener Fair, Mexico City"
+        "Date": "2023",
+        "Content": "Fastener Taiwan, Kaohsing "
       },
       "News3": {
-        "Date": "May 2019",
-        "Content": "2019 Expo Manufactura, Monterrey"
+        "Date": "2023",
+        "Content": "Fastener Fair, Nashville"
       },
       "News4": {
-        "Date": "May 2019",
-        "Content": "2019 Fastener Fair, Detroit"
+        "Date": "2022",
+        "Content": "Earthquake Drill"
       },
       "News5": {
-        "Date": "May 2019",
-        "Content": "2019 Global Automotive Componets and Suppliers"
+        "Date": "2019",
+        "Content": "Fastener Fair, Mexico"
       }
     },
     "TechnicalCorner": {
