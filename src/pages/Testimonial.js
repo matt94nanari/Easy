@@ -4,6 +4,7 @@ import { Helmet } from 'react-helmet-async'
 import { useTranslation } from 'react-i18next'
 import { withRouter } from 'react-router-dom'
 import { Card, Carousel, Image } from 'react-bootstrap'
+import Award1 from '../images/testimonial/Award1.webp'
 import Email1 from '../images/testimonial/Email1.webp'
 import Email2 from '../images/testimonial/Email2.webp'
 import Email3 from '../images/testimonial/Email3.webp'
@@ -66,6 +67,7 @@ import placeholder from '../images/other/placeholder2.webp'
 import ImageLoader from '../components/ImageLoader'
 const Section1 = (props) => {
   const { t } = props
+  const awardAry = [Award1]
   const emailAry = [
     Email1,
     Email2,
@@ -101,12 +103,14 @@ const Section1 = (props) => {
     Audit10,
   ]
   const titleAry = [
+    t('Testimonial.Award'),
     t('Testimonial.Email'),
     t('Testimonial.ScoreCard'),
     t('Testimonial.Audit'),
   ]
-  const imageAry = [emailAry, scoreCardAry, auditAry]
+  const imageAry = [awardAry, emailAry, scoreCardAry, auditAry]
   const fileAry = [
+    [Award1],
     [email1, email2, email3, email4, email5, email6, email7, email8, email9],
     [
       scoreCard1,
@@ -147,14 +151,17 @@ const Section1 = (props) => {
   useEffect(() => {
     if (props.testimonialContent) {
       switch (props.testimonialContent) {
-        case 'email':
+        case 'Award':
           handleSelect(0)
           break
-        case 'score card':
+        case 'email':
           handleSelect(1)
           break
-        case 'audit':
+        case 'score card':
           handleSelect(2)
+          break
+        case 'audit':
+          handleSelect(3)
           break
         default:
           handleSelect(0)
@@ -168,6 +175,17 @@ const Section1 = (props) => {
         {t('Testimonial.Title')}
       </BannerButton>
       <ul className="d-flex flex-wrap button-list">
+        <li className="mb-3 me-3">
+          <button
+            type="button"
+            onClick={() => {
+              handleSelect(0)
+              props.setTestimonialContent('Award')
+            }}
+          >
+            {t('Testimonial.Award')}
+          </button>
+        </li>
         <li className="mb-3 me-3">
           <button
             type="button"
@@ -237,6 +255,12 @@ const Section1 = (props) => {
                       className={`card-img`}
                     />
                   </a>
+                  {index === 0 ? (
+                    <p>
+                      <br />
+                      {t('Testimonial.Award1')}
+                    </p>
+                  ) : null}
                 </Card>
               ))}
             </div>

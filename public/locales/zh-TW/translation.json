@@ -68,6 +68,7 @@
     },
     "Testimonial": {
       "Title": "客戶評價",
+      "Award": "獲獎",
       "Email": "郵件",
       "ScoreCard": "評分卡",
       "Audit": "稽核"
@@ -460,6 +461,8 @@
   },
   "Testimonial": {
     "Title": "客戶評價",
+    "Award": "獲獎",
+    "Award1": "A-level supplier by Wurth Industry North America, and receives the highest grade Platinum Award. A total of 12 suppliers receive it, and Easylink ranks 7th.",
     "Email": "郵件",
     "ScoreCard": "評分卡",
     "Audit": "稽核"
@@ -495,6 +498,7 @@
     },
     "Testimonial": {
       "Title": "客戶評價",
+      "Award": "獲獎",
       "Email": "郵件",
       "ScoreCard": "評分卡",
       "Audit": "稽核"

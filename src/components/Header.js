@@ -366,7 +366,7 @@ function Header2(props) {
     ['Lab', 'LabCertificate', 'Test', 'Calibration'],
     ['SortingFactory', 'OpticalSorting', 'RobotSorting'],
     ['Packing', 'ASRS'],
-    ['Email', 'ScoreCard', 'Audit'],
+    ['Award', 'Email', 'ScoreCard', 'Audit'],
     [],
   ]
   const quickLinkAddress = [
@@ -395,7 +395,7 @@ function Header2(props) {
       'FurnitureScrews',
     ],
     ['Lab', 'LabCertificate', 'Test', 'Calibration'],
-    ['Email', 'ScoreCard', 'Audit'],
+    ['Award', 'Email', 'ScoreCard', 'Audit'],
     ['Management', 'ProductionProcedure', 'APQP', 'PPAP', 'RiskManagement'],
   ]
   useEffect(() => {

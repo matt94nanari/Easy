@@ -176,6 +176,21 @@ const FooterContent = ({ location, setTestimonialContent }) => {
               data-aos="zoom-in"
               to="/testimonial"
               onClick={(e) => {
+                setTestimonialContent('award')
+                if (location.pathname === '/testimonial') {
+                  e.preventDefault()
+                  scroll.scrollToTop()
+                }
+              }}
+            >
+              {t('Footer.Testimonial.Award')}
+            </Link>
+          </li>
+          <li className="me-3 mb-3">
+            <Link
+              data-aos="zoom-in"
+              to="/testimonial"
+              onClick={(e) => {
                 setTestimonialContent('email')
                 if (location.pathname === '/testimonial') {
                   e.preventDefault()
