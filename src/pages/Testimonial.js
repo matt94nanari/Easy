@@ -5,6 +5,8 @@ import { useTranslation } from 'react-i18next'
 import { withRouter } from 'react-router-dom'
 import { Card, Carousel, Image } from 'react-bootstrap'
 import Award1 from '../images/testimonial/Award1.webp'
+import Award2 from '../images/testimonial/Award2.webp'
+import Award3 from '../images/testimonial/Award3.webp'
 import Email1 from '../images/testimonial/Email1.webp'
 import Email2 from '../images/testimonial/Email2.webp'
 import Email3 from '../images/testimonial/Email3.webp'
@@ -67,7 +69,7 @@ import placeholder from '../images/other/placeholder2.webp'
 import ImageLoader from '../components/ImageLoader'
 const Section1 = (props) => {
   const { t } = props
-  const awardAry = [Award1]
+  const awardAry = [Award1, Award2, Award3]
   const emailAry = [
     Email1,
     Email2,
@@ -110,7 +112,7 @@ const Section1 = (props) => {
   ]
   const imageAry = [awardAry, emailAry, scoreCardAry, auditAry]
   const fileAry = [
-    [Award1],
+    [Award1, Award2, Award3],
     [email1, email2, email3, email4, email5, email6, email7, email8, email9],
     [
       scoreCard1,
@@ -256,9 +258,9 @@ const Section1 = (props) => {
                     />
                   </a>
                   {index === 0 ? (
-                    <p>
+                    <p className="mx-auto">
                       <br />
-                      {t('Testimonial.Award1')}
+                      <strong>{t(`Testimonial.Award${i + 1}`)}</strong>
                     </p>
                   ) : null}
                 </Card>

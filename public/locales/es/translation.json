@@ -462,7 +462,9 @@
   "Testimonial": {
     "Title": "Opinión de nuestros clientes",
     "Award": "Otorgar",
-    "Award1": "A-level supplier by Wurth Industry North America, and receives the highest grade Platinum Award. A total of 12 suppliers receive it, and Easylink ranks 7th.",
+    "Award1": "Best Quality",
+    "Award2": "Best Quality",
+    "Award3": "A-level Supplier By Wurth",
     "Email": "Correo electrónico",
     "ScoreCard": "Tarjeta de puntuación",
     "Audit": "Auditoría"
