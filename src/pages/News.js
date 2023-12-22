@@ -77,7 +77,7 @@ function News(props) {
             col={`col-lg-10`}
           />
           <div className="photo d-flex flex-wrap justify-content-center">
-            <div className="col-md-6 col-sm-8 col-10 my-5 text-center">
+            <div className="col-md-6 col-sm-10 col-11 my-5 text-center">
               <ImageLoader src={image} alt={`news`} placeholder={placeholder} />
               {/* {image === 'text' ? (
                 <p>"123"</p>
