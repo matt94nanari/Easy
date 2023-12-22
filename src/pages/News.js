@@ -5,8 +5,8 @@ import BannerButton from '../components/BannerButton'
 import Title from '../components/Title'
 import ImageLoader from '../components/ImageLoader'
 import { withRouter, Link, useParams, Redirect } from 'react-router-dom'
-import news1 from '../images/aboutEasy/news1.webp'
-import news2 from '../images/aboutEasy/news2.webp'
+import news11 from '../images/aboutEasy/news11.webp'
+import news21 from '../images/aboutEasy/news21.webp'
 import news3 from '../images/aboutEasy/news3.webp'
 import news4 from '../images/aboutEasy/news4.webp'
 import news5 from '../images/aboutEasy/news5.webp'
@@ -29,7 +29,7 @@ function News(props) {
   const { newsPages } = useParams()
   useEffect(() => {
     props.setGreenHeaderStyle(true)
-    const imgAry = [news1, news2, news3, news4, news5]
+    const imgAry = [news11, news21, news3, news4, news5]
     const newsAry = [
       t('AboutEasylink.News&Events.News1.Content'),
       t('AboutEasylink.News&Events.News2.Content'),
@@ -79,6 +79,15 @@ function News(props) {
           <div className="photo d-flex flex-wrap justify-content-center">
             <div className="col-md-6 col-sm-8 col-10 my-5 text-center">
               <ImageLoader src={image} alt={`news`} placeholder={placeholder} />
+              {/* {image === 'text' ? (
+                <p>"123"</p>
+              ) : (
+                <ImageLoader
+                  src={image}
+                  alt={`news`}
+                  placeholder={placeholder}
+                />
+              )} */}
             </div>
           </div>
           <div className="d-flex flex-wrap justify-content-center">

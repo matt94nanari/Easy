@@ -121,20 +121,20 @@
         "Content": "EASYLINK es un fabricante con licencia de MAThread® y MATpoint®"
       },
       "News2": {
-        "Date": "2023",
-        "Content": "Sujetador Taiwán, Kaohsing"
+        "Date": "",
+        "Content": "EasyLink Small Bagging Kitting Solutions "
       },
       "News3": {
         "Date": "2023",
-        "Content": "Feria de sujetadores, Nashville"
+        "Content": "Sujetador Taiwán, Kaohsing"
       },
       "News4": {
-        "Date": "Mayo 2019",
-        "Content": "Feria de Sujetadores 2019, Detroit"
+        "Date": "2023",
+        "Content": "Feria de sujetadores, Nashville"
       },
       "News5": {
-        "Date": "2019",
-        "Content": "Feria de Fijaciones, México"
+        "Date": "Mayo 2019",
+        "Content": "Feria de Sujetadores 2019, Detroit"
       }
     },
     "TechnicalCorner": {
@@ -405,7 +405,7 @@
     },
     "Test": {
       "Title": "Laboratorio - Medición de dimensiones y pruebas mecánicas",
-      "ImageDimensionMeasurementSystem":"Medición Automática de Imágenes",
+      "ImageDimensionMeasurementSystem": "Medición Automática de Imágenes",
       "Projector": "Proyector",
       "Caliper": "Vernier",
       "Micrometer": "Micrómetro",
@@ -464,7 +464,7 @@
     "Award": "Otorgar",
     "Award1": "Best Quality",
     "Award2": "Best Quality",
-    "Award3": "A-level Supplier By Wurth",
+    "Award3": "A-level Supplier",
     "Email": "Correo electrónico",
     "ScoreCard": "Tarjeta de puntuación",
     "Audit": "Auditoría"
@@ -541,9 +541,9 @@
     "Content11": "Revisión de la Política de Privacidad - La Política de Privacidad de este sitio web será revisada en cualquier momento en respuesta a la demanda. A medida que se realice la revisión, los nuevos términos se publicaran en el sitio web."
   },
   "PrivacyPolicyButton": {
-    "Content1":"Utilizamos cookies para mejorar su experiencia de usuario y para fines de estadísticas de tráfico web. Al continuar usando este sitio web, usted acepta nuestro uso de cookies. ",
-    "Content2":"Nuestra Política de Privacidad y Cookies",
-    "Content3":" contiene más información sobre dicho uso y explica cómo deshabilitar las cookies.",
+    "Content1": "Utilizamos cookies para mejorar su experiencia de usuario y para fines de estadísticas de tráfico web. Al continuar usando este sitio web, usted acepta nuestro uso de cookies. ",
+    "Content2": "Nuestra Política de Privacidad y Cookies",
+    "Content3": " contiene más información sobre dicho uso y explica cómo deshabilitar las cookies.",
     "Agree": "Aceptar."
   },
   "ReadMore": "Mostrar más",
