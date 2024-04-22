@@ -117,24 +117,24 @@
     "News&Events": {
       "Title": "Noticias y Eventos",
       "News1": {
-        "Date": "",
-        "Content": "Invitation International Fastener Fair Cologne"
+        "Date": "2024",
+        "Content": "Taiwan International Fastener Show"
       },
       "News2": {
         "Date": "",
-        "Content": "Soluciones de Empacado para juego de Sujetadores en pequeñas bolsas"
+        "Content": "Invitation International Fastener Fair Cologne"
       },
       "News3": {
         "Date": "",
-        "Content": "EASYLINK es un fabricante con licencia de MAThread® y MATpoint®"
+        "Content": "Soluciones de Empacado para juego de Sujetadores en pequeñas bolsas"
       },
       "News4": {
-        "Date": "2023",
-        "Content": "Sujetador Taiwán, Kaohsing"
+        "Date": "",
+        "Content": "EASYLINK es un fabricante con licencia de MAThread® y MATpoint®"
       },
       "News5": {
         "Date": "2023",
-        "Content": "Feria de sujetadores, Nashville"
+        "Content": "Sujetador Taiwán, Kaohsing"
       }
     },
     "TechnicalCorner": {

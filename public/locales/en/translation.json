@@ -117,24 +117,24 @@
     "News&Events": {
       "Title": "News & Events",
       "News1": {
-        "Date": "",
-        "Content": "Invitation International Fastener Fair Cologne"
+        "Date": "2024",
+        "Content": "Taiwan International Fastener Show"
       },
       "News2": {
-        "Date": "",
-        "Content": "EasyLink Small Bagging Kitting Solutions"
+        "Date": "2024",
+        "Content": "Invitation International Fastener Fair Cologne"
       },
       "News3": {
         "Date": "",
-        "Content": "EASYLINK is a licensed MAThread® and MATpoint® manufacturer"
+        "Content": "EasyLink Small Bagging Kitting Solutions"
       },
       "News4": {
-        "Date": "2023",
-        "Content": "Fastener Taiwan, Kaohsing "
+        "Date": "",
+        "Content": "EASYLINK is a licensed MAThread® and MATpoint® manufacturer"
       },
       "News5": {
         "Date": "2023",
-        "Content": "Fastener Fair, Nashville"
+        "Content": "Fastener Taiwan, Kaohsing "
       }
     },
     "TechnicalCorner": {
