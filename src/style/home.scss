@@ -252,7 +252,7 @@
     .status-bar.area1 {
       &::before {
         width: 10%;
-        transition: 2s all ease;
+        transition: 1.5s all ease;
       }
     }
     .status-bar.area2 {
@@ -298,7 +298,7 @@
     .status-bar.area10 {
       &::before {
         width: 100%;
-        transition: 1.5s all ease;
+        transition: 1s all ease;
       }
     }
     input[type='range'] {

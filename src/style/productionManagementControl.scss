@@ -65,6 +65,7 @@
   .status-bar.steps1 {
     &::before {
       width: 20%;
+      transition: 1.5s all ease;
     }
   }
   .status-bar.steps2 {
@@ -85,7 +86,7 @@
   .status-bar.steps5 {
     &::before {
       width: 100%;
-      transition: 1.5s all ease;
+      transition: 1s all ease;
     }
   }
   input[type='range'] {

@@ -326,7 +326,7 @@ const Section3 = (props) => {
         <Carousel
           variant="dark"
           indicators={false}
-          interval={2500}
+          interval={3000}
           pause="false"
           activeIndex={indexMobile}
           onSelect={handleSelectMobile}

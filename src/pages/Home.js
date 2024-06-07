@@ -541,7 +541,7 @@ const Section2 = (props) => {
         <div className="carousel-desk">
           <Carousel
             controls={false}
-            interval={2500}
+            interval={3000}
             indicators={false}
             fade
             activeIndex={index}

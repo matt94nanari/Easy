@@ -95,7 +95,7 @@ const Section2 = (props) => {
           variant="dark"
           indicators={false}
           activeIndex={index}
-          interval={2500}
+          interval={3000}
           pause="false"
           onSelect={handleSelect}
           fade
