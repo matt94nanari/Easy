@@ -5,7 +5,6 @@ import { useTranslation } from 'react-i18next'
 import BannerButton from '../components/BannerButton'
 import { Carousel, Modal, Form } from 'react-bootstrap'
 import { GoLinkExternal } from 'react-icons/go'
-import ReadMore from '../components/ReadMore'
 import BackgroundImageLoader from '../components/BackgroundImageLoader'
 import ImageLoader from '../components/ImageLoader'
 import WindowWidth from '../components/WindowWidth'
@@ -660,18 +659,16 @@ const SectionText = (props) => {
               {t('Home.Description2').split('#')[1]}
             </span>
           </h5>
-          <ReadMore
-            children={[
-              t('Home.List1'),
-              t('Home.List2'),
-              t('Home.List3'),
-              t('Home.List4'),
-              t('Home.List5'),
-              t('Home.List6'),
-              t('Home.List7'),
-              t('Home.List8'),
-            ]}
-          />
+          <ul className="readMore">
+            <li className="full-text">{t('Home.List1')}</li>
+            <li className="full-text">{t('Home.List2')}</li>
+            <li className="full-text">{t('Home.List3')}</li>
+            <li className="full-text">{t('Home.List4')}</li>
+            <li className="full-text">{t('Home.List5')}</li>
+            <li className="full-text">{t('Home.List6')}</li>
+            <li className="full-text">{t('Home.List7')}</li>
+            <li className="full-text">{t('Home.List8')}</li>
+          </ul>
         </div>
       </div>
     </section>
@@ -680,7 +677,7 @@ const SectionText = (props) => {
 function Home(props) {
   const { t } = useTranslation()
   useEffect(() => {
-    props.setGreenHeaderStyle(false)
+    props.setGreenHeaderStyle(true)
   }, [props])
   return (
     <>

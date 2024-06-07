@@ -36,6 +36,9 @@
           color: #00d07f;
           transition: all 0.5s ease;
         }
+        .dropdown-menu {
+          border: none !important;
+        }
       }
       .nav-item {
         .dropdown-toggle {
@@ -93,13 +96,13 @@
         opacity: 1;
         > button {
           position: absolute;
-          top: -37.5px;
-          right: 1.25%;
+          top: -30px;
+          right: 2%;
         }
         button {
           background-color: transparent;
           border: none;
-          transition: all 0.5s ease;
+          transition: all 0.75s ease;
           color: white;
           font-size: 22px;
           font-family: futura;
@@ -111,21 +114,9 @@
         .languageList {
           position: absolute;
           top: -30px;
-          right: 0%;
+          right: 2%;
           visibility: hidden;
-          transition: visibility 0s 0.6s, border-color 0s;
-          .languageOptions {
-            display: block;
-            border: none;
-            font-size: 16px;
-            color: white;
-            &:focus {
-              outline: 0;
-            }
-            &:hover {
-              color: #00d07f;
-            }
-          }
+          transition: visibility 0s 1s, border-color 0s;
         }
       }
       .language.open {
@@ -135,10 +126,8 @@
           transition: 0.5s all ease;
         }
         .languageList.open {
-          border-radius: 10px;
           visibility: visible;
-          transition-delay: 0s;
-          border-color: white;
+          transition: 0.5s all ease;
         }
       }
     }
@@ -399,7 +388,6 @@
           }
           .phone {
             p {
-              color: #aaa;
               font-family: HelveticaNeue;
               font-size: 1.375rem;
               transform: translateY(-60px);
@@ -407,10 +395,6 @@
               transition: all 0.3s ease;
               padding: 5px 15px;
               display: inline-block;
-              border-top: 1px solid rgba(170, 170, 170, 0.2);
-              border-left: 1px solid rgba(170, 170, 170, 0.2);
-              border-right: 2px solid #154547;
-              border-bottom: 2px solid #154547;
               &:hover {
                 color: #00d07f;
               }
@@ -418,7 +402,7 @@
           }
           .mail {
             p {
-              color: #aaa;
+              color: #154547;
               font-family: HelveticaNeue;
               font-size: 1.375rem;
               transform: translateY(-60px);
@@ -426,10 +410,6 @@
               transition: all 0.3s ease;
               padding: 5px 15px;
               display: inline-block;
-              border-top: 1px solid rgba(170, 170, 170, 0.2);
-              border-left: 1px solid rgba(170, 170, 170, 0.2);
-              border-right: 2px solid #154547;
-              border-bottom: 2px solid #154547;
               &:hover {
                 color: #00d07f;
               }
@@ -538,10 +518,6 @@
           }
           .phone {
             transition: all 0.5s ease;
-            // &:hover {
-            //   transform: scale(0.9);
-            //   transition: all 0.5s ease;
-            // }
             p {
               transform: translateY(0px);
               opacity: 1;
@@ -551,10 +527,6 @@
           }
           .mail {
             transition: all 0.5s ease;
-            // &:hover {
-            //   transform: scale(0.9);
-            //   transition: all 0.5s ease;
-            // }
             p {
               transform: translateY(0px);
               opacity: 1;
@@ -590,11 +562,6 @@
     .language {
       button {
         color: white;
-      }
-      .languageList {
-        .languageOptions {
-          color: white;
-        }
       }
     }
     .navbar-toggler {
@@ -652,12 +619,14 @@
         .navbar-nav {
           .nav-item {
             > .nav-link {
-              font-size: 1.25rem;
+              font-size: 1.5rem;
+              font-weight: bolder;
             }
             .optionsList {
               .options {
                 .nav-link {
-                  font-size: 1rem;
+                  font-size: 1.2rem;
+                  font-weight: bold;
                 }
               }
             }
@@ -671,11 +640,13 @@
             .phone {
               p {
                 font-size: 1rem;
+                font-weight: bold;
               }
             }
             .mail {
               p {
                 font-size: 1rem;
+                font-weight: bold;
               }
             }
           }
@@ -735,7 +706,6 @@
               transform: translateY(-60px);
               background-color: transparent;
               border: none;
-              transition: all 0.5s ease;
               color: #154547;
               padding: 5px 10px;
               &:hover {
@@ -766,7 +736,16 @@
             }
             .languageList.open {
               visibility: visible;
-              transition-delay: 0s;
+              transition: 0.5s all ease;
+              position: absolute;
+              left: 1%;
+            }
+          }
+          .languageMobile.open {
+            > button {
+              visibility: hidden;
+              opacity: 0;
+              transition: 0.5s all ease;
             }
           }
           .contact {
@@ -790,6 +769,7 @@
               transition: width 0.5s 1.7s, opacity 0.5s 1.7s ease;
             }
             button {
+              width: 50px;
               transform: translateY(-10px);
               opacity: 1;
               transition: transform 0.5s 1.6s, opacity 0.5s 1.6s,
@@ -835,6 +815,17 @@
       }
       .navbar-toggler {
         left: 80%;
+      }
+    }
+    .navbar.show.active {
+      .navbar-collapse.active {
+        .navbar-nav {
+          .languageMobile {
+            > button {
+              width: 85px;
+            }
+          }
+        }
       }
     }
   }

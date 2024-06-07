@@ -10,6 +10,10 @@ import * as Scroll from 'react-scroll'
 import logo from '../images/other/logo.svg'
 import logoText from '../images/other/logoText.svg'
 import { useTrail, a } from '@react-spring/web'
+import us from '../images/flag/us.svg'
+import tw from '../images/flag/tw.svg'
+import cn from '../images/flag/cn.svg'
+import es from '../images/flag/es.svg'
 let ScrollLink = Scroll.Link
 const LanguageList = ({ open, children }) => {
   const items = React.Children.toArray(children)
@@ -62,6 +66,8 @@ const NavbarList = (props) => {
     setTestimonialContent,
     languageAry,
     languageCodeAry,
+    languageFlag,
+    setLanguageFlag,
     changeLanguage,
   } = props
   const optionTitle = [
@@ -249,7 +255,7 @@ const NavbarList = (props) => {
           ref={languageRef}
         >
           <button onClick={handleLanguage}>
-            <RiGlobalLine style={{ fontSize: '1.5rem' }} />
+            <Image src={languageFlag} fluid />
           </button>
           <div
             className={openLanguageList ? 'languageList open' : 'languageList'}
@@ -262,10 +268,13 @@ const NavbarList = (props) => {
                   onClick={() => {
                     changeLanguage(languageCodeAry[i])
                     setLanguage(v)
+                    setLanguageFlag(v)
                     document.querySelector('.navbar-toggler').click()
                   }}
                 >
-                  {v}
+                  <li className="flag">
+                    <Image src={v} />
+                  </li>
                 </button>
               ))}
             </LanguageList>
@@ -310,6 +319,7 @@ function Header2(props) {
   const navbarTogglerRef = useRef(null)
   const [showNavbar, setShowNavbar] = useState(true)
   const [language, setLanguage] = useState()
+  const [languageFlag, setLanguageFlag] = useState(true)
   const [collapse, setCollapse] = useState(false)
   const [openLanguageList, setOpenLanguageList] = useState(false)
   const languageRef = useRef(null)
@@ -456,18 +466,23 @@ function Header2(props) {
     switch (userLanguage) {
       case 'es':
         setLanguage('Es')
+        setLanguageFlag(es)
         break
       case 'en':
         setLanguage('En')
+        setLanguageFlag(us)
         break
       case 'zh-TW':
         setLanguage('繁')
+        setLanguageFlag(tw)
         break
       case 'zh':
         setLanguage('简')
+        setLanguageFlag(cn)
         break
       default:
         setLanguage('En')
+        setLanguageFlag(us)
         break
     }
   }, [])
@@ -490,7 +505,7 @@ function Header2(props) {
     })
   }
   //使用者語言切換
-  const languageAry = ['En', 'Es', '繁', '简']
+  const languageAry = [us, es, tw, cn]
   const languageCodeAry = ['en', 'es', 'zh-TW', 'zh']
   const handleLanguage = () => {
     setOpenLanguageList((state) => !state)
@@ -514,8 +529,9 @@ function Header2(props) {
       >
         <div className="quickLink1 col-4 d-flex flex-wrap justify-content-center">
           <div className={openLanguageList ? 'language open' : 'language'}>
-            <button onClick={handleLanguage}>
+            <button onClick={handleLanguage} className="d-flex">
               <RiGlobalLine style={{ fontSize: '1.5rem' }} />
+              <Image src={languageFlag} fluid />
             </button>
             <div
               className={
@@ -535,10 +551,13 @@ function Header2(props) {
                         })
                         setLanguage(v)
                         setOpenLanguageList(false)
+                        setLanguageFlag(v)
                       }
                     }}
                   >
-                    {v}
+                    <li className="flag">
+                      <Image src={v} />
+                    </li>
                   </button>
                 ))}
               </LanguageList>
@@ -755,6 +774,8 @@ function Header2(props) {
             collapse={collapse}
             setTestimonialContent={props.setTestimonialContent}
             setHashID={props.setHashID}
+            languageFlag={languageFlag}
+            setLanguageFlag={setLanguageFlag}
           />
         </div>
       </Navbar>
