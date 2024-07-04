@@ -19,7 +19,6 @@ function DragCarousel(props) {
           {imgAry ? (
             <div className="photo">
               <ImageLoader
-                // src={require('../images/aboutEasy/' + imgAry[i] + '.webp')}
                 src={imgAry[i]}
                 alt={`photo${i + 1}`}
                 className={`col-8`}

@@ -5,14 +5,15 @@ import { useTranslation } from 'react-i18next'
 import { withRouter } from 'react-router-dom'
 import Title from '../components/Title'
 import { Carousel } from 'react-bootstrap'
+import DragCarousel2 from 'react-multi-carousel'
+import 'react-multi-carousel/lib/styles.css'
 import DragCarousel from '../components/DragCarousel'
 import ImageLoader from '../components/ImageLoader'
 import BackgroundImageLoader from '../components/BackgroundImageLoader'
 import TQS from '../images/aboutEasy/TQS.webp'
 import IATF16949 from '../images/aboutEasy/IATF16949.webp'
-import IATF169492 from '../images/aboutEasy/IATF169492.webp'
 import ISO14001 from '../images/aboutEasy/ISO14001.webp'
-import ISO140012 from '../images/aboutEasy/ISO14001-2.webp'
+import ISO140641 from '../images/aboutEasy/ISO14064-1.webp'
 import news1 from '../images/aboutEasy/news1.webp'
 import news2 from '../images/aboutEasy/news2.webp'
 import news3 from '../images/aboutEasy/news3.webp'
@@ -28,18 +29,106 @@ import technicalCorner7 from '../images/aboutEasy/technicalCorner7.webp'
 import tqs from '../files/Certificate/TQS.pdf'
 import iso14001 from '../files/Certificate/ISO14001.pdf'
 import iatf16949 from '../files/Certificate/IATF16949.pdf'
+import iso140641 from '../files/Certificate/ISO14064-1.pdf'
 import worldMap from '../images/aboutEasy/worldMap.webp'
 import worldMapPlaceholder from '../images/aboutEasy/worldMap-placeholder.webp'
 import placeholder from '../images/other/placeholder.webp'
 import placeholder2 from '../images/other/placeholder2.webp'
 const Section1 = (props) => {
   const { t } = props
+  const responsive = {
+    superLargeDesktop: {
+      breakpoint: { max: 4000, min: 3000 },
+      items: 3,
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 3,
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 1,
+    },
+    mobile: {
+      breakpoint: { max: 575, min: 0 },
+      items: 1,
+    },
+  }
+  const imgAry = [ISO140641, IATF16949, ISO14001, TQS]
+  const linkAry = [iso140641, iatf16949, iso14001, tqs]
+  const newsAry = [
+    t('AboutEasylink.Certificate.ISO14064'),
+    t('AboutEasylink.Certificate.IATF'),
+    t('AboutEasylink.Certificate.ISO14001'),
+    t('AboutEasylink.Certificate.TTQS'),
+  ]
   return (
     <section className="aboutEasylinkSection1" id="Certificate">
       <BannerButton color={`darkGreen`} location={`left`}>
         {t('AboutEasylink.Certificate.Title')}
       </BannerButton>
-      <div className="photo d-flex justify-content-evenly flex-wrap">
+      <DragCarousel2
+        responsive={responsive}
+        className="content photo"
+        autoPlay={true}
+        infinite={true}
+        removeArrowOnDeviceType={['tablet', 'mobile']}
+        autoPlaySpeed={5000}
+        showDots={true}
+      >
+        {imgAry.map((v, i) => (
+          <div className="d-flex flex-wrap justify-content-center" key={i}>
+            {imgAry ? (
+              <div className="photo">
+                <a href={linkAry[i]} target="_blank" rel="noreferrer noopener">
+                  <ImageLoader
+                    src={imgAry[i]}
+                    alt={`photo${i + 1}`}
+                    className={`col-8`}
+                    placeholder={placeholder}
+                    onClick={() => {
+                      document
+                        .querySelector(`.${linkAry[i].split('/')[1] + (i + 1)}`)
+                        .click()
+                    }}
+                  />
+                </a>
+              </div>
+            ) : (
+              <></>
+            )}
+            <div className="text col-8 mt-5 mx-auto">
+              <a href={linkAry[i]} target="_blank" rel="noreferrer noopener">
+                {newsAry ? <h4 className="news">{newsAry[i]}</h4> : <></>}
+              </a>
+            </div>
+          </div>
+        ))}
+      </DragCarousel2>
+      {/* <div className="photo d-flex justify-content-evenly flex-wrap">
+        <div className="col-lg-3 mx-4">
+          <Carousel controls={false} variant="dark" interval={null} fade>
+            <Carousel.Item>
+              <a href={iatf16949} target="_blank" rel="noreferrer noopener">
+                <ImageLoader
+                  src={IATF16949}
+                  alt={`IATF16949`}
+                  placeholder={placeholder2}
+                />
+              </a>
+            </Carousel.Item>
+            <Carousel.Item>
+              <a href={iatf16949} target="_blank" rel="noreferrer noopener">
+                <ImageLoader
+                  src={IATF169492}
+                  alt={`IATF169492`}
+                  placeholder={placeholder2}
+                />
+              </a>
+            </Carousel.Item>
+          </Carousel>
+          <h4 className="text">{t('AboutEasylink.Certificate.IATF')}</h4>
+        </div>
         <div className="col-lg-3 mx-4">
           <Carousel controls={false} variant="dark" interval={null} fade>
             <Carousel.Item>
@@ -94,27 +183,29 @@ const Section1 = (props) => {
             &nbsp; {t('AboutEasylink.Certificate.TTQS')} &nbsp;
           </h4>
         </div>
-      </div>
+      </div> */}
       <div className="photo-mobile d-none">
         <Carousel variant="dark" fade interval={2500}>
           <Carousel.Item>
             <div className="col-md-5 col-sm-7 col-8">
-              <a href={iatf16949} target="_blank" rel="noreferrer noopener">
+              <a href={iso140641} target="_blank" rel="noreferrer noopener">
                 <ImageLoader
-                  src={IATF16949}
-                  alt={`IATF16949`}
+                  src={ISO140641}
+                  alt={`ISO140641`}
                   placeholder={placeholder2}
                 />
               </a>
-              <h4 className="text">{t('AboutEasylink.Certificate.IATF')}</h4>
+              <h4 className="text">
+                {t('AboutEasylink.Certificate.ISO14064')}
+              </h4>
             </div>
           </Carousel.Item>
           <Carousel.Item>
             <div className="col-md-5 col-sm-7 col-8">
               <a href={iatf16949} target="_blank" rel="noreferrer noopener">
                 <ImageLoader
-                  src={IATF169492}
-                  alt={`IATF169492`}
+                  src={IATF16949}
+                  alt={`IATF16949`}
                   placeholder={placeholder2}
                 />
               </a>
@@ -130,19 +221,9 @@ const Section1 = (props) => {
                   placeholder={placeholder2}
                 />
               </a>
-              <h4 className="text">{t('AboutEasylink.Certificate.ISO')}</h4>
-            </div>
-          </Carousel.Item>
-          <Carousel.Item>
-            <div className="col-md-5 col-sm-7 col-8">
-              <a href={iso14001} target="_blank" rel="noreferrer noopener">
-                <ImageLoader
-                  src={ISO140012}
-                  alt={`ISO140012`}
-                  placeholder={placeholder2}
-                />
-              </a>
-              <h4 className="text">{t('AboutEasylink.Certificate.ISO')}</h4>
+              <h4 className="text">
+                {t('AboutEasylink.Certificate.ISO14001')}
+              </h4>
             </div>
           </Carousel.Item>
           <Carousel.Item>

@@ -110,8 +110,9 @@
   "AboutEasylink": {
     "Certificate": {
       "Title": "Certificate",
+      "ISO14064": "ISO 14064",
       "IATF": "IATF 16949",
-      "ISO": "ISO 14001",
+      "ISO14001": "ISO 14001",
       "TTQS": "TTQS"
     },
     "News&Events": {
