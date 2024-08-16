@@ -17,7 +17,7 @@ import areaMSFPlaceholder from '../images/facility/factoryArea-MSF-placeholder.w
 import areaThread from '../images/home/factoryArea-Threading.webp'
 import areaThreadPlaceholder from '../images/facility/factoryArea-Threading-placeholder.webp'
 import areaSorting from '../images/home/factoryAreaSorting.webp'
-import areaSortingPlaceholder from '../images/facility/factoryAreaSorting-placeholder.webp'
+// import areaSortingPlaceholder from '../images/facility/factoryAreaSorting-placeholder.webp'
 import screw from '../images/home/screw.webp'
 import screwPlaceholder from '../images/home/screw-placeholder.webp'
 import wireMaterial from '../images/home/wireMaterial.webp'
@@ -53,7 +53,7 @@ import toolingASRSPlaceholder from '../images/tooling/toolingASRS-placeholder.we
 import toolingASRS2 from '../images/home/toolingASRS2.webp'
 import toolingASRS2Placeholder from '../images/tooling/toolingASRS2-placeholder.webp'
 import slotting2 from '../images/home/factoryAreaHeadSlotting2.webp'
-import slotting2Placeholder from '../images/facility/factoryAreaHeadSlotting2-placeholder.webp'
+// import slotting2Placeholder from '../images/facility/factoryAreaHeadSlotting2-placeholder.webp'
 import IoT from '../images/home/IoT.webp'
 import IoTPlaceholder from '../images/home/IoT-placeholder.webp'
 import KanBan from '../images/home/KanBan.webp'
@@ -181,14 +181,10 @@ const Section2 = (props) => {
     [area1B2CPlaceholder, wireMaterialPlaceholder, screwPlaceholder],
     [areaMSFPlaceholder, IoTPlaceholder, KanBanPlaceholder],
     [areaThreadPlaceholder, areaTapping1Placeholder, areaTapping2Placeholder],
-    [PressingPlaceholder, pressingPlaceholder2, slotting2Placeholder],
+    [PressingPlaceholder, pressingPlaceholder2],
     [areaAssemblingPlaceholder, assembling1Placeholder, assembling2Placeholder],
     [toolingASRSPlaceholder, toolingASRS2Placeholder, ToolingPlaceholder],
-    [
-      areaSortingPlaceholder,
-      opticalSorting1Placeholder,
-      opticalSorting2Placeholder,
-    ],
+    [opticalSorting1Placeholder, opticalSorting2Placeholder],
     [LabPlaceholder, realTimeSpc2Placeholder, realTimeSpc4Placeholder],
     [PackingPlaceholder, Packing3Placeholder, Packing4Placeholder],
     [ASRS1Placeholder, ASRS2Placeholder, ASRS3Placeholder],
@@ -217,14 +213,12 @@ const Section2 = (props) => {
     areaTapping2Placeholder,
     PressingPlaceholder,
     pressingPlaceholder2,
-    slotting2Placeholder,
     areaAssemblingPlaceholder,
     assembling1Placeholder,
     assembling2Placeholder,
     toolingASRSPlaceholder,
     toolingASRS2Placeholder,
     ToolingPlaceholder,
-    areaSortingPlaceholder,
     opticalSorting1Placeholder,
     opticalSorting2Placeholder,
     LabPlaceholder,

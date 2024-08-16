@@ -15,7 +15,7 @@ import factoryAreaTappingPlaceholder from '../images/facility/factoryArea-Tappin
 import factoryAreaAssembling from '../images/facility/factoryArea-Assembling.webp'
 import factoryAreaAssemblingPlaceholder from '../images/facility/factoryArea-Assembling-placeholder.webp'
 import factoryAreaHeadSlotting from '../images/facility/factoryAreaHeadSlotting.webp'
-import factoryAreaHeadSlottingPlaceholder from '../images/facility/factoryAreaHeadSlotting-placeholder.webp'
+// import factoryAreaHeadSlottingPlaceholder from '../images/facility/factoryAreaHeadSlotting-placeholder.webp'
 import factoryAreaPressing from '../images/facility/factoryArea-Pressing.webp'
 import factoryAreaPressingPlaceholder from '../images/facility/factoryArea-Pressing-placeholder.webp'
 import operating1B2C from '../images/facility/operating1B2C.webp'
@@ -27,7 +27,7 @@ import operatingThreadingPlaceholder from '../images/facility/operatingThreading
 import factoryAreaTapping2 from '../images/facility/factoryArea-Tapping2.webp'
 import factoryAreaTapping2Placeholder from '../images/facility/factoryArea-Tapping2-placeholder.webp'
 import factoryAreaHeadSlotting2 from '../images/facility/factoryAreaHeadSlotting2.webp'
-import factoryAreaHeadSlotting2Placeholder from '../images/facility/factoryAreaHeadSlotting2-placeholder.webp'
+// import factoryAreaHeadSlotting2Placeholder from '../images/facility/factoryAreaHeadSlotting2-placeholder.webp'
 import assembling from '../images/facility/assembling.webp'
 import assemblingPlaceholder from '../images/facility/assembling-placeholder.webp'
 import pressing from '../images/facility/pressing.webp'
@@ -128,8 +128,6 @@ function Facility(props) {
           id={`SecondaryOperation`}
           image1={factoryAreaHeadSlotting}
           image2={factoryAreaHeadSlotting2}
-          placeholder1={factoryAreaHeadSlottingPlaceholder}
-          placeholder2={factoryAreaHeadSlotting2Placeholder}
           imageName1={`factoryAreaHeadSlotting`}
           imageName2={`factoryAreaHeadSlotting2`}
           title={t('Facility.SecondaryOperation.Title')}

@@ -5,9 +5,9 @@ import { withRouter } from 'react-router-dom'
 import SectionRight from '../components/SectionRight'
 import SectionLeft from '../components/SectionLeft'
 import AreaSorting1 from '../images/facility/factoryAreaSorting.webp'
-import AreaSorting1Placeholder from '../images/facility/factoryAreaSorting-placeholder.webp'
-import AreaSorting2 from '../images/facility/factoryAreaSorting2.webp'
-import AreaSorting2Placeholder from '../images/facility/factoryAreaSorting2-placeholder.webp'
+// import AreaSorting1Placeholder from '../images/facility/factoryAreaSorting-placeholder.webp'
+// import AreaSorting2 from '../images/facility/factoryAreaSorting2.webp'
+// import AreaSorting2Placeholder from '../images/facility/factoryAreaSorting2-placeholder.webp'
 import AreaSorting3 from '../images/facility/factoryAreaSorting3.webp'
 import AreaSorting3Placeholder from '../images/facility/factoryAreaSorting3-placeholder.webp'
 import opticalSorting1 from '../images/sorting/opticalSorting1.webp'
@@ -47,12 +47,8 @@ function OpticalRobotSorting(props) {
             t('OpticalRobotSorting.SortingFactory.Content').split('-')[0],
             t('OpticalRobotSorting.SortingFactory.Content').split('-')[1],
           ]}
-          imgAry={[AreaSorting1, AreaSorting2, AreaSorting3]}
-          placeholderAry={[
-            AreaSorting1Placeholder,
-            AreaSorting2Placeholder,
-            AreaSorting3Placeholder,
-          ]}
+          imgAry={[AreaSorting1, AreaSorting3]}
+          placeholderAry={[AreaSorting3Placeholder]}
         />
         <SectionRight
           section={`opticalSortingSection2`}
