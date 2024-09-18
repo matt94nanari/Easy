@@ -299,20 +299,20 @@
     }
   },
   "Products": {
-    "Title": "Products",
+    "Title": "产品",
     "AutoParts": {
-      "Title": "Auto Parts",
-      "Content": "Easylink manufactures various products in house including -screws, bolts, nuts, stamping products, component assembly."
+      "Title": "汽车扣件",
+      "Content": "易连可于自家厂内生产各种产品，包括螺丝、螺栓、螺帽、冲压产品、零件组装"
     },
     "Electronics&ApplianceScrews": {
-      "Title": "Electronics & Appliance Screws"
+      "Title": "电子与电器螺丝"
     },
     "PressingParts&SpecialNuts": {
-      "Title": "Pressing Parts & Special Nuts"
+      "Title": "冲压产品与特殊螺帽"
     },
     "FurnitureScrews": {
-      "Title": "Furniture Screws",
-      "Content": "(Made in Vietnam Factory)"
+      "Title": "傢俱螺丝",
+      "Content": "(于越南工厂生产)"
     }
   },
   "ProductionControlManagement": {
