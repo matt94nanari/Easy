@@ -9,7 +9,7 @@ import AreaSorting1 from '../images/facility/factoryAreaSorting.webp'
 // import AreaSorting2 from '../images/facility/factoryAreaSorting2.webp'
 // import AreaSorting2Placeholder from '../images/facility/factoryAreaSorting2-placeholder.webp'
 import AreaSorting3 from '../images/facility/factoryAreaSorting3.webp'
-import AreaSorting3Placeholder from '../images/facility/factoryAreaSorting3-placeholder.webp'
+// import AreaSorting3Placeholder from '../images/facility/factoryAreaSorting3-placeholder.webp'
 import opticalSorting1 from '../images/sorting/opticalSorting1.webp'
 import opticalSorting1Placeholder from '../images/sorting/opticalSorting1-placeholder.webp'
 import opticalSorting2 from '../images/sorting/opticalSorting2.webp'
@@ -48,7 +48,7 @@ function OpticalRobotSorting(props) {
             t('OpticalRobotSorting.SortingFactory.Content').split('-')[1],
           ]}
           imgAry={[AreaSorting1, AreaSorting3]}
-          placeholderAry={[AreaSorting3Placeholder]}
+          placeholderAry={[]}
         />
         <SectionRight
           section={`opticalSortingSection2`}

@@ -67,7 +67,7 @@ import assembling1Placeholder from '../images/facility/assembling-placeholder.we
 import assembling2 from '../images/home/assembling2.webp'
 import assembling2Placeholder from '../images/home/assembling2-placeholder.webp'
 import areaAssembling from '../images/home/factoryArea-Assembling.webp'
-import areaAssemblingPlaceholder from '../images/facility/factoryArea-Assembling-placeholder.webp'
+// import areaAssemblingPlaceholder from '../images/facility/factoryArea-Assembling-placeholder.webp'
 import areaTapping1 from '../images/home/factoryArea-Tapping.webp'
 import areaTapping1Placeholder from '../images/facility/factoryArea-Tapping-placeholder.webp'
 import areaTapping2 from '../images/home/factoryArea-Tapping2.webp'
@@ -182,7 +182,7 @@ const Section2 = (props) => {
     [areaMSFPlaceholder, IoTPlaceholder, KanBanPlaceholder],
     [areaThreadPlaceholder, areaTapping1Placeholder, areaTapping2Placeholder],
     [PressingPlaceholder, pressingPlaceholder2],
-    [areaAssemblingPlaceholder, assembling1Placeholder, assembling2Placeholder],
+    [assembling1Placeholder, assembling2Placeholder],
     [toolingASRSPlaceholder, toolingASRS2Placeholder, ToolingPlaceholder],
     [opticalSorting1Placeholder, opticalSorting2Placeholder],
     [LabPlaceholder, realTimeSpc2Placeholder, realTimeSpc4Placeholder],
@@ -213,7 +213,7 @@ const Section2 = (props) => {
     areaTapping2Placeholder,
     PressingPlaceholder,
     pressingPlaceholder2,
-    areaAssemblingPlaceholder,
+    // areaAssemblingPlaceholder,
     assembling1Placeholder,
     assembling2Placeholder,
     toolingASRSPlaceholder,

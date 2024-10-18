@@ -11,9 +11,9 @@ import factoryAreaMSFPlaceholder from '../images/facility/factoryArea-MSF-placeh
 import factoryAreaThreading from '../images/facility/factoryArea-Threading.webp'
 import factoryAreaThreadingPlaceholder from '../images/facility/factoryArea-Threading-placeholder.webp'
 import factoryAreaTapping from '../images/facility/factoryArea-Tapping.webp'
-import factoryAreaTappingPlaceholder from '../images/facility/factoryArea-Tapping-placeholder.webp'
+// import factoryAreaTappingPlaceholder from '../images/facility/factoryArea-Tapping-placeholder.webp'
 import factoryAreaAssembling from '../images/facility/factoryArea-Assembling.webp'
-import factoryAreaAssemblingPlaceholder from '../images/facility/factoryArea-Assembling-placeholder.webp'
+// import factoryAreaAssemblingPlaceholder from '../images/facility/factoryArea-Assembling-placeholder.webp'
 import factoryAreaHeadSlotting from '../images/facility/factoryAreaHeadSlotting.webp'
 // import factoryAreaHeadSlottingPlaceholder from '../images/facility/factoryAreaHeadSlotting-placeholder.webp'
 import factoryAreaPressing from '../images/facility/factoryArea-Pressing.webp'
@@ -31,7 +31,7 @@ import factoryAreaHeadSlotting2 from '../images/facility/factoryAreaHeadSlotting
 import assembling from '../images/facility/assembling.webp'
 import assemblingPlaceholder from '../images/facility/assembling-placeholder.webp'
 import pressing from '../images/facility/pressing.webp'
-import pressingPlaceholder from '../images/facility/pressing-placeholder.webp'
+// import pressingPlaceholder from '../images/facility/pressing-placeholder.webp'
 function Facility(props) {
   useEffect(() => {
     props.setGreenHeaderStyle(true)
@@ -103,7 +103,7 @@ function Facility(props) {
           id={`Tapping`}
           image1={factoryAreaTapping}
           image2={factoryAreaTapping2}
-          placeholder1={factoryAreaTappingPlaceholder}
+          // placeholder1={factoryAreaTappingPlaceholder}
           placeholder2={factoryAreaTapping2Placeholder}
           imageName1={`factoryAreaTapping`}
           imageName2={`factoryAreaTapping2`}
@@ -117,7 +117,7 @@ function Facility(props) {
           image1={assembling}
           image2={factoryAreaAssembling}
           placeholder1={assemblingPlaceholder}
-          placeholder2={factoryAreaAssemblingPlaceholder}
+          // placeholder2={factoryAreaAssemblingPlaceholder}
           imageName1={`assembling`}
           imageName2={`factoryAreaAssembling`}
           title={t('Facility.Assembling.Title')}
@@ -141,7 +141,7 @@ function Facility(props) {
           image2={factoryAreaPressing}
           imageName1={`pressing`}
           imageName2={`factoryAreaPressing`}
-          placeholder1={pressingPlaceholder}
+          // placeholder1={pressingPlaceholder}
           placeholder2={factoryAreaPressingPlaceholder}
           title={t('Facility.Stamping.Title')}
           description={t('Facility.Stamping.Content')}
