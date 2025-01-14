@@ -17,7 +17,7 @@
       "AssemblingArea": "自動組裝車間",
       "ToolingASRSSystem": "模具自動倉儲",
       "SortingArea": "篩選車間",
-      "Lab": "品保實驗室",
+      "Lab": "易連測試實驗室",
       "PackingArea": "包裝車間",
       "ASRS": "物料＆成品自動倉儲"
     },
@@ -60,8 +60,8 @@
       "FurnitureScrews": "家俱類緊扣件"
     },
     "LabTest": {
-      "Title": "品保實驗室 & 檢測",
-      "Lab": "品保 - 實驗室",
+      "Title": "易連測試實驗室 & 檢測",
+      "Lab": "測試實驗室",
       "LabCertificate": "證書",
       "Test": "檢測",
       "Calibration": "校正"
@@ -397,14 +397,14 @@
     }
   },
   "LabTest": {
-    "Title": "品保實驗室",
-    "Description": "易連品保實驗室成立於西元1999年，並取得TAF認證。",
+    "Title": "易連測試實驗室",
+    "Description": "易連測試實驗室成立於西元1999年，並取得TAF認證。",
     "LabCertificate": {
       "Title": "實驗室認證",
       "TAF": "TAF"
     },
     "Test": {
-      "Title": "品保實驗室 - 尺寸檢驗 & 機械性質測試",
+      "Title": "易連測試實驗室 - 尺寸檢驗 & 機械性質測試",
       "ImageDimensionMeasurementSystem": "影像自動測量儀",
       "Projector": "投影機",
       "Caliper": "卡尺",
@@ -517,7 +517,7 @@
         "Title": "產品與品質",
         "Products": "產品",
         "ProductionControl&ManageMent": "生產控制 & 管理",
-        "Lab": "品保實驗室"
+        "Lab": "易連測試實驗室"
       }
     }
   },
