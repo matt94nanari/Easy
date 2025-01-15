@@ -18,6 +18,9 @@ import Email8 from '../images/testimonial/Email8.webp'
 import Email9 from '../images/testimonial/Email9.webp'
 import Email10 from '../images/testimonial/Email10.webp'
 import Email11 from '../images/testimonial/Email11.webp'
+import Email12 from '../images/testimonial/Email12.webp'
+import Email13 from '../images/testimonial/Email13.webp'
+import Email14 from '../images/testimonial/Email14.webp'
 import ScoreCard1 from '../images/testimonial/Score Card1.webp'
 import ScoreCard2 from '../images/testimonial/Score Card2.webp'
 import ScoreCard3 from '../images/testimonial/Score Card3.webp'
@@ -31,6 +34,11 @@ import ScoreCard10 from '../images/testimonial/Score Card10.webp'
 import ScoreCard11 from '../images/testimonial/Score Card11.webp'
 import ScoreCard12 from '../images/testimonial/Score Card12.webp'
 import ScoreCard13 from '../images/testimonial/Score Card13.webp'
+import ScoreCard14 from '../images/testimonial/Score Card14.webp'
+import ScoreCard15 from '../images/testimonial/Score Card15.webp'
+import ScoreCard16 from '../images/testimonial/Score Card16.webp'
+import ScoreCard17 from '../images/testimonial/Score Card17.webp'
+import ScoreCard18 from '../images/testimonial/Score Card18.webp'
 import Audit1 from '../images/testimonial/Audit1.webp'
 import Audit2 from '../images/testimonial/Audit2.webp'
 import Audit3 from '../images/testimonial/Audit3.webp'
@@ -44,7 +52,7 @@ import Audit10 from '../images/testimonial/Audit10.webp'
 import mascot from '../images/other/mascot.webp'
 import mascot2 from '../images/other/mascot2.webp'
 import email1 from '../files/testimonial/Email1.pdf'
-import email2 from '../files/testimonial/Email2.png'
+import email2 from '../files/testimonial/Email2.pdf'
 import email3 from '../files/testimonial/Email3.pdf'
 import email4 from '../files/testimonial/Email4.pdf'
 import email5 from '../files/testimonial/Email5.pdf'
@@ -54,6 +62,9 @@ import email8 from '../files/testimonial/Email8.pdf'
 import email9 from '../files/testimonial/Email9.pdf'
 import email10 from '../files/testimonial/Email10.pdf'
 import email11 from '../files/testimonial/Email11.pdf'
+import email12 from '../files/testimonial/Email12.pdf'
+import email13 from '../files/testimonial/Email13.pdf'
+import email14 from '../files/testimonial/Email14.pdf'
 import scoreCard1 from '../files/testimonial/Score Card1.pdf'
 import scoreCard2 from '../files/testimonial/Score Card2.pdf'
 import scoreCard3 from '../files/testimonial/Score Card3.pdf'
@@ -67,6 +78,11 @@ import scoreCard10 from '../files/testimonial/Score Card10.pdf'
 import scoreCard11 from '../files/testimonial/Score Card11.pdf'
 import scoreCard12 from '../files/testimonial/Score Card12.pdf'
 import scoreCard13 from '../files/testimonial/Score Card13.pdf'
+import scoreCard14 from '../files/testimonial/Score Card14.pdf'
+import scoreCard15 from '../files/testimonial/Score Card15.pdf'
+import scoreCard16 from '../files/testimonial/Score Card16.pdf'
+import scoreCard17 from '../files/testimonial/Score Card17.pdf'
+import scoreCard18 from '../files/testimonial/Score Card18.pdf'
 import audit1 from '../files/testimonial/Audit1.pdf'
 import audit2 from '../files/testimonial/Audit2.pdf'
 import audit3 from '../files/testimonial/Audit3.pdf'
@@ -94,6 +110,9 @@ const Section1 = (props) => {
     Email9,
     Email10,
     Email11,
+    Email12,
+    Email13,
+    Email14,
   ]
   const scoreCardAry = [
     ScoreCard1,
@@ -109,6 +128,11 @@ const Section1 = (props) => {
     ScoreCard11,
     ScoreCard12,
     ScoreCard13,
+    ScoreCard14,
+    ScoreCard15,
+    ScoreCard16,
+    ScoreCard17,
+    ScoreCard18,
   ]
   const auditAry = [
     Audit1,
@@ -143,6 +167,9 @@ const Section1 = (props) => {
       email9,
       email10,
       email11,
+      email12,
+      email13,
+      email14,
     ],
     [
       scoreCard1,
@@ -158,6 +185,11 @@ const Section1 = (props) => {
       scoreCard11,
       scoreCard12,
       scoreCard13,
+      scoreCard14,
+      scoreCard15,
+      scoreCard16,
+      scoreCard17,
+      scoreCard18,
     ],
     [
       audit1,

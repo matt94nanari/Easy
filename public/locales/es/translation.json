@@ -68,7 +68,7 @@
     },
     "Testimonial": {
       "Title": "Opinión de nuestros clientes",
-      "Award": "Otorgar",
+      "Award": "Reconocimientos",
       "Email": "Correo electrónico",
       "ScoreCard": "Tarjeta de puntuación",
       "Audit": "Auditoria"
@@ -461,7 +461,7 @@
   },
   "Testimonial": {
     "Title": "Opinión de nuestros clientes",
-    "Award": "Otorgar",
+    "Award": "Reconocimientos",
     "Award1": "Best Quality",
     "Award2": "Best Quality",
     "Award3": "A-level Supplier",
@@ -500,7 +500,7 @@
     },
     "Testimonial": {
       "Title": "Opinión de nuestros clientes",
-      "Award": "Otorgar",
+      "Award": "Reconocimientos",
       "Email": "Correo electrónico",
       "ScoreCard": "Tarjeta de puntuación",
       "Audit": "Auditoría"
