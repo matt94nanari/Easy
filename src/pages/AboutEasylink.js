@@ -14,6 +14,14 @@ import TQS from '../images/aboutEasy/TQS.webp'
 import IATF16949 from '../images/aboutEasy/IATF16949.webp'
 import ISO14001 from '../images/aboutEasy/ISO14001.webp'
 import ISO140641 from '../images/aboutEasy/ISO14064-1.webp'
+import Patent1 from '../images/aboutEasy/Patent1.webp'
+import Patent2 from '../images/aboutEasy/Patent2.webp'
+import Patent3 from '../images/aboutEasy/Patent3.webp'
+import Patent4 from '../images/aboutEasy/Patent4.webp'
+import patent1 from '../files/Patent/Patent1.png'
+import patent2 from '../files/Patent/Patent2.png'
+import patent3 from '../files/Patent/Patent3.pdf'
+import patent4 from '../files/Patent/Patent4.pdf'
 import news1 from '../images/aboutEasy/news1.webp'
 import news2 from '../images/aboutEasy/news2.webp'
 import news3 from '../images/aboutEasy/news3.webp'
@@ -236,6 +244,98 @@ const Section1 = (props) => {
               </h4>
             </div>
           </Carousel.Item>
+        </Carousel>
+      </div>
+    </section>
+  )
+}
+const Section5 = (props) => {
+  const { t } = props
+  const responsive = {
+    superLargeDesktop: {
+      breakpoint: { max: 4000, min: 3000 },
+      items: 3,
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 3,
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 1,
+    },
+    mobile: {
+      breakpoint: { max: 575, min: 0 },
+      items: 1,
+    },
+  }
+  const imgAry = [Patent1, Patent2, Patent3, Patent4]
+  const linkAry = [patent1, patent2, patent3, patent4]
+  const newsAry = [
+    t('AboutEasylink.Patent.Patent1'),
+    t('AboutEasylink.Patent.Patent2'),
+    t('AboutEasylink.Patent.Patent3'),
+    t('AboutEasylink.Patent.Patent4'),
+  ]
+  return (
+    <section className="aboutEasylinkSection1" id="Patent">
+      <BannerButton color={`darkGreen`} location={`left`}>
+        {t('AboutEasylink.Patent.Title')}
+      </BannerButton>
+      <DragCarousel2
+        responsive={responsive}
+        className="content photo"
+        autoPlay={true}
+        infinite={true}
+        removeArrowOnDeviceType={['tablet', 'mobile']}
+        autoPlaySpeed={5000}
+        showDots={true}
+      >
+        {imgAry.map((v, i) => (
+          <div className="d-flex flex-wrap justify-content-center" key={i}>
+            {imgAry ? (
+              <div className="photo">
+                <a href={linkAry[i]} target="_blank" rel="noreferrer noopener">
+                  <ImageLoader
+                    src={imgAry[i]}
+                    alt={`photo${i + 1}`}
+                    className={`col-8`}
+                    placeholder={placeholder}
+                    onClick={() => {
+                      document
+                        .querySelector(`.${linkAry[i].split('/')[1] + (i + 1)}`)
+                        .click()
+                    }}
+                  />
+                </a>
+              </div>
+            ) : (
+              <></>
+            )}
+            <div className="text col-8 mt-5 mx-auto">
+              <a href={linkAry[i]} target="_blank" rel="noreferrer noopener">
+                {newsAry ? <h4 className="news">{newsAry[i]}</h4> : <></>}
+              </a>
+            </div>
+          </div>
+        ))}
+      </DragCarousel2>
+      <div className="photo-mobile d-none">
+        <Carousel variant="dark" fade interval={2500}>
+          {imgAry.map((v, i) => (
+            <Carousel.Item>
+              <div className="col-md-5 col-sm-7 col-8">
+                <a href={linkAry[i]} target="_blank" rel="noreferrer noopener">
+                  <ImageLoader
+                    src={imgAry[i]}
+                    alt={newsAry[i]}
+                    placeholder={placeholder2}
+                  />
+                </a>
+                <h4 className="text">{newsAry[i]}</h4>
+              </div>
+            </Carousel.Item>
+          ))}
         </Carousel>
       </div>
     </section>
@@ -510,6 +610,7 @@ function AboutEasylink(props) {
       </Helmet>
       <main>
         <Section1 t={t} />
+        <Section5 t={t} />
         <Section2 t={t} />
         <Section3 t={t} />
         <Section4 t={t} />

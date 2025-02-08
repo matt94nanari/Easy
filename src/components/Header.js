@@ -355,7 +355,14 @@ function Header2(props) {
   ]
   const optionRef = useRef([])
   const option = [
-    ['Certificate', 'News&Events', 'TechnicalCorner', 'History', 'Philosophy'],
+    [
+      'Certificate',
+      'Patent',
+      'News&Events',
+      'TechnicalCorner',
+      'History',
+      'Philosophy',
+    ],
     [
       'Forging-1B2C',
       'Forging-MSF',
@@ -388,7 +395,14 @@ function Header2(props) {
     '/production-control-management',
   ]
   const quickLinkOption = [
-    ['Certificate', 'News&Events', 'TechnicalCorner', 'History', 'Philosophy'],
+    [
+      'Certificate',
+      'Patent',
+      'News&Events',
+      'TechnicalCorner',
+      'History',
+      'Philosophy',
+    ],
     [
       'Forging-1B2C',
       'Forging-MSF',

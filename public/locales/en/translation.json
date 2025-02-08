@@ -37,6 +37,7 @@
       "Title": "About Easylink",
       "Title2": "About Us",
       "Certificate": "Certificate",
+      "Patent": "Patent",
       "News&Events": "News & Events",
       "TechnicalCorner": "Technical Corner",
       "History": "History",
@@ -114,6 +115,13 @@
       "IATF": "IATF 16949",
       "ISO14001": "ISO 14001",
       "TTQS": "TTQS"
+    },
+    "Patent": {
+      "Title": "Patent",
+      "Patent1": "I533961",
+      "Patent2": "M666123",
+      "Patent3": "M657430",
+      "Patent4": "1-2014-00180"
     },
     "News&Events": {
       "Title": "News & Events",
