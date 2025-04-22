@@ -446,13 +446,25 @@ const Section3 = (props) => {
   const { t } = props
   const backgroundImage = BackgroundImageLoader(worldMap)
   const ref = useRef([])
-  const year = ['1992', '2005~2008', '2010~2017', '2019', '2021']
+  const year = [
+    '1992',
+    '2005~2008',
+    '2010~2017',
+    '2019',
+    '2021',
+    '2022',
+    '2023',
+    '2024',
+  ]
   const event = [
     t('AboutEasylink.History.1992'),
     t('AboutEasylink.History.2005'),
     t('AboutEasylink.History.2010'),
     t('AboutEasylink.History.2019'),
     t('AboutEasylink.History.2021'),
+    t('AboutEasylink.History.2022'),
+    t('AboutEasylink.History.2023'),
+    t('AboutEasylink.History.2024'),
   ]
   const [eventState, setEventState] = [event.length]
   const height = eventState * 800
