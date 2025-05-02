@@ -41,7 +41,8 @@
       "News&Events": "News & Events",
       "TechnicalCorner": "Technical Corner",
       "History": "History",
-      "Philosophy": "Philosophy"
+      "Philosophy": "Philosophy",
+      "ESG":"ESG"
     },
     "Facility": {
       "Title": "Facility",
@@ -276,6 +277,11 @@
         "Society": "To benefit the community through philanthropic contributions.",
         "Enviroment": "To promote environmental awareness by following GREEN practices, ensuring a safe environment for the next generation."
       }
+    },
+    "ESG":{
+      "Title": "ESG",
+      "Content": "ESG is under preparing.",
+      "Content2":"We welcome any suggestions or inquiries regarding our ESG efforts. Please do not hesitate to contact us via email:"
     }
   },
   "Facility": {

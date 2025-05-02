@@ -41,7 +41,8 @@
       "News&Events": "最新消息",
       "TechnicalCorner": "技術分享",
       "History": "公司歷史",
-      "Philosophy": "公司理念"
+      "Philosophy": "公司理念",
+      "ESG": "ESG專區"
     },
     "Facility": {
       "Title": "設備",
@@ -275,6 +276,11 @@
         "Society": "取之於社會用之於社會。",
         "Enviroment": "綠色環保再生,為未來的下一代維護環境。"
       }
+    },
+    "ESG": {
+      "Title": "ESG專區",
+      "Content": "ESG專區建置中",
+      "Content2":"若對本公司ESG相關作為有任何的建議或疑問, 歡迎來信洽詢:"
     }
   },
   "Facility": {

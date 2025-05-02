@@ -74,6 +74,7 @@
   }
 }
 .aboutEasylinkSection2 {
+  background-color: #f7f7f7;
   padding: 120px 0px 0px 0px;
   position: relative;
   overflow: hidden;
@@ -391,6 +392,117 @@
     }
   }
 }
+.aboutEasylinkSection5 {
+  padding: 120px 70px;
+  background-color: #fff;
+  position: relative;
+  overflow: hidden;
+  .react-multi-carousel-list {
+    margin-top: 20px;
+    .react-multi-carousel-dot-list {
+      bottom: -7%;
+      li {
+        button {
+          border: none;
+          background-color: #15454725;
+          width: 20px;
+          height: 20px;
+          margin: 0 20px;
+        }
+      }
+    }
+    .react-multi-carousel-dot--active button {
+      background-color: #154547 !important;
+    }
+  }
+  .text {
+    .news {
+      z-index: 5;
+      position: absolute;
+      bottom: 1%;
+      right: 25%;
+      font-family: futura;
+      background-color: #154547;
+      font-weight: 800;
+      color: white;
+      padding: 10px;
+      box-shadow: 5px 5px 2px 2px #154547c0;
+      font-size: 1.5rem;
+    }
+  }
+  .img-thumbnail {
+    box-shadow: none;
+    border-radius: 0;
+  }
+  .photo {
+    margin-top: 70px;
+    > div {
+      position: relative;
+      border: 1px solid #9e9e9e;
+    }
+  }
+}
+.aboutEasylinkSection5 {
+  padding: 120px 70px;
+  background-color: #fff;
+  position: relative;
+  overflow: hidden;
+  .react-multi-carousel-list {
+    margin-top: 20px;
+    .react-multi-carousel-dot-list {
+      bottom: -7%;
+      li {
+        button {
+          border: none;
+          background-color: #15454725;
+          width: 20px;
+          height: 20px;
+          margin: 0 20px;
+        }
+      }
+    }
+    .react-multi-carousel-dot--active button {
+      background-color: #154547 !important;
+    }
+  }
+  .text {
+    .news {
+      z-index: 5;
+      position: absolute;
+      bottom: 1%;
+      right: 25%;
+      font-family: futura;
+      background-color: #154547;
+      font-weight: 800;
+      color: white;
+      padding: 10px;
+      box-shadow: 5px 5px 2px 2px #154547c0;
+      font-size: 1.5rem;
+    }
+  }
+  .img-thumbnail {
+    box-shadow: none;
+    border-radius: 0;
+  }
+  .photo {
+    margin-top: 70px;
+    > div {
+      position: relative;
+      border: 1px solid #9e9e9e;
+    }
+  }
+}
+.aboutEasylinkSection6 {
+  padding: 120px 70px;
+  .textArea {
+    z-index: 10;
+    margin-top: 60px;
+    text-align: center;
+    p {
+      padding: 20px;
+    }
+  }
+}
 @media (max-width: 1600px) {
   .aboutEasylinkSection1 {
     .photo {
@@ -477,6 +589,26 @@
       }
     }
   }
+  .aboutEasylinkSection5 {
+    .photo {
+      margin-top: 60px;
+      .text {
+        font-size: 1.25rem;
+      }
+      .carousel {
+        .carousel-indicators {
+          bottom: -15%;
+          button {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            margin: 0 10px;
+            background-color: #154547;
+          }
+        }
+      }
+    }
+  }
 }
 @media (max-width: 1200px) {
   .aboutEasylinkSection1 {
@@ -486,9 +618,56 @@
       }
     }
   }
+  .aboutEasylinkSection5 {
+    .photo {
+      .text {
+        font-size: 1rem;
+      }
+    }
+  }
 }
 @media (max-width: 1024px) {
   .aboutEasylinkSection1 {
+    .photo {
+      display: none !important;
+    }
+    .photo-mobile {
+      display: block !important;
+      margin-top: 80px;
+      .carousel {
+        .carousel-item {
+          div {
+            margin: 0 auto;
+            border: 1px solid #9e9e9e;
+            position: relative;
+            .text {
+              position: absolute;
+              bottom: 0%;
+              right: -5%;
+              font-family: futura;
+              font-weight: 800;
+              background-color: #154547;
+              color: white;
+              padding: 10px;
+              box-shadow: 5px 5px 2px 2px #154547c0;
+              font-size: 1rem;
+            }
+          }
+        }
+        .carousel-indicators {
+          bottom: -15%;
+          button {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            margin: 0 10px;
+            background-color: #154547;
+          }
+        }
+      }
+    }
+  }
+  .aboutEasylinkSection5 {
     .photo {
       display: none !important;
     }
@@ -642,6 +821,25 @@
       }
     }
   }
+  .aboutEasylinkSection5 {
+    padding-left: 0px;
+    padding-right: 0px;
+    .photo-mobile {
+      .carousel {
+        .carousel-control-prev,
+        .carousel-control-next {
+          display: none;
+        }
+        .carousel-item {
+          div {
+            .text {
+              font-size: 0.875rem;
+            }
+          }
+        }
+      }
+    }
+  }
   .aboutEasylinkSection2 {
     .content {
       .text {
@@ -725,6 +923,22 @@
 }
 @media (max-width: 575px) {
   .aboutEasylinkSection1 {
+    padding-left: 20px;
+    padding-right: 20px;
+    .title {
+      p {
+        white-space: normal;
+      }
+    }
+    .list {
+      display: block !important;
+      top: 75%;
+      li {
+        margin: 10px 5px;
+      }
+    }
+  }
+  .aboutEasylinkSection5 {
     padding-left: 20px;
     padding-right: 20px;
     .title {

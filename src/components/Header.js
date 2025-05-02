@@ -362,6 +362,7 @@ function Header2(props) {
       'TechnicalCorner',
       'History',
       'Philosophy',
+      'ESG',
     ],
     [
       'Forging-1B2C',
@@ -402,6 +403,7 @@ function Header2(props) {
       'TechnicalCorner',
       'History',
       'Philosophy',
+      'ESG',
     ],
     [
       'Forging-1B2C',
