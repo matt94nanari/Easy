@@ -17,11 +17,9 @@ import SituationInformationPlaceholder from '../images/productionControl/situati
 import RealTimeSpc from '../images/productionControl/realTimeSpcWithTitle.webp'
 import RealTimeSpcPlaceholder from '../images/productionControl/realTimeSpcWithTitle-placeholder.webp'
 import productLiability from '../images/quality/productLiability.webp'
-// import productLiability2 from '../images/quality/productLiability2.webp'
-// import productLiability3 from '../images/quality/productLiability3.webp'
 import placeholder from '../images/other/placeholder2.webp'
 import recall from '../images/quality/recall.webp'
-import Recall from '../files/Risk/recall.pdf'
+import Recall from '../files/Risk/recall.png'
 import ProductLiability from '../files/Risk/productLiability.pdf'
 import { GoLinkExternal } from 'react-icons/go'
 const Section1 = (props) => {
