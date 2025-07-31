@@ -42,7 +42,7 @@
       "TechnicalCorner": "Technical Corner",
       "History": "History",
       "Philosophy": "Philosophy",
-      "ESG":"ESG"
+      "ESG": "ESG"
     },
     "Facility": {
       "Title": "Facility",
@@ -257,7 +257,7 @@
       "2021": "Manufacturing IoT & Situation room established #Automatic Inspection #More advanced sorting equipment ( 0 ppm approaching ) #Increase production capacity #AS/RS for Tooling management",
       "2022": "Established the thread tapping dept. #",
       "2023": "Established automatic kit packing dept. #",
-      "2024": "Awarded ISO 14064-1 #Signed contract 400,000 kWh green energy #Patented screws designing  (NO.M657430)" 
+      "2024": "Awarded ISO 14064-1 #Signed contract 400,000 kWh green energy #Patented screws designing  (NO.M657430)"
     },
     "Philosophy": {
       "Title": "Philosophy",
@@ -278,10 +278,12 @@
         "Enviroment": "To promote environmental awareness by following GREEN practices, ensuring a safe environment for the next generation."
       }
     },
-    "ESG":{
+    "ESG": {
       "Title": "ESG",
+      "ESG-ENGLISH": "ESG-EN",
+      "ESG-CHINESE": "ESG-CH",
       "Content": "ESG is under preparing.",
-      "Content2":"We welcome any suggestions or inquiries regarding our ESG efforts. Please do not hesitate to contact us via email:"
+      "Content2": "We welcome any suggestions or inquiries regarding our ESG efforts. Please do not hesitate to contact us via email:"
     }
   },
   "Facility": {

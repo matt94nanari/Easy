@@ -42,6 +42,10 @@ import worldMap from '../images/aboutEasy/worldMap.webp'
 import worldMapPlaceholder from '../images/aboutEasy/worldMap-placeholder.webp'
 import placeholder from '../images/other/placeholder.webp'
 import placeholder2 from '../images/other/placeholder2.webp'
+import ESG1 from '../files/Certificate/ESG-EN.pdf'
+import ESG2 from '../files/Certificate/ESG-CN.pdf'
+import esg1 from '../images/aboutEasy/ESG-EN.webp'
+import esg2 from '../images/aboutEasy/ESG-CN.webp'
 const Section1 = (props) => {
   const { t } = props
   const responsive = {
@@ -113,85 +117,6 @@ const Section1 = (props) => {
           </div>
         ))}
       </DragCarousel2>
-      {/* <div className="photo d-flex justify-content-evenly flex-wrap">
-        <div className="col-lg-3 mx-4">
-          <Carousel controls={false} variant="dark" interval={null} fade>
-            <Carousel.Item>
-              <a href={iatf16949} target="_blank" rel="noreferrer noopener">
-                <ImageLoader
-                  src={IATF16949}
-                  alt={`IATF16949`}
-                  placeholder={placeholder2}
-                />
-              </a>
-            </Carousel.Item>
-            <Carousel.Item>
-              <a href={iatf16949} target="_blank" rel="noreferrer noopener">
-                <ImageLoader
-                  src={IATF169492}
-                  alt={`IATF169492`}
-                  placeholder={placeholder2}
-                />
-              </a>
-            </Carousel.Item>
-          </Carousel>
-          <h4 className="text">{t('AboutEasylink.Certificate.IATF')}</h4>
-        </div>
-        <div className="col-lg-3 mx-4">
-          <Carousel controls={false} variant="dark" interval={null} fade>
-            <Carousel.Item>
-              <a href={iatf16949} target="_blank" rel="noreferrer noopener">
-                <ImageLoader
-                  src={IATF16949}
-                  alt={`IATF16949`}
-                  placeholder={placeholder2}
-                />
-              </a>
-            </Carousel.Item>
-            <Carousel.Item>
-              <a href={iatf16949} target="_blank" rel="noreferrer noopener">
-                <ImageLoader
-                  src={IATF169492}
-                  alt={`IATF169492`}
-                  placeholder={placeholder2}
-                />
-              </a>
-            </Carousel.Item>
-          </Carousel>
-          <h4 className="text">{t('AboutEasylink.Certificate.IATF')}</h4>
-        </div>
-        <div className="col-lg-3 mx-4">
-          <Carousel controls={false} variant="dark" interval={null} fade>
-            <Carousel.Item>
-              <a href={iso14001} target="_blank" rel="noreferrer noopener">
-                <ImageLoader
-                  src={ISO14001}
-                  alt={`ISO14001`}
-                  placeholder={placeholder2}
-                />
-              </a>
-            </Carousel.Item>
-            <Carousel.Item>
-              <a href={iso14001} target="_blank" rel="noreferrer noopener">
-                <ImageLoader
-                  src={ISO140012}
-                  alt={`ISO140012`}
-                  placeholder={placeholder2}
-                />
-              </a>
-            </Carousel.Item>
-          </Carousel>
-          <h4 className="text">{t('AboutEasylink.Certificate.ISO')}</h4>
-        </div>
-        <div className="col-lg-3 mx-4">
-          <a href={tqs} target="_blank" rel="noreferrer noopener">
-            <ImageLoader src={TQS} alt={`TQS`} placeholder={placeholder2} />
-          </a>
-          <h4 className="text">
-            &nbsp; {t('AboutEasylink.Certificate.TTQS')} &nbsp;
-          </h4>
-        </div>
-      </div> */}
       <div className="photo-mobile d-none">
         <Carousel variant="dark" fade interval={2500}>
           <Carousel.Item>
@@ -606,20 +531,100 @@ const Section5 = (props) => {
 }
 const Section6 = (props) => {
   const { t } = props
-
+  const linkAry = [ESG1, ESG2]
+  const imgAry = [esg1, esg2]
+  const newsAry = [
+    t('AboutEasylink.ESG.ESG-ENGLISH'),
+    t('AboutEasylink.ESG.ESG-CHINESE'),
+  ]
+  const responsive = {
+    superLargeDesktop: {
+      breakpoint: { max: 4000, min: 3000 },
+      items: 3,
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 3,
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 1,
+    },
+    mobile: {
+      breakpoint: { max: 575, min: 0 },
+      items: 1,
+    },
+  }
   return (
-    <section className="aboutEasylinkSection6" id="ESG">
+    <section className="aboutEasylinkSection1" id="ESG">
       <BannerButton color={`darkGreen`} location={`left`}>
         {t('AboutEasylink.ESG.Title')}
       </BannerButton>
-      <div className="textArea">
-        <h1>{t('AboutEasylink.ESG.Content')}</h1>
-        <p>
-          {t('AboutEasylink.ESG.Content2')}{' '}
-          <a href="mailTo:ESG@easylink.com.tw?subject=(EasyWeb)">
-            {t('HeaderNavbar.ContactUs.Title')}
-          </a>
-        </p>
+      <DragCarousel2
+        responsive={responsive}
+        className="content photo"
+        autoPlay={true}
+        infinite={true}
+        removeArrowOnDeviceType={['tablet', 'mobile']}
+        autoPlaySpeed={5000}
+        showDots={true}
+      >
+        {imgAry.map((v, i) => (
+          <div className="d-flex flex-wrap justify-content-center" key={i}>
+            {imgAry ? (
+              <div className="photo">
+                <a href={linkAry[i]} target="_blank" rel="noreferrer noopener">
+                  <ImageLoader
+                    src={imgAry[i]}
+                    alt={`photo${i + 1}`}
+                    className={`col-8`}
+                    placeholder={placeholder}
+                    onClick={() => {
+                      document
+                        .querySelector(`.${linkAry[i].split('/')[1] + (i + 1)}`)
+                        .click()
+                    }}
+                  />
+                </a>
+              </div>
+            ) : (
+              <></>
+            )}
+            <div className="text col-8 mt-5 mx-auto">
+              <a href={linkAry[i]} target="_blank" rel="noreferrer noopener">
+                {newsAry ? <h4 className="news">{newsAry[i]}</h4> : <></>}
+              </a>
+            </div>
+          </div>
+        ))}
+      </DragCarousel2>
+      <div className="photo-mobile d-none">
+        <Carousel variant="dark" fade interval={2500}>
+          <Carousel.Item>
+            <div className="col-md-5 col-sm-7 col-8">
+              <a href={ESG1} target="_blank" rel="noreferrer noopener">
+                <ImageLoader
+                  src={esg1}
+                  alt={`ESG-EN`}
+                  placeholder={placeholder2}
+                />
+              </a>
+              <h4 className="text">{t('AboutEasylink.ESG.ESG-ENGLISH')}</h4>
+            </div>
+          </Carousel.Item>
+          <Carousel.Item>
+            <div className="col-md-5 col-sm-7 col-8">
+              <a href={ESG2} target="_blank" rel="noreferrer noopener">
+                <ImageLoader
+                  src={esg2}
+                  alt={`ESG-CN`}
+                  placeholder={placeholder2}
+                />
+              </a>
+              <h4 className="text">{t('AboutEasylink.ESG.ESG-CHINESE')}</h4>
+            </div>
+          </Carousel.Item>
+        </Carousel>
       </div>
     </section>
   )
