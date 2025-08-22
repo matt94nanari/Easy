@@ -35,6 +35,10 @@
       box-shadow: 5px 5px 2px 2px #154547c0;
       font-size: 1.5rem;
     }
+    .news.esg3 {
+      bottom: 30%;
+      right: 0%;
+    }
   }
   .img-thumbnail {
     box-shadow: none;
@@ -489,17 +493,6 @@
     > div {
       position: relative;
       border: 1px solid #9e9e9e;
-    }
-  }
-}
-.aboutEasylinkSection6 {
-  padding: 120px 70px;
-  .textArea {
-    z-index: 10;
-    margin-top: 60px;
-    text-align: center;
-    p {
-      padding: 20px;
     }
   }
 }

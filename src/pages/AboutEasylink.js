@@ -535,7 +535,7 @@ const Section5 = (props) => {
 const Section6 = (props) => {
   const { t } = props
   const linkAry = [ESG1, ESG2, ESG3]
-  const imgAry = [esg1, esg2, esg3, esg4]
+  const imgAry = [esg1, esg2, esg3]
   const newsAry = [
     t('AboutEasylink.ESG.ESG-ENGLISH'),
     t('AboutEasylink.ESG.ESG-CHINESE'),
@@ -581,7 +581,7 @@ const Section6 = (props) => {
                   <ImageLoader
                     src={imgAry[i]}
                     alt={`photo${i + 1}`}
-                    className={`col-8`}
+                    className={`${i + 1}` === `3` ? `col-11` : `col-8`}
                     placeholder={placeholder}
                     onClick={() => {
                       document
@@ -596,7 +596,11 @@ const Section6 = (props) => {
             )}
             <div className="text col-8 mt-5 mx-auto">
               <a href={linkAry[i]} target="_blank" rel="noreferrer noopener">
-                {newsAry ? <h4 className="news">{newsAry[i]}</h4> : <></>}
+                {newsAry ? (
+                  <h4 className={`news esg${i + 1}`}>{newsAry[i]}</h4>
+                ) : (
+                  <></>
+                )}
               </a>
             </div>
           </div>
