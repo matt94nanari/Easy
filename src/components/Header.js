@@ -360,9 +360,9 @@ function Header2(props) {
       'Patent',
       'News&Events',
       'TechnicalCorner',
+      'ESG',
       'History',
       'Philosophy',
-      'ESG',
     ],
     [
       'Forging-1B2C',
@@ -401,9 +401,9 @@ function Header2(props) {
       'Patent',
       'News&Events',
       'TechnicalCorner',
+      'ESG',
       'History',
       'Philosophy',
-      'ESG',
     ],
     [
       'Forging-1B2C',

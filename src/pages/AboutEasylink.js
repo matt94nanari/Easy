@@ -44,8 +44,11 @@ import placeholder from '../images/other/placeholder.webp'
 import placeholder2 from '../images/other/placeholder2.webp'
 import ESG1 from '../files/Certificate/ESG-EN.pdf'
 import ESG2 from '../files/Certificate/ESG-CN.pdf'
+import ESG3 from '../files/Certificate/ESG-REPORT.pdf'
 import esg1 from '../images/aboutEasy/ESG-EN.webp'
 import esg2 from '../images/aboutEasy/ESG-CN.webp'
+import esg3 from '../images/aboutEasy/ESG-REPORT.webp'
+import esg4 from '../images/aboutEasy/ESG-REPORT2.webp'
 const Section1 = (props) => {
   const { t } = props
   const responsive = {
@@ -531,11 +534,12 @@ const Section5 = (props) => {
 }
 const Section6 = (props) => {
   const { t } = props
-  const linkAry = [ESG1, ESG2]
-  const imgAry = [esg1, esg2]
+  const linkAry = [ESG1, ESG2, ESG3]
+  const imgAry = [esg1, esg2, esg3, esg4]
   const newsAry = [
     t('AboutEasylink.ESG.ESG-ENGLISH'),
     t('AboutEasylink.ESG.ESG-CHINESE'),
+    t('AboutEasylink.ESG.ESG-REPORT'),
   ]
   const responsive = {
     superLargeDesktop: {
@@ -563,8 +567,8 @@ const Section6 = (props) => {
       <DragCarousel2
         responsive={responsive}
         className="content photo"
-        autoPlay={true}
-        infinite={true}
+        autoPlay={false}
+        infinite={false}
         removeArrowOnDeviceType={['tablet', 'mobile']}
         autoPlaySpeed={5000}
         showDots={true}
@@ -622,6 +626,18 @@ const Section6 = (props) => {
                 />
               </a>
               <h4 className="text">{t('AboutEasylink.ESG.ESG-CHINESE')}</h4>
+            </div>
+          </Carousel.Item>
+          <Carousel.Item>
+            <div className="col-md-5 col-sm-7 col-8">
+              <a href={ESG3} target="_blank" rel="noreferrer noopener">
+                <ImageLoader
+                  src={esg4}
+                  alt={`ESG-REPORT`}
+                  placeholder={placeholder2}
+                />
+              </a>
+              <h4 className="text">{t('AboutEasylink.ESG.ESG-REPORT')}</h4>
             </div>
           </Carousel.Item>
         </Carousel>

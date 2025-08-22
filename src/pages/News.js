@@ -7,9 +7,9 @@ import ImageLoader from '../components/ImageLoader'
 import { withRouter, Link, useParams, Redirect } from 'react-router-dom'
 import news1 from '../images/aboutEasy/news1.webp'
 import news2 from '../images/aboutEasy/news2.webp'
-import news3 from '../images/aboutEasy/news-packing.webp'
-import news4 from '../images/aboutEasy/news-maThread.webp'
-import news5 from '../images/aboutEasy/news4.webp'
+import news3 from '../images/aboutEasy/news3.webp'
+import news4 from '../images/aboutEasy/news-packing.webp'
+import news5 from '../images/aboutEasy/news-maThread.webp'
 import placeholder from '../images/other/placeholder.webp'
 function News(props) {
   const { t } = useTranslation()
