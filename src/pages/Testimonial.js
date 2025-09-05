@@ -21,6 +21,10 @@ import Email11 from '../images/testimonial/Email11.webp'
 import Email12 from '../images/testimonial/Email12.webp'
 import Email13 from '../images/testimonial/Email13.webp'
 import Email14 from '../images/testimonial/Email14.webp'
+import Email15 from '../images/testimonial/Email15.webp'
+import Email16 from '../images/testimonial/Email16.webp'
+import Email17 from '../images/testimonial/Email17.webp'
+import Email18 from '../images/testimonial/Email18.webp'
 import ScoreCard1 from '../images/testimonial/Score Card1.webp'
 import ScoreCard2 from '../images/testimonial/Score Card2.webp'
 import ScoreCard3 from '../images/testimonial/Score Card3.webp'
@@ -39,6 +43,8 @@ import ScoreCard15 from '../images/testimonial/Score Card15.webp'
 import ScoreCard16 from '../images/testimonial/Score Card16.webp'
 import ScoreCard17 from '../images/testimonial/Score Card17.webp'
 import ScoreCard18 from '../images/testimonial/Score Card18.webp'
+import ScoreCard19 from '../images/testimonial/Score Card19.webp'
+import ScoreCard20 from '../images/testimonial/Score Card20.webp'
 import Audit1 from '../images/testimonial/Audit1.webp'
 import Audit2 from '../images/testimonial/Audit2.webp'
 import Audit3 from '../images/testimonial/Audit3.webp'
@@ -65,6 +71,10 @@ import email11 from '../files/testimonial/Email11.pdf'
 import email12 from '../files/testimonial/Email12.pdf'
 import email13 from '../files/testimonial/Email13.pdf'
 import email14 from '../files/testimonial/Email14.pdf'
+import email15 from '../files/testimonial/Email15.pdf'
+import email16 from '../files/testimonial/Email16.pdf'
+import email17 from '../files/testimonial/Email17.pdf'
+import email18 from '../files/testimonial/Email18.pdf'
 import scoreCard1 from '../files/testimonial/Score Card1.pdf'
 import scoreCard2 from '../files/testimonial/Score Card2.pdf'
 import scoreCard3 from '../files/testimonial/Score Card3.pdf'
@@ -83,6 +93,8 @@ import scoreCard15 from '../files/testimonial/Score Card15.pdf'
 import scoreCard16 from '../files/testimonial/Score Card16.pdf'
 import scoreCard17 from '../files/testimonial/Score Card17.pdf'
 import scoreCard18 from '../files/testimonial/Score Card18.pdf'
+import scoreCard19 from '../files/testimonial/Score Card19.pdf'
+import scoreCard20 from '../files/testimonial/Score Card20.pdf'
 import audit1 from '../files/testimonial/Audit1.pdf'
 import audit2 from '../files/testimonial/Audit2.pdf'
 import audit3 from '../files/testimonial/Audit3.pdf'
@@ -99,6 +111,10 @@ const Section1 = (props) => {
   const { t } = props
   const awardAry = [Award1, Award2, Award3]
   const emailAry = [
+    Email15,
+    Email16,
+    Email17,
+    Email18,
     Email1,
     Email2,
     Email3,
@@ -115,6 +131,8 @@ const Section1 = (props) => {
     Email14,
   ]
   const scoreCardAry = [
+    ScoreCard19,
+    ScoreCard20,
     ScoreCard1,
     ScoreCard2,
     ScoreCard3,
@@ -156,6 +174,10 @@ const Section1 = (props) => {
   const fileAry = [
     [Award1, Award2, Award3],
     [
+      email15,
+      email16,
+      email17,
+      email18,
       email1,
       email2,
       email3,
@@ -172,6 +194,8 @@ const Section1 = (props) => {
       email14,
     ],
     [
+      scoreCard19,
+      scoreCard20,
       scoreCard1,
       scoreCard2,
       scoreCard3,
