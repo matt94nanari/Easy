@@ -31,7 +31,7 @@ import PrivacyPolicy from './pages/PrivacyPolicy'
 import News from './pages/News'
 import TechnicalCorner from './pages/TechnicalCorner'
 import EmployeeGarden from './pages/EmployeeGarden'
-import CSR from './pages/CSR'
+// import CSR from './pages/CSR'
 function App() {
   const [showLoader, setShowLoader] = useState(true)
   const [greenHeaderStyle, setGreenHeaderStyle] = useState(false)
@@ -116,9 +116,9 @@ function App() {
                             setGreenHeaderStyle={setGreenHeaderStyle}
                           />
                         </Route>
-                        <Route exact path="/csr">
+                        {/* <Route exact path="/csr">
                           <CSR setGreenHeaderStyle={setGreenHeaderStyle} />
-                        </Route>
+                        </Route> */}
                         <Route exact path="/employee-garden">
                           <EmployeeGarden
                             setShowLoader={setShowLoader}

@@ -272,7 +272,7 @@ const FooterContent2 = ({ location }) => {
           className="d-flex flex-wrap justify-content-between"
           data-aos="fade-right"
         >
-          <Link
+          {/* <Link
             to="/about-easylink"
             onClick={(e) => {
               if (location.pathname === '/about-easylink') {
@@ -282,7 +282,7 @@ const FooterContent2 = ({ location }) => {
             }}
           >
             <p>{t('Footer.AboutEasylink')}</p>
-          </Link>
+          </Link> */}
           <Link
             to="/employee-garden"
             onClick={(e) => {
@@ -294,7 +294,7 @@ const FooterContent2 = ({ location }) => {
           >
             <p>{t('Footer.EmployeeGarden')}</p>
           </Link>
-          <Link
+          {/* <Link
             to="/csr"
             onClick={(e) => {
               if (location.pathname === '/csr') {
@@ -304,7 +304,7 @@ const FooterContent2 = ({ location }) => {
             }}
           >
             <p>{t('Footer.CSR')}</p>
-          </Link>
+          </Link> */}
         </div>
       </div>
       <hr className="my-3" data-aos="zoom-in" />

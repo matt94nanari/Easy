@@ -42,7 +42,8 @@
       "TechnicalCorner": "Rincón Técnico",
       "History": "Historia",
       "Philosophy": "Filosofía",
-      "ESG": "ESG"
+      "ESG": "ESG",
+      "CSR": "CSR"
     },
     "Facility": {
       "Title": "Instalaciones",
@@ -277,10 +278,10 @@
         "Enviroment": "Promover la conciencia ambiental siguiendo las prácticas VERDES, asegurando un entorno seguro para la próxima generación."
       }
     },
-    "ESG":{
+    "ESG": {
       "Title": "ESG",
       "Content": "ESG está en preparación.",
-      "Content2":"Agradecemos cualquier sugerencia o consulta relacionada con nuestros esfuerzos en materia de ESG. No dude en contactarnos por correo electrónico:"
+      "Content2": "Agradecemos cualquier sugerencia o consulta relacionada con nuestros esfuerzos en materia de ESG. No dude en contactarnos por correo electrónico:"
     }
   },
   "Facility": {

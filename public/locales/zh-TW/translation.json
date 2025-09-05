@@ -42,7 +42,8 @@
       "TechnicalCorner": "技術分享",
       "History": "公司歷史",
       "Philosophy": "公司理念",
-      "ESG": "ESG專區"
+      "ESG": "ESG專區",
+      "CSR": "企業社會責任"
     },
     "Facility": {
       "Title": "設備",
@@ -280,7 +281,7 @@
     "ESG": {
       "Title": "ESG專區",
       "Content": "ESG專區建置中",
-      "Content2":"若對本公司ESG相關作為有任何的建議或疑問, 歡迎來信洽詢:"
+      "Content2": "若對本公司ESG相關作為有任何的建議或疑問, 歡迎來信洽詢:"
     }
   },
   "Facility": {

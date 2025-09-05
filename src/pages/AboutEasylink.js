@@ -49,6 +49,11 @@ import esg1 from '../images/aboutEasy/ESG-EN.webp'
 import esg2 from '../images/aboutEasy/ESG-CN.webp'
 import esg3 from '../images/aboutEasy/ESG-REPORT.webp'
 import esg4 from '../images/aboutEasy/ESG-REPORT2.webp'
+import CSR1 from '../images/CSR/CSR1.webp'
+import CSR2 from '../images/CSR/CSR2.webp'
+import CSR3 from '../images/CSR/CSR3.webp'
+import CSR4 from '../images/CSR/CSR4.webp'
+import { Card } from 'react-bootstrap'
 const Section1 = (props) => {
   const { t } = props
   const responsive = {
@@ -649,6 +654,45 @@ const Section6 = (props) => {
     </section>
   )
 }
+const Section7 = (props) => {
+  const { t } = props
+  const imgAry = [CSR1, CSR2]
+  const imgAry2 = [CSR3, CSR4]
+  return (
+    <section className="csrSection1" id="CSR">
+      <BannerButton color={`darkGreen`}>{t('CSR.Title')}</BannerButton>
+      <div className="photo d-flex flex-wrap justify-content-center">
+        {imgAry.map((v, i) => (
+          <Card className="col-lg-3 col-md-4 col-sm-6 col-7 my-3 mx-5" key={i}>
+            <a href={imgAry[i]} target="_blank" rel="noreferrer noopener">
+              <ImageLoader
+                src={v}
+                alt={`pic${i + 1}`}
+                placeholder={placeholder}
+                className={`card-img-top`}
+              />
+            </a>
+          </Card>
+        ))}
+      </div>
+      <div className="photo2 d-flex flex-wrap justify-content-center">
+        {imgAry2.map((v, i) => (
+          <Card className="col-lg-3 col-md-4 col-sm-6 col-7 my-3 mx-5" key={i}>
+            <a href={imgAry2[i]} target="_blank" rel="noreferrer noopener">
+              <ImageLoader
+                src={v}
+                alt={`pic${i + 1}`}
+                placeholder={placeholder}
+                className={`card-img-top`}
+              />
+            </a>
+          </Card>
+        ))}
+      </div>
+    </section>
+  )
+}
+
 function AboutEasylink(props) {
   useEffect(() => {
     props.setGreenHeaderStyle(true)
@@ -669,6 +713,7 @@ function AboutEasylink(props) {
         <Section1 t={t} />
         <Section5 t={t} />
         <Section2 t={t} />
+        <Section7 t={t} />
         <Section6 t={t} />
         <Section3 t={t} />
         <Section4 t={t} />
