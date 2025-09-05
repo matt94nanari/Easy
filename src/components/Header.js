@@ -731,7 +731,7 @@ function Header2(props) {
             exact
             as={NavLink}
             activeClassName="selected"
-            className="col-3"
+            className="col-3 onlineService"
             to="/online-service"
             onClick={(e) => {
               if (location.pathname === '/online-service') {
